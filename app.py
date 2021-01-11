@@ -2,8 +2,11 @@
 import streamlit as st
 
 st.title("IEL Covid-19 Dashboard")
+st.write("As the plots below show, traffic demand decreased during the pandemic.")
+st.image("plots/Average Combined commute Vehicle Traffic across all Locations.png", caption="Average Combined commute Vehicle Traffic across all Locations.png")
+st.image("plots/Combined commute Vehicle Traffic Data Heat Map.png",width=600)
 st.image("https://raw.githubusercontent.com/intelligent-environments-lab/covid19/master/plots/air_quality/Austin%20Air%20Quality%20Mean%20Concentration%20from%202015-2020.png?token=AN5AK2C2JPCCDXOI4JEXUQTAAIF2C",\
-         caption="This is a caption. The above image is a png.", width=600)
+         caption="This is a caption. The above image is a png.", width=800)
 
 st.header("Examples and References")
 st.write("API Reference here: https://docs.streamlit.io/en/stable/api.html")
