@@ -69,8 +69,8 @@ def main():
         plot_type = 'heat_map'
     else:
         plot_type = 'line_plot'
-    #economy(plot_type)
-    #transport(plot_type)
+    economy(plot_type)
+    transport(plot_type)
 
 main()
 
