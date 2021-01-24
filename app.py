@@ -78,6 +78,28 @@ def economy(plot_type=None):
         small_business_revenue()
 
 
+def public_health(plot_type=None):
+    dir = f'{REPO}/figures/public_health'
+
+    def covid_19_case():
+        st.subheader('Place Stay')
+        if plot_type == 'line_plot':
+            st.image(
+                _pdf2img(f'{dir}/covid_19_case/case_count_by_city_line_plot.pdf'),
+                use_column_width=True,
+                caption=f"case_count_by_city_{plot_type}.pdf",
+            )
+        st.image(
+            _pdf2img(f'{dir}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'),
+            use_column_width=True,
+            caption=f"case_count_by_zip_code_{plot_type}.pdf",
+        )
+
+    st.header('Public Health')
+    with st.beta_expander("View plots"):
+        covid_19_case()
+
+
 def transport(plot_type=None):
     dir = f'{REPO}/figures/transport_and_mobility'
 
@@ -88,6 +110,24 @@ def transport(plot_type=None):
             use_column_width=True,
             caption=f"time_spent_and_visit_change_{plot_type}.pdf",
         )
+
+    def road_traffic():
+        st.subheader('Road Traffic')
+        st.image(
+            _pdf2img(
+                f'{dir}/road_traffic/road_intersection_traffic_volume_change_{plot_type}.pdf'
+            ),
+            use_column_width=True,
+            caption=f"road_intersection_traffic_volume_change_{plot_type}.pdf",
+        )
+        if plot_type == 'line_plot':
+            st.image(
+                _pdf2img(
+                    f'{dir}/road_traffic/road_intersection_traffic_volume_distribution_line_plot.pdf'
+                ),
+                use_column_width=True,
+                caption=f"road_intersection_traffic_volume_distribution_line_plot.pdf",
+            )
 
     def transit_mode():
         st.subheader('Transit Mode')
@@ -100,6 +140,7 @@ def transport(plot_type=None):
     st.header('Transport & Mobility')
     with st.beta_expander("View plots"):
         place_stay()
+        road_traffic()
         transit_mode()
 
 
@@ -115,6 +156,7 @@ def main():
         plot_type = 'line_plot'
 
     economy(plot_type)
+    public_health(plot_type)
     transport(plot_type)
 
 
