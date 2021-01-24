@@ -2,6 +2,11 @@
   "title": "Road intersection traffic volume distribution",
   "caption": "Daily change in traffic volume across select intersections in the Austin TX area. The raw data is collected at 15 minutes intervals which             is preprocessed to arrive at daily volumes. The average day of week volumes between 1st Janary to 29th February of 2020 are used as baseline to calculate             the volume percent change for subsequent matching days of the week. The bold black line represents the mean traffic volume change at all intersections.             The traffic volume change distribution (grey area) is expressed as +/- standard deviation from the mean.",
   "type": "line_plot",
+  "source": {
+    "name": "Austin Transportation Department, City of Austin",
+    "url": "https://data.austintexas.gov/Transportation-and-Mobility/Camera-Traffic-Counts/sh59-i6y9",
+    "contact": null
+  },
   "data": {
     "index": [
       0,
@@ -390,7 +395,8 @@
       383,
       384,
       385,
-      386
+      386,
+      387
     ],
     "columns": [
       "timestamp",
@@ -2332,6 +2338,11 @@
         "2021-01-21 00:00:00",
         -22.267165842066202,
         7.368845712767526
+      ],
+      [
+        "2021-01-22 00:00:00",
+        -16.96524046977085,
+        8.086813100381312
       ]
     ]
   }

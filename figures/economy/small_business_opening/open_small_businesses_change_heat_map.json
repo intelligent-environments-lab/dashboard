@@ -2,6 +2,11 @@
   "title": "Open small businesses change",
   "caption": "Daily change in number of open small businesses in Austin, TX identified as those having had at least 1 transaction in previous 3 days and categorized by industry sector. Entries between January 4th - January 31st of 2019 - present are used to determine relative change in entries for subsequent days of the respective year. Subsequently the change is seasonally adjusted where a year-over-year division is carried out between 2019 and other years and is presented as a 7-day moving average. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
   "type": "heat_map",
+  "source": {
+    "name": "Oppurtunity Insights",
+    "url": "https://github.com/OpportunityInsights/EconomicTracker",
+    "contact": null
+  },
   "data": {
     "index": [
       0,

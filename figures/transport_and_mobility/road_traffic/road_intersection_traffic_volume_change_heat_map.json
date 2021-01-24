@@ -2,6 +2,11 @@
   "title": "Road intersection traffic volume change",
   "caption": "Daily change in traffic volume across select intersections in the Austin TX area. The raw data is collected at 15 minutes intervals which             is preprocessed to arrive at daily volumes. The average day of week volumes between 1st Janary to 29th February of 2020 are used as baseline to calculate             the volume percent change for subsequent matching days of the week.",
   "type": "heat_map",
+  "source": {
+    "name": "Austin Transportation Department, City of Austin",
+    "url": "https://data.austintexas.gov/Transportation-and-Mobility/Camera-Traffic-Counts/sh59-i6y9",
+    "contact": null
+  },
   "data": {
     "index": [
       0,
@@ -405,7 +410,8 @@
       "2021-01-18 00:00:00",
       "2021-01-19 00:00:00",
       "2021-01-20 00:00:00",
-      "2021-01-21 00:00:00"
+      "2021-01-21 00:00:00",
+      "2021-01-22 00:00:00"
     ],
     "data": [
       [
@@ -664,6 +670,7 @@
         -20.71080846496065,
         -20.215878179643177,
         -18.815329715262802,
+        null,
         null,
         null,
         null,
@@ -1186,7 +1193,8 @@
         -25.912288477492528,
         -29.783611869871525,
         -21.185359580161382,
-        -26.619592496490707
+        -26.619592496490707,
+        -20.507034595255902
       ],
       [
         "AIRPORT BLVD / IH 35 SVRD",
@@ -1573,6 +1581,7 @@
         -53.51818308485439,
         -79.38730853391685,
         -83.63697793487019,
+        null,
         null,
         null,
         null,
@@ -1966,6 +1975,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2182,6 +2192,7 @@
         -24.587270025384736,
         -19.7406992540337,
         -21.169324183863466,
+        null,
         null,
         null,
         null,
@@ -2746,7 +2757,8 @@
         -16.996006811909098,
         -23.655446735969516,
         -18.307970134437276,
-        -16.307692307692307
+        -16.307692307692307,
+        -8.774001751135177
       ],
       [
         "FAR WEST BLVD / WOOD HOLLOW DR",
@@ -3136,7 +3148,8 @@
         -24.380327868852458,
         -22.713000928799584,
         -18.8431530107053,
-        -21.183890447898182
+        -21.183890447898182,
+        -16.249265569917743
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -3477,6 +3490,7 @@
         -19.93990296361983,
         -21.247096261801307,
         -16.612869073011506,
+        null,
         null,
         null,
         null,
@@ -3916,7 +3930,8 @@
         -10.759764016912534,
         -18.285020705411966,
         null,
-        -14.875685770981674
+        -14.875685770981674,
+        -10.308034839247938
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -4306,7 +4321,8 @@
         -41.32390991592226,
         -46.438588094833754,
         -39.254467884316696,
-        -38.04506562318623
+        -38.04506562318623,
+        -34.07488641704528
       ],
       [
         "PARMER LN / ",
@@ -4696,7 +4712,8 @@
         -18.763212630605864,
         -22.768096157456444,
         -19.128815824877833,
-        -20.946847410726047
+        -20.946847410726047,
+        -18.13826364004735
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -5086,7 +5103,8 @@
         -7.278858625162127,
         -20.603220584476443,
         -15.956280667907667,
-        -17.89138683748827
+        -17.89138683748827,
+        -10.705196475746558
       ]
     ]
   }
