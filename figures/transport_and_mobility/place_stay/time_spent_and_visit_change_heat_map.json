@@ -2,6 +2,11 @@
   "title": "Time spent and visit change",
   "caption": "Daily change in time spent in residential places and change in visits to public places in Austin TX. The data is categorized into 6 place categories. 3rd January to 6th February is the established baseline and subsequent days are compared to the median value for the corresponding dat of the week within the baseline period. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
   "type": "heat_map",
+  "source": {
+    "name": "Google",
+    "url": "https://www.google.com/covid19/mobility/",
+    "contact": null
+  },
   "data": {
     "index": [
       0,
