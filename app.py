@@ -155,9 +155,10 @@ def main():
     else:
         plot_type = 'line_plot'
 
-    economy(plot_type)
+    
     public_health(plot_type)
     transport(plot_type)
+    economy(plot_type)
 
 
 main()
