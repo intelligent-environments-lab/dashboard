@@ -1,0 +1,100 @@
+{
+  "title": "Covid19 policies",
+  "caption": "Government issued polices to curb the spread of COVID19 in Austin, TX.",
+  "type": "unknown_figure_type",
+  "source": {
+    "name": "COVID-19 Information, City of Austin",
+    "url": "http://austintexas.gov/covid19",
+    "contact": null
+  },
+  "data": {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "columns": [
+      "timestamp",
+      "event"
+    ],
+    "data": [
+      [
+        "2020-03-06 00:00:00",
+        "Disaster decl."
+      ],
+      [
+        "2020-03-11 00:00:00",
+        "Nursing home/LCTF ctl. order"
+      ],
+      [
+        "2020-03-13 00:00:00",
+        "Healthcare control order"
+      ],
+      [
+        "2020-03-19 00:00:00",
+        "Soc. dist. order"
+      ],
+      [
+        "2020-03-21 00:00:00",
+        "50% soc. dist."
+      ],
+      [
+        "2020-03-25 00:00:00",
+        "Stay home/work safe"
+      ],
+      [
+        "2020-03-31 00:00:00",
+        "Soc. dist. order expanded to essential activities only"
+      ],
+      [
+        "2020-04-15 00:00:00",
+        "Stimulus Pay"
+      ],
+      [
+        "2020-05-01 00:00:00",
+        "Open TX Ph1"
+      ],
+      [
+        "2020-05-19 00:00:00",
+        "Open TX Ph2"
+      ],
+      [
+        "2020-06-03 00:00:00",
+        "Open TX Ph3"
+      ],
+      [
+        "2020-06-15 00:00:00",
+        "Revised ATX-Travis county orders issued"
+      ],
+      [
+        "2020-06-26 00:00:00",
+        "Open TX pause"
+      ],
+      [
+        "2020-07-03 00:00:00",
+        "Face covering mandate"
+      ],
+      [
+        "2020-07-14 00:00:00",
+        "Heath authority emergency rules issued"
+      ],
+      [
+        "2020-08-14 00:00:00",
+        "ATX & Travis orders extended"
+      ]
+    ]
+  }
+}

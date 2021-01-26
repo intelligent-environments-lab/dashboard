@@ -1,6 +1,6 @@
 {
   "title": "Case count by zip code",
-  "caption": "Daily change in new COVID-19 cases in Austin, TX categorized by zip code between 2020-03-26 to 2021-01-19. The raw data is returned from the source as a rolling sum of case counts. Preprocessing steps are carried out to convert to daily new case count and to correct for possible case reporting errors that cause irregularities in the case count rolling sum hence, the gaps in the data. The 7-day rolling average of the daily new case count is presented. Also, the peak count is annotated in red text.",
+  "caption": "Daily change in new COVID-19 cases in Austin, TX categorized by zip code between 2020-03-26 to 2021-01-19.             The raw data is returned from the source as a rolling sum of case counts. Preprocessing steps are carried out to convert             to daily new case count and to correct for possible case reporting errors that cause irregularities in the case count rolling sum hence,             the gaps in the data. The 7-day rolling average of the daily new case count is presented. Also, the peak count is annotated in red text.",
   "type": "line_plot",
   "source": {
     "name": "COVID-19 Information, City of Austin",
