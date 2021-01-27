@@ -1,3 +1,5 @@
+import json
+
 import requests
 
 import streamlit as st
@@ -6,17 +8,24 @@ from pdf2image import convert_from_bytes
 REPO = "https://raw.githubusercontent.com/intelligent-environments-lab/dashboard/main"
 
 
-def _st_image(image_url=None, title=None):
+def _st_image(image_url=None, title=None, caption=None):
     # Tells streamlit to create subheader with the given title followed by an
     # image from the provided url
-    if title is not None:
-        st.subheader(title)
+    data = json.loads(
+        requests.get(image_url[: image_url.rfind('.') + 1] + 'json').content
+    )
 
     image = requests.get(image_url).content
     if image_url.endswith('.pdf'):
         image = convert_from_bytes(image)[0]
 
-    caption = image_url[image_url.rfind('/') + 1 :]
+    # NOTE: the order of title and data['title'] results in behavior that may not
+    # be expected by other api users
+    title = data['title'] or title or None
+    if title is not None:
+        st.subheader(title)
+
+    caption = caption or data['caption'] or image_url[image_url.rfind('/') + 1 :]
     st.image(image, use_column_width=True, caption=caption, output_format='png')
 
 
@@ -67,7 +76,7 @@ class PublicHealth:
 
     @staticmethod
     def covid_19_case(plot_type):
-        st.subheader('Place Stay')
+        # st.subheader('Covid-19 Cases')
         if plot_type == 'line_plot':
             _st_image(
                 image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_city_line_plot.pdf'

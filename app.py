@@ -1,13 +1,22 @@
 # -*- coding: utf-8 -*-
+import contextlib
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
 
 from categories import Economy, PublicHealth, Transport
 
-def economy(plot_type=None):
+
+def economy(plot_type=None, use_expanders=True):
     st.header('Economy')
-    with st.beta_expander("View plots"):
+
+    container = (
+        st.beta_expander("Expand or collapse")
+        if use_expanders
+        else contextlib.nullcontext()
+    )
+    with container:
         Economy.consumer_spending(plot_type)
         Economy.employment(plot_type)
         Economy.job_postings(plot_type)
@@ -15,15 +24,27 @@ def economy(plot_type=None):
         Economy.small_business_revenue(plot_type)
 
 
-def public_health(plot_type=None):
+def public_health(plot_type=None, use_expanders=True):
     st.header('Public Health')
-    with st.beta_expander("View plots"):
+
+    container = (
+        st.beta_expander("Expand or collapse")
+        if use_expanders
+        else contextlib.nullcontext()
+    )
+    with container:
         PublicHealth.covid_19_case(plot_type)
 
 
-def transport(plot_type=None):
+def transport(plot_type=None, use_expanders=True):
     st.header('Transport & Mobility')
-    with st.beta_expander("View plots"):
+
+    container = (
+        st.beta_expander("Expand or collapse")
+        if use_expanders
+        else contextlib.nullcontext()
+    )
+    with container:
         Transport.place_stay(plot_type)
         Transport.road_traffic(plot_type)
         Transport.transit_mode(plot_type)
@@ -33,21 +54,28 @@ def main():
     # st.set_page_config(layout="wide")
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.header('Sidebar')
-    plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
 
+    plot_type = st.sidebar.radio('Plot Type', ['Heatmap', 'Line'])
     plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
 
-    public_health(plot_type)
-    transport(plot_type)
-    economy(plot_type)
+    expanders = not st.sidebar.checkbox("Hide expanders", False)
+    public_health(plot_type, expanders)
+    transport(plot_type, expanders)
+    economy(plot_type, expanders)
+
+    if st.sidebar.checkbox("Show dummy streamlit examples", False):
+        examples(expanders)
+
+    st.sidebar.markdown(
+        '[Also check out the wide version(new tab)](https://share.streamlit.io/intelligent-environments-lab/dashboard/main/wide_app.py)'
+    )
 
 
-main()
-
-
-def examples():
+def examples(use_expanders):
     st.header("Examples and References")
-    examples_expander = st.beta_expander("Expand")
+    examples_expander = (
+        st.beta_expander("Expand") if use_expanders else contextlib.nullcontext()
+    )
     with examples_expander:
         st.write(
             "As the plots below show, traffic demand decreased during the pandemic."
@@ -179,4 +207,4 @@ def examples():
         )
 
 
-examples()
+main()
