@@ -35,6 +35,7 @@ def public_health(plot_type=None, use_expanders=False):
 
     with container:
         PublicHealth.covid_19_case(plot_type)
+        PublicHealth.covid_19_policy()
 
 
 def transport(plot_type=None, use_expanders=False):
@@ -60,7 +61,7 @@ def main():
 
     plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
 
-    expanders = not st.sidebar.checkbox("Hide expanders", False)
+    expanders = not st.sidebar.checkbox("Hide expanders", True)
     col1, col2, col3 = st.beta_columns(3)
     with col1:
         economy(plot_type, expanders)

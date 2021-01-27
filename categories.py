@@ -1,7 +1,7 @@
 import json
 
 import requests
-
+import pandas as pd
 import streamlit as st
 from pdf2image import convert_from_bytes
 
@@ -84,6 +84,19 @@ class PublicHealth:
         _st_image(
             image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'
         )
+    
+    def covid_19_policy():
+        file = json.loads(requests.get(f'{PublicHealth.ROOT}/covid_19_policy/covid19_policies_unknown_figure_type.json').content)
+        data = file['data']
+        df = pd.DataFrame(data['data'], index=data['index'])
+        df.columns = data['columns']
+        df['timestamp'] = pd.to_datetime(df['timestamp']).dt.strftime('%B %d, %Y')
+        st.subheader(file['title'])
+        st.table(df)
+        st.write(file['caption']+' (Table version)')
+        st.dataframe(df)
+        st.write(file['caption']+' (Dataframe version)')
+
 
 
 class Transport:
