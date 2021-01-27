@@ -81,6 +81,8 @@ class PublicHealth:
             _st_image(
                 image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_city_line_plot.pdf'
             )
+        if plot_type == 'heat_map':
+            st.write('\nKingsley mentioned on Monday that we should use the line plot instead of this one.')
         _st_image(
             image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'
         )

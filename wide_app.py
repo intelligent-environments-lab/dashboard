@@ -62,6 +62,7 @@ def main():
     plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
 
     expanders = not st.sidebar.checkbox("Hide expanders", True)
+    st.sidebar.markdown('<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>', unsafe_allow_html=True)
     col1, col2, col3 = st.beta_columns(3)
     with col1:
         public_health(plot_type, expanders)
