@@ -64,11 +64,11 @@ def main():
     expanders = not st.sidebar.checkbox("Hide expanders", True)
     col1, col2, col3 = st.beta_columns(3)
     with col1:
-        economy(plot_type, expanders)
-    with col2:
         public_health(plot_type, expanders)
-    with col3:
+    with col2:
         transport(plot_type, expanders)
+    with col3:
+        economy(plot_type, expanders)
 
 
 main()
