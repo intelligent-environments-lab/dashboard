@@ -25,6 +25,9 @@ Content creators need to decide on content/features...
   - Pngs will probably be replaced with figure objects passed directly through code to streamlit
   - Do we keep seaborn plots or replaced them with ones created by graphing libraries that support more interaction (plotly, bokeh, etc)?
   
+# Notes
+
+Fullscreen button doesn't appear for an image if it is inside an expander.
 
 ## Resources
 
