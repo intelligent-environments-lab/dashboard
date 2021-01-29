@@ -87,6 +87,7 @@ class PublicHealth:
         #     image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'
         # )
     
+    @staticmethod
     def covid_19_policy():
         file = json.loads(requests.get(f'{PublicHealth.ROOT}/covid_19_policy/covid19_policies_unknown_figure_type.json').content)
         data = file['data']
