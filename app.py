@@ -56,13 +56,13 @@ def main():
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.header('Sidebar')
 
-    plot_type = st.sidebar.radio('Plot Type', ['Heatmap', 'Line'])
-    plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
-
+    # plot_type = st.sidebar.radio('Plot Type', ['Heatmap', 'Line'])
+    # plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
+    plot_type = None
     st.sidebar.markdown(
         '[Also check out the wide version(new tab)](https://share.streamlit.io/intelligent-environments-lab/dashboard/main/wide_app.py)'
     )
-    
+
     with st.sidebar.beta_expander('More Options'):
         expanders = not st.checkbox("Hide expanders", False)
         show_dummy = st.checkbox("Show dummy streamlit examples", False)
@@ -73,8 +73,6 @@ def main():
 
     if show_dummy:
         examples(expanders)
-
-    
 
 
 def examples(use_expanders):

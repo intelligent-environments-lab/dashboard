@@ -34,7 +34,7 @@ def public_health(plot_type=None, use_expanders=False):
     )
 
     with container:
-        PublicHealth.covid_19_case(plot_type)
+        PublicHealth.covid_19_case()
         PublicHealth.covid_19_policy()
 
 
@@ -57,12 +57,14 @@ def main():
     st.set_page_config(layout="wide")
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.header('Sidebar')
-    plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
-
-    plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
+    # plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
+    # plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
 
     expanders = not st.sidebar.checkbox("Hide expanders", True)
-    st.sidebar.markdown('<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>', unsafe_allow_html=True)
+    st.sidebar.markdown(
+        '<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>',
+        unsafe_allow_html=True,
+    )
     col1, col2, col3 = st.beta_columns(3)
     # with col1:
     #     public_health(plot_type, expanders)
@@ -73,11 +75,10 @@ def main():
 
     col1, col2 = st.beta_columns(2)
     with col1:
-        public_health(plot_type, expanders)
-        economy(plot_type, expanders)
+        public_health(plot_type=None, use_expanders=expanders)
+        economy(plot_type=None, use_expanders=expanders)
     with col2:
-        transport(plot_type, expanders)
-        
+        transport(plot_type=None, use_expanders=expanders)
 
 
 main()
