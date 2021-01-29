@@ -81,11 +81,11 @@ class PublicHealth:
             _st_image(
                 image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_city_line_plot.pdf'
             )
-        if plot_type == 'heat_map':
-            st.write('\nKingsley mentioned on Monday that we should use the line plot instead of this one.')
-        _st_image(
-            image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'
-        )
+        # if plot_type == 'heat_map':
+        #     st.write('\nKingsley mentioned on Monday that we should use the line plot instead of this one.')
+        # _st_image(
+        #     image_url=f'{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_{plot_type}.pdf'
+        # )
     
     def covid_19_policy():
         file = json.loads(requests.get(f'{PublicHealth.ROOT}/covid_19_policy/covid19_policies_unknown_figure_type.json').content)
@@ -96,8 +96,6 @@ class PublicHealth:
         st.subheader(file['title'])
         st.table(df)
         st.write(file['caption']+' (Table version)')
-        st.dataframe(df)
-        st.write(file['caption']+' (Dataframe version)')
 
 
 
