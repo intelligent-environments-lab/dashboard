@@ -7,6 +7,7 @@
     "url": "https://github.com/OpportunityInsights/EconomicTracker",
     "contact": null
   },
+  "on_dashboard": true,
   "data": {
     "index": [
       0,

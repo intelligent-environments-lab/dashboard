@@ -7,6 +7,7 @@
     "url": "http://austintexas.gov/covid19",
     "contact": null
   },
+  "on_dashboard": true,
   "data": {
     "index": [
       0,
@@ -27,37 +28,37 @@
       15
     ],
     "columns": [
-      "timestamp",
-      "event"
+      "Date",
+      "Event"
     ],
     "data": [
       [
         "2020-03-06 00:00:00",
-        "Disaster decl."
+        "Disaster declaration"
       ],
       [
         "2020-03-11 00:00:00",
-        "Nursing home/LCTF ctl. order"
+        "Nursing home/LTCF control orders"
       ],
       [
         "2020-03-13 00:00:00",
-        "Healthcare control order"
+        "Healthcare Control orders"
       ],
       [
         "2020-03-19 00:00:00",
-        "Soc. dist. order"
+        "State of Texas social distancing order"
       ],
       [
         "2020-03-21 00:00:00",
-        "50% soc. dist."
+        "50% social distancing"
       ],
       [
         "2020-03-25 00:00:00",
-        "Stay home/work safe"
+        "Stay at home/work safe implementation"
       ],
       [
         "2020-03-31 00:00:00",
-        "Soc. dist. order expanded to essential activities only"
+        "State of Texas social distancing order expanded to essential activities only"
       ],
       [
         "2020-04-15 00:00:00",
@@ -65,27 +66,27 @@
       ],
       [
         "2020-05-01 00:00:00",
-        "Open TX Ph1"
+        "Open Texas Phase 1"
       ],
       [
         "2020-05-19 00:00:00",
-        "Open TX Ph2"
+        "Open Texas Phase 2"
       ],
       [
         "2020-06-03 00:00:00",
-        "Open TX Ph3"
+        "Open Texas Phase 3"
       ],
       [
         "2020-06-15 00:00:00",
-        "Revised ATX-Travis county orders issued"
+        "Revised Austin-Travis county orders issued"
       ],
       [
         "2020-06-26 00:00:00",
-        "Open TX pause"
+        "Pause in open Texas phases"
       ],
       [
         "2020-07-03 00:00:00",
-        "Face covering mandate"
+        "Gov. Abbott\u2019s face covering mandate"
       ],
       [
         "2020-07-14 00:00:00",
@@ -93,7 +94,7 @@
       ],
       [
         "2020-08-14 00:00:00",
-        "ATX & Travis orders extended"
+        "Austin and Travis orders extended"
       ]
     ]
   }

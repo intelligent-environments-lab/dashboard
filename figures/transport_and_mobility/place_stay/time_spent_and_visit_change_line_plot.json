@@ -7,6 +7,7 @@
     "url": "https://www.google.com/covid19/mobility/",
     "contact": null
   },
+  "on_dashboard": true,
   "data": {
     "index": [
       0,
