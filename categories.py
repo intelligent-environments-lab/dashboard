@@ -120,7 +120,7 @@ class PublicHealth:
         data = file['data']
         df = pd.DataFrame(data['data'], index=data['index'])
         df.columns = data['columns']
-        df['timestamp'] = pd.to_datetime(df['timestamp']).dt.strftime('%B %d, %Y')
+        df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%B %d, %Y')
         st.subheader(file['title'])
         st.table(df)
         st.write(file['caption'] + ' (Table version)')
