@@ -43,7 +43,9 @@ def _st_image(image_url=None, title=None, caption=None):
     image, data = download(image_url)
 
     caption = caption or data['caption'] or image_url[image_url.rfind('/') + 1 :]
-    st.image(image, use_column_width=True, caption=caption, output_format='png')
+    caption += f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})'
+    st.image(image, use_column_width=True, output_format='png')
+    st.markdown(caption)
 
 
 # def _plot_type(key):
@@ -123,7 +125,7 @@ class PublicHealth:
         df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%B %d, %Y')
         st.subheader(file['title'])
         st.table(df)
-        st.write(file['caption'] + ' (Table version)')
+        st.write(file['caption'])
 
 
 class Transport:
