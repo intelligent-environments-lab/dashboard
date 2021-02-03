@@ -5,7 +5,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-from categories import Economy, PublicHealth, Transport
+from categories import Economy, PublicHealth, Transport, CivilInfrastructure
 
 
 def economy(plot_type=None, use_expanders=True):
@@ -20,6 +20,7 @@ def economy(plot_type=None, use_expanders=True):
         Economy.consumer_spending(plot_type)
         Economy.employment(plot_type)
         Economy.job_postings(plot_type)
+        Economy.real_estate_activity(plot_type)
         Economy.small_business_openings(plot_type)
         Economy.small_business_revenue(plot_type)
 
@@ -48,8 +49,20 @@ def transport(plot_type=None, use_expanders=True):
     with container:
         Transport.place_stay(plot_type)
         Transport.road_traffic(plot_type)
+        Transport.public_transit_ridership(plot_type)
         Transport.transit_mode(plot_type)
 
+def civil_infrastructure(plot_type=None, use_expanders=True):
+    st.header('Civil Infrastructure')
+
+    container = (
+        st.beta_expander("Expand or collapse")
+        if use_expanders
+        else contextlib.nullcontext()
+    )
+    with container:
+        CivilInfrastructure.water_energy_demand(plot_type)
+        
 
 def main():
     st.set_page_config(page_title="IEL Covid-19 Dashboard", page_icon="favicon.png")
@@ -70,6 +83,7 @@ def main():
     public_health(plot_type, expanders)
     transport(plot_type, expanders)
     economy(plot_type, expanders)
+    civil_infrastructure(plot_type, expanders)
 
     if show_dummy:
         examples(expanders)
