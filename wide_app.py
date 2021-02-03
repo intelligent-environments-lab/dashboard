@@ -54,7 +54,7 @@ def transport(plot_type=None, use_expanders=False):
 
 
 def main():
-    st.set_page_config(layout="wide")
+    st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="favicon.png")
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.header('Sidebar')
     # plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
