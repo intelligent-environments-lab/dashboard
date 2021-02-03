@@ -14,7 +14,6 @@ In anaconda prompt, run the following command in the repo's folder:
 A browser window will automatically start.
 
 View it here: https://share.streamlit.io/intelligent-environments-lab/dashboard/main/app.py
-https://share.streamlit.io/intelligent-environments-lab/dashboard/main/wide_app.py
 
 ## Next Steps
 Content creators need to decide on content/features...
