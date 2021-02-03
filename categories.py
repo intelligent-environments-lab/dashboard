@@ -67,6 +67,12 @@ class Economy:
         )
 
     @staticmethod
+    def real_estate_activity(plot_type):
+        _st_image(
+            image_path=f'{Economy.ROOT}/real_estate_activity/real_estate_activity_change_line_plot.pdf'
+        )
+    
+    @staticmethod
     def small_business_openings(plot_type):
         _st_image(
             image_path=f'{Economy.ROOT}/small_business_opening/open_small_businesses_change_{{plot_type}}.pdf',
@@ -121,17 +127,33 @@ class Transport:
         )
 
     @staticmethod
+    def public_transit_ridership(plot_type):
+        _st_image(
+            image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_change_heat_map.pdf'
+        )
+        _st_image(
+            image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_line_plot.pdf'
+        )
+
+    @staticmethod
     def road_traffic(plot_type):
         _st_image(
             image_path=f'{Transport.ROOT}/road_traffic/road_intersection_traffic_volume_change_{{plot_type}}.pdf',
         )
-        if plot_type == 'line_plot':
-            _st_image(
-                image_path=f'{Transport.ROOT}/road_traffic/road_intersection_traffic_volume_distribution_line_plot.pdf',
-            )
+        _st_image(
+            image_path=f'{Transport.ROOT}/road_traffic/road_intersection_traffic_volume_distribution_line_plot.pdf',
+        )
 
     @staticmethod
     def transit_mode(plot_type):
         _st_image(
             image_path=f'{Transport.ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf',
         )
+
+class CivilInfrastructure:
+    ROOT = 'figures/civil_infrastructure'
+
+    @staticmethod
+    def water_energy_demand(plot_type):
+        _st_image(image_path=f'{CivilInfrastructure.ROOT}/water_energy_demand/water_and_wastewater_treatment_energy_change_line_plot.pdf')
+
