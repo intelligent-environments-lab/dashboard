@@ -103,7 +103,11 @@ class PublicHealth:
         df.columns = data['columns']
         df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%B %d, %Y')
         st.subheader(file['title'])
-        st.table(df)
+        ver = st.radio('Version',['old','new'])
+        if ver == 'new':
+            st.markdown(df.to_markdown())
+        else:
+            st.table(df)
         st.write(file['caption'])
 
 
