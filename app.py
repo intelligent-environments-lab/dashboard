@@ -5,7 +5,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-from categories import Economy, PublicHealth, Transport, CivilInfrastructure
+from categories import Economy, PublicHealth, Transport, CivilInfrastructure, SocialWelfare
 
 
 def economy(plot_type=None, use_expanders=False):
@@ -65,6 +65,17 @@ def civil_infrastructure(plot_type=None, use_expanders=True):
     with container:
         CivilInfrastructure.water_energy_demand(plot_type)
 
+def social_welfare(plot_type=None, use_expanders=True):
+    st.header('Social Welfare')
+
+    container = (
+        st.beta_expander("Expand or collapse")
+        if use_expanders
+        else contextlib.nullcontext()
+    )
+    with container:
+        SocialWelfare.citizen_need(plot_type)
+
 def main():
     st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="favicon.png")
     st.title('IEL Covid-19 Dashboard')
@@ -90,15 +101,10 @@ def main():
     with col1:
         public_health(plot_type=None, use_expanders=expanders)
         economy(plot_type=None, use_expanders=expanders)
+        
     with col2:
         transport(plot_type=None, use_expanders=expanders)
         civil_infrastructure(plot_type=None, use_expanders=expanders)
-
-name3 = 'sadfsadf'
-
-y= name3+'sdf'
-
-def sdaf():
-    name = 'sadfsadf'
+        social_welfare(plot_type=None, use_expanders=expanders)
 
 main()

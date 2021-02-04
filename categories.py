@@ -109,13 +109,10 @@ class PublicHealth:
         df.columns = data['columns']
         df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%B %d, %Y')
         st.subheader(file['title'])
-        ver = st.radio('Version',['new','old'])
-        if ver == 'new':
-            st.markdown(df.to_markdown())
-        else:
-            st.table(df)
-        st.write(file['caption'])
-
+        st.markdown(df.to_markdown())
+        
+        caption = f'{file["caption"]} \n\n**Data source:** [{file["source"]["name"]}]({file["source"]["url"]})'
+        st.write(caption)
 
 class Transport:
     ROOT = 'figures/transport_and_mobility'
@@ -157,3 +154,9 @@ class CivilInfrastructure:
     def water_energy_demand(plot_type):
         _st_image(image_path=f'{CivilInfrastructure.ROOT}/water_energy_demand/water_and_wastewater_treatment_energy_change_line_plot.pdf')
 
+class SocialWelfare:
+    ROOT = 'figures/social_welfare'
+
+    @staticmethod
+    def citizen_need(plot_type):
+        _st_image(image_path=f'{SocialWelfare.ROOT}/citizen_need/need_related_call_count_{{plot_type}}.pdf')
