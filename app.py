@@ -67,7 +67,6 @@ def civil_infrastructure(plot_type=None, use_expanders=True):
 
 def main():
     st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="favicon.png")
-    st.image("IELLogoAnimated.gif")
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.image("IELLogoAnimated.gif", use_column_width=True)
     st.sidebar.header('Sidebar')
