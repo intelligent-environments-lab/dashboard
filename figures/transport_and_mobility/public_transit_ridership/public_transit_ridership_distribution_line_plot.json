@@ -1,6 +1,7 @@
 {
   "title": "Public transit ridership distribution",
   "caption": "",
+  "insights": null,
   "type": "line_plot",
   "source": {
     "name": "Capital Metropolitan Transportation Authority",

@@ -1,6 +1,7 @@
 {
   "title": "New job postings change by job zone",
   "caption": "Weekly change in new job postings in Austin, TX categorized by ONET jobzone education requirement. January 4th - January 31st of 2020 is used as baseline to determine relative change in subsequent weeks. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
+  "insights": null,
   "type": "line_plot",
   "source": {
     "name": "Oppurtunity Insights",

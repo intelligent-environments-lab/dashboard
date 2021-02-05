@@ -1,6 +1,7 @@
 {
   "title": "Direction request change",
   "caption": "Daily change in volume of directions requests in Austin TX. The data is categorized by the mode of transit and compares entries to baseline entries defined as those on or before January 13th 2020. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
+  "insights": null,
   "type": "heat_map",
   "source": {
     "name": "Apple",
@@ -402,7 +403,8 @@
       "2021-01-30 00:00:00",
       "2021-01-31 00:00:00",
       "2021-02-01 00:00:00",
-      "2021-02-02 00:00:00"
+      "2021-02-02 00:00:00",
+      "2021-02-03 00:00:00"
     ],
     "data": [
       [
@@ -793,7 +795,8 @@
         19.33,
         -8.010000000000005,
         -7.060000000000002,
-        -6.469999999999999
+        -6.469999999999999,
+        -3.0
       ],
       [
         "transit",
@@ -1183,7 +1186,8 @@
         -43.08,
         -51.74,
         -37.48,
-        -38.67
+        -38.67,
+        -42.6
       ],
       [
         "walking",
@@ -1573,7 +1577,8 @@
         78.74000000000001,
         22.989999999999995,
         8.799999999999997,
-        9.819999999999993
+        9.819999999999993,
+        12.61
       ]
     ]
   }

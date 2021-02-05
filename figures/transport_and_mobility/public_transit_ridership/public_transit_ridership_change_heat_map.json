@@ -1,6 +1,7 @@
 {
   "title": "Public transit ridership change",
   "caption": "",
+  "insights": null,
   "type": "heat_map",
   "source": {
     "name": "Capital Metropolitan Transportation Authority",

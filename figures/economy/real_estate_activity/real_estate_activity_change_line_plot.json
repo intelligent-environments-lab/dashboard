@@ -1,6 +1,7 @@
 {
   "title": "Real estate activity change",
   "caption": "",
+  "insights": null,
   "type": "line_plot",
   "source": {
     "name": "Texas Real Estate Research Center at Texas A&M University",
