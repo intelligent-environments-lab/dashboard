@@ -79,7 +79,7 @@ def social_welfare(plot_type=None, use_expanders=True):
 def main():
     st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png")
     st.title('IEL Covid-19 Dashboard')
-    st.sidebar.image("images/IELLogoAnimated.gif", use_column_width=True)
+    
     st.sidebar.header('Sidebar')
     # plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
     # plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
@@ -89,6 +89,10 @@ def main():
         '<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>',
         unsafe_allow_html=True,
     )
+    st.sidebar.subheader("Affiliations")
+    st.sidebar.image("images/IELLogoAnimated.gif", use_column_width=True)
+    st.sidebar.image("images/wcwh_banner.png", use_column_width=True)
+    st.sidebar.image("images/caee_banner.png", use_column_width=True)
     col1, col2, col3 = st.beta_columns(3)
     # with col1:
     #     public_health(plot_type, expanders)
