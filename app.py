@@ -55,7 +55,7 @@ def transport(plot_type=None, use_expanders=False):
         Transport.transit_mode(plot_type)
 
 def civil_infrastructure(plot_type=None, use_expanders=True):
-    st.header('Civil Infrastructure')
+    st.header('Energy & Water')
 
     container = (
         st.beta_expander("Expand or collapse")
@@ -77,7 +77,7 @@ def social_welfare(plot_type=None, use_expanders=True):
         SocialWelfare.citizen_need(plot_type)
 
 def main():
-    st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="favicon.png")
+    st.set_page_config(layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png")
     st.title('IEL Covid-19 Dashboard')
     st.sidebar.image("IELLogoAnimated.gif", use_column_width=True)
     st.sidebar.header('Sidebar')
