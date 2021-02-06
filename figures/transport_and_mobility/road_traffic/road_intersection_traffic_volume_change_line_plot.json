@@ -1,7 +1,7 @@
 {
   "title": "Road intersection traffic volume change",
   "caption": "Daily change in traffic volume across select intersections in the Austin TX area. The raw data is collected at 15 minutes intervals which             is preprocessed to arrive at daily volumes. The average day of week volumes between 1st Janary to 29th February of 2020 are used as baseline to calculate             the volume percent change for subsequent matching days of the week. The bold black line represents the mean traffic volume change at all intersections.",
-  "insights": null,
+  "insights": [],
   "type": "line_plot",
   "source": {
     "name": "Austin Transportation Department, City of Austin",
@@ -404,7 +404,8 @@
       390,
       391,
       392,
-      393
+      393,
+      394
     ],
     "columns": [
       "timestamp",
@@ -6714,7 +6715,7 @@
       [
         "2021-02-03 00:00:00",
         null,
-        null,
+        -16.14374444400806,
         -31.625611404468852,
         null,
         null,
@@ -6725,7 +6726,23 @@
         -34.17024871976016,
         -16.501718867775427,
         -7.861908552036849,
-        -17.95909799959812
+        -17.732178805149363
+      ],
+      [
+        "2021-02-04 00:00:00",
+        null,
+        -15.219478357463698,
+        -37.23621577483436,
+        null,
+        null,
+        -6.894431627982356,
+        -21.430074755099323,
+        null,
+        -6.218416524584709,
+        -34.04086124740963,
+        -15.925782083999515,
+        -7.430315174994861,
+        -18.049446943296058
       ]
     ]
   }

@@ -1,10 +1,10 @@
 {
   "title": "New job postings change by sector",
   "caption": "Weekly change in new job postings in Austin, TX categorized by industry sector. January 4th - January 31st of 2020 is used as baseline to determine relative change in subsequent weeks. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
-  "insights": null,
+  "insights": [],
   "type": "line_plot",
   "source": {
-    "name": "Oppurtunity Insights",
+    "name": "Opportunity Insights",
     "url": "https://github.com/OpportunityInsights/EconomicTracker",
     "contact": null
   },

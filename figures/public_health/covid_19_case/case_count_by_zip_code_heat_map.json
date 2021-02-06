@@ -1,7 +1,7 @@
 {
   "title": "Case count by zip code",
   "caption": "Daily change in new COVID-19 cases in Austin, TX categorized by zip code. The raw data is returned from the source as a rolling sum of case counts.             Preprocessing steps are carried out to convert to daily new case count and to correct for possible case reporting errors that cause irregularities             in the case count rolling sum hence, the gaps in the data. The 7-day rolling average of the daily new case count is presented.",
-  "insights": null,
+  "insights": [],
   "type": "heat_map",
   "source": {
     "name": "COVID-19 Information, City of Austin",

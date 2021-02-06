@@ -1,10 +1,10 @@
 {
   "title": "Card spending change",
   "caption": "Daily change in consumer debit and credit card spending in Austin, TX categorized by industry sector. Entries between January 4th - January 31st of 2019 - present is used to determine relative change in entries for subsequent days of the respective year. Subsequently the change is seasonally adjusted where a year-over-year division is carried out between 2019 and other years and is presented as a 7-day moving average. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
-  "insights": null,
+  "insights": [],
   "type": "line_plot",
   "source": {
-    "name": "Oppurtunity Insights",
+    "name": "Opportunity Insights",
     "url": "https://github.com/OpportunityInsights/EconomicTracker",
     "contact": null
   },
