@@ -35,8 +35,9 @@ def public_health(plot_type=None, use_expanders=False):
     )
 
     with container:
-        PublicHealth.covid_19_case(plot_type)
         PublicHealth.covid_19_policy()
+        PublicHealth.covid_19_case(plot_type)
+        
 
 
 def transport(plot_type=None, use_expanders=False):
