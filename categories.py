@@ -40,6 +40,10 @@ def _st_image(image_path=None, caption=None, title=None):
 
     caption = caption or data['caption'] or image_path[image_path.rfind('/') + 1 :]
     try:
+        caption += f' \n\n**Insights:** {data["insights"]}'
+    except:
+        pass
+    try:
         caption += f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})'
     except:
         pass
