@@ -96,15 +96,18 @@ def main():
     # plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
     # plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
 
+    
+    st.sidebar.subheader("Affiliations")
+    st.sidebar.image("images/IELLogoAnimated.gif", use_column_width=True)
+    st.sidebar.image("images/RGB_WCWH_wordmark_3-line_w-tag.png", use_column_width=True)
+    st.sidebar.image("images/Cockrell_RGB_formal_CAEE.png", use_column_width=True)
+
     expanders = not st.sidebar.checkbox("Hide expanders", True)
     st.sidebar.markdown(
         '<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>',
         unsafe_allow_html=True,
     )
-    st.sidebar.subheader("Affiliations")
-    st.sidebar.image("images/IELLogoAnimated.gif", use_column_width=True)
-    st.sidebar.image("images/RGB_WCWH_wordmark_3-line_w-tag.png", use_column_width=True)
-    st.sidebar.image("images/Cockrell_RGB_formal_CAEE.png", use_column_width=True)
+    
     col1, col2, col3 = st.beta_columns(3)
     # with col1:
     #     public_health(plot_type, expanders)
