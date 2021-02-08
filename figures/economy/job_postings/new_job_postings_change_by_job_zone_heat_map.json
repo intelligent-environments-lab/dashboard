@@ -1,7 +1,12 @@
 {
   "title": "New job postings change by job zone",
-  "caption": "Weekly change in new job postings in Austin, TX categorized by ONET jobzone education requirement. January 4th - January 31st of 2020 is used as baseline to determine relative change in subsequent weeks. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
-  "insights": [],
+  "caption": "Comparisonbetween January, 2020 and subsequent weeks' weekly job postings within 10 January, 2020 and 29 Jan, 2021 in Austin, TX.",
+  "insights": [
+    "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -20% in job postings across all job zones.",
+    "The lowest mean decline was -53% in December, 2020.",
+    "Jobs that require lower levels of qualification show the greatest decline in job postings.",
+    "Since December, 2020 the number of postings in all qualification levels have shown an increase towards the baseline. Given that the baseline period is Janury 2020, this hints the possibility of seasonality in job postings."
+  ],
   "type": "heat_map",
   "source": {
     "name": "Opportunity Insights",

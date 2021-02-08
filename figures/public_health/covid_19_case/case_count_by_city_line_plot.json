@@ -1,7 +1,11 @@
 {
   "title": "Case count by city",
-  "caption": "Daily change in new COVID-19 cases in Austin, TX. The raw data is returned from the source as a rolling sum of case counts.             Preprocessing steps are carried out to convert to daily new case count and to correct for possible case reporting errors that cause             irregularities in the case count rolling sum hence, the gaps in the data. The 7-day rolling average of the daily new case count is presented.",
-  "insights": [],
+  "caption": "COVID-19 new cases within 26 March, 2020 and 19 January, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "insights": [
+    "The all time peak is 748 cases and was recorded in January, 2021.",
+    "New cases have been on an increase since the beginning of November, 2020.",
+    "Prior to November, 2020 case counts had been on a decrease between mid-July to late October, 2020."
+  ],
   "type": "line_plot",
   "source": {
     "name": "COVID-19 Information, City of Austin",

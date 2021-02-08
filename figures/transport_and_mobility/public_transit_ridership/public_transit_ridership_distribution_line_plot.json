@@ -1,7 +1,12 @@
 {
   "title": "Public transit ridership distribution",
-  "caption": "",
-  "insights": [],
+  "caption": "Comparison between 2019 and subsequent years' public transit ridership on the high frequency routes within 1 January, 2020and 1 Dec, 2020 in Austin, TX.",
+  "insights": [
+    "Between January and February 2020, ridership was 7% higher than that of 2019 on average.",
+    "By the end of March 2020, average ridership across all routes had dropped to -17% below the baseline. and continued to drop until May 2020 where it reached -39% points below that of March.",
+    "The decline in ridership slightly reduced at the end of June but has remained at an average of -47% below the baseline.",
+    "The routes used to generate this figure include analysis include 10-South 1st/Red River, 17-Cesar Chavez, 18-Martin Luther King, 2-Rosewood, 20-Manor Rd/Riverside, 300-Springdale/Oltorf, 311-Stassney, 325-Metric/Rundberg, 333-William Cannon, 335-335 35th/38th, 4-7th Street, 7-Duval / Dove Springs, 801-N Lamar S Congress and 803-Burnet/S Lamar"
+  ],
   "type": "line_plot",
   "source": {
     "name": "Capital Metropolitan Transportation Authority",
@@ -32,63 +37,63 @@
     "data": [
       [
         "2020-01-01 00:00:00",
-        10.880879522501072,
-        35.750357309135744
+        8.653768699837007,
+        6.791701103370485
       ],
       [
         "2020-02-01 00:00:00",
-        11.371886523764823,
-        45.269376118488026
+        6.326172878645997,
+        5.2678742552314555
       ],
       [
         "2020-03-01 00:00:00",
-        -16.964301171687477,
-        43.45489150729308
+        -17.208376292582813,
+        7.187156775390171
       ],
       [
         "2020-04-01 00:00:00",
-        -53.92635344780261,
-        43.6896528345359
+        -54.961822648836964,
+        9.82483033060975
       ],
       [
         "2020-05-01 00:00:00",
-        -54.518259466027054,
-        45.415776571489474
+        -56.59980046752118,
+        7.568051249619422
       ],
       [
         "2020-06-01 00:00:00",
-        -40.45270324244369,
-        60.14062343057705
+        -39.637129946963576,
+        9.92423850270507
       ],
       [
         "2020-07-01 00:00:00",
-        -45.3350884687549,
-        44.699587863932706
+        -48.070195471666345,
+        8.74139039013054
       ],
       [
         "2020-08-01 00:00:00",
-        -47.75458182787552,
-        48.899485065502134
+        -52.64342521465783,
+        7.3997222373499945
       ],
       [
         "2020-09-01 00:00:00",
-        -46.21023120095157,
-        44.46529509688481
+        -47.674567521701796,
+        9.715609712453437
       ],
       [
         "2020-10-01 00:00:00",
-        -48.29870249308985,
-        42.734818241524025
+        -52.17720358611842,
+        8.758884243684637
       ],
       [
         "2020-11-01 00:00:00",
-        -46.416543986274654,
-        41.82810254699285
+        -44.891725381807795,
+        9.651924320607037
       ],
       [
         "2020-12-01 00:00:00",
-        -45.549044375029986,
-        40.76396935147814
+        -41.07642409439229,
+        7.817493255768045
       ]
     ]
   }

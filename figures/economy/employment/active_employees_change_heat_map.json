@@ -1,6 +1,6 @@
 {
   "title": "Active employees change",
-  "caption": "Daily change in number of active employees in Austin, TX aggregated from multiple sources and categorized by income. Employment levels between January 4th - January 31st of 2020 is used to determine relative change in spending for subsequent days. THe data is presented as a 7-day moving average. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
+  "caption": "Comparison between 2019 and subsequent years' number of active employees within 14 January, 2020 and 15 November, 2020 in Austin, TX.",
   "insights": [],
   "type": "heat_map",
   "source": {
