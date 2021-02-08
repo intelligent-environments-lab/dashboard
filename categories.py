@@ -182,7 +182,7 @@ class Transport:
         )
 
 class CivilInfrastructure:
-    ROOT = 'figures/civil_infrastructure'
+    ROOT = 'figures/energy_and_water'
 
     @staticmethod
     def water_energy_demand(plot_type):
