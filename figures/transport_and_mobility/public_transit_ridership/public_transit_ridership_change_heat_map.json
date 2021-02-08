@@ -1,9 +1,9 @@
 {
   "title": "Public transit ridership change",
-  "caption": "Comparison between 2019 and subsequent years' public transit ridership on the high frequency routes within %B, 2020 and %B, 2020 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' public transit ridership on high frequency routes within %B, 2020 and %B, 2020 in Austin, TX.",
   "insights": [
-    "Between January and February 2020, ridership was 7% higher than that of 2019 on average.",
-    "By the end of March 2020, average ridership across all routes had dropped to -17% below the baseline and continued to drop until May 2020 where it reached -39% points below that of March.",
+    "Between January and February 2020, mean ridership was 7% higher than that of 2019.",
+    "By the end of March 2020, mean ridership across all routes had dropped to -17% below the baseline and continued to drop until May 2020 where it reached -39% points below that of March.",
     "The decline in ridership slightly reduced at the end of June but has remained at an average of -47% below the baseline."
   ],
   "type": "heat_map",

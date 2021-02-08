@@ -1,11 +1,11 @@
 {
   "title": "New job postings change by sector",
-  "caption": "Comparison between January, 2020 weeks and subsequent weeks' job postings within 10 January, 2020 and 29 January, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 29 January, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -25% in job postings across all sectors.",
     "The lowest mean decline was -59% in December, 2020.",
     "The leisure and hospitality sector has had the lowest decline in job postings.",
-    "Since January, 2021 the number of postings in all sectors with the exception of leisure and hospitality are either back to or above the baseline. Given that the baseline period is Janury 2020, this hints that in fact only the leisure and hospitality sector was significantly impacted by the pandemic and the possibility of seasonality in job postings with respect to sector."
+    "Since late January, 2021 the number of postings in all sectors with the exception of leisure and hospitality are either back to or above the baseline. Given that the baseline period is January 2020, this hints that in fact only the leisure and hospitality sector was significantly impacted by the pandemic and there is the possibility of seasonality in job postings with respect to sector."
   ],
   "type": "heat_map",
   "source": {
@@ -24,10 +24,6 @@
     ],
     "columns": [
       "sector",
-      "2020-01-10 00:00:00",
-      "2020-01-17 00:00:00",
-      "2020-01-24 00:00:00",
-      "2020-01-31 00:00:00",
       "2020-02-07 00:00:00",
       "2020-02-14 00:00:00",
       "2020-02-21 00:00:00",
@@ -84,10 +80,6 @@
     "data": [
       [
         "education and health services",
-        -15.7,
-        16.6,
-        1.52,
-        -2.4,
         -14.899999999999999,
         36.199999999999996,
         -10.8,
@@ -143,10 +135,6 @@
       ],
       [
         "financial activities",
-        -16.900000000000002,
-        1.4500000000000002,
-        0.9950000000000001,
-        14.499999999999998,
         -4.06,
         15.4,
         -18.6,
@@ -202,10 +190,6 @@
       ],
       [
         "leisure and hospitality",
-        -13.0,
-        -9.520000000000001,
-        21.0,
-        1.51,
         -18.9,
         19.900000000000002,
         -10.9,
@@ -261,10 +245,6 @@
       ],
       [
         "manufacturing",
-        -31.4,
-        32.300000000000004,
-        -2.1,
-        1.21,
         -22.2,
         15.7,
         3.25,
@@ -320,10 +300,6 @@
       ],
       [
         "professional and business services",
-        -14.2,
-        7.9,
-        -2.06,
-        8.36,
         -15.8,
         26.8,
         -11.0,

@@ -1,11 +1,11 @@
 {
   "title": "New job postings change by sector",
-  "caption": "Comparison between January, 2020 weeks and subsequent weeks' job postings within 10 January, 2020 and 29 January, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 29 January, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -25% in job postings across all sectors.",
     "The lowest mean decline was -59% in December, 2020.",
     "The leisure and hospitality sector has had the lowest decline in job postings.",
-    "Since January, 2021 the number of postings in all sectors with the exception of leisure and hospitality are either back to or above the baseline. Given that the baseline period is Janury 2020, this hints that in fact only the leisure and hospitality sector was significantly impacted by the pandemic and the possibility of seasonality in job postings with respect to sector."
+    "Since late January, 2021 the number of postings in all sectors with the exception of leisure and hospitality are either back to or above the baseline. Given that the baseline period is January 2020, this hints that in fact only the leisure and hospitality sector was significantly impacted by the pandemic and there is the possibility of seasonality in job postings with respect to sector."
   ],
   "type": "line_plot",
   "source": {
@@ -67,11 +67,7 @@
       48,
       49,
       50,
-      51,
-      52,
-      53,
-      54,
-      55
+      51
     ],
     "columns": [
       "timestamp",
@@ -83,42 +79,6 @@
       "mean"
     ],
     "data": [
-      [
-        "2020-01-10 00:00:00",
-        -15.7,
-        -16.900000000000002,
-        -13.0,
-        -31.4,
-        -14.2,
-        -18.240000000000002
-      ],
-      [
-        "2020-01-17 00:00:00",
-        16.6,
-        1.4500000000000002,
-        -9.520000000000001,
-        32.300000000000004,
-        7.9,
-        9.746
-      ],
-      [
-        "2020-01-24 00:00:00",
-        1.52,
-        0.9950000000000001,
-        21.0,
-        -2.1,
-        -2.06,
-        3.871
-      ],
-      [
-        "2020-01-31 00:00:00",
-        -2.4,
-        14.499999999999998,
-        1.51,
-        1.21,
-        8.36,
-        4.635999999999999
-      ],
       [
         "2020-02-07 00:00:00",
         -14.899999999999999,

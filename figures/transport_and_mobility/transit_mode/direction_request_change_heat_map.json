@@ -2,8 +2,8 @@
   "title": "Direction request change",
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
-    "Between mid-March and mid-May, direction requests dropped by an average of -49%",
-    "Eversince then, public transit direction requests are -46% below the baseline while walking and driving direction requests are 25% and 5% respectively above the baseline."
+    "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
+    "Eversince then, public transit direction requests have remained -46% below the baseline while walking and driving direction requests are 25% and 5% respectively above the baseline."
   ],
   "type": "heat_map",
   "source": {
@@ -20,7 +20,6 @@
     ],
     "columns": [
       "mode",
-      "2020-01-13 00:00:00",
       "2020-01-14 00:00:00",
       "2020-01-15 00:00:00",
       "2020-01-16 00:00:00",
@@ -410,12 +409,12 @@
       "2021-02-03 00:00:00",
       "2021-02-04 00:00:00",
       "2021-02-05 00:00:00",
-      "2021-02-06 00:00:00"
+      "2021-02-06 00:00:00",
+      "2021-02-07 00:00:00"
     ],
     "data": [
       [
         "driving",
-        0.0,
         -0.8299999999999983,
         3.9599999999999937,
         5.189999999999998,
@@ -805,11 +804,11 @@
         -3.0,
         4.349999999999994,
         17.299999999999997,
-        21.58
+        21.58,
+        -15.239999999999995
       ],
       [
         "transit",
-        0.0,
         5.319999999999993,
         7.849999999999994,
         5.530000000000001,
@@ -1199,11 +1198,11 @@
         -42.6,
         -40.14,
         -38.02,
-        -39.55
+        -39.55,
+        -51.48
       ],
       [
         "walking",
-        0.0,
         1.519999999999996,
         5.540000000000006,
         7.569999999999993,
@@ -1593,7 +1592,8 @@
         12.61,
         21.75,
         47.43000000000001,
-        80.59
+        80.59,
+        12.739999999999995
       ]
     ]
   }
