@@ -1,7 +1,14 @@
 {
   "title": "Need related call count",
-  "caption": "No caption",
-  "insights": [],
+  "caption": "Need related call count within 7 January, 2020 to 31 December, 2020 in Austin, TX",
+  "insights": [
+    "There are very high demands regarding COVID 19 after Mar 2020. This brought other associated issues immediately (i.e., community clinics, payment, financial, insurance assistance).",
+    "Although it took a while (1-3 months), the city of Austin developed some solutions for citizens to coordinate such unexpected issues related to COVID 19 and they are all back to normal level (since Aug 2020).",
+    "The loss of income due to restrictions results in more calls for financial assistance.",
+    "The calls for monetary, food, and housing assistance increase in the first months of the pandemic.",
+    "By mid-May, the volume of financial assistance calls decreases temporarily, only to increase again a month later by mid-June.",
+    "The loss of employee-based health insurance also results in a relatively increased effort to acquire insurance, highlighting perhaps the need for a more comprehensive approach to health insurance."
+  ],
   "type": "heat_map",
   "source": {
     "name": "United Way Austin",
