@@ -1,7 +1,10 @@
 {
   "title": "Direction request change",
-  "caption": "Daily change in volume of directions requests in Austin TX. The data is categorized by the mode of transit and compares entries to baseline entries defined as those on or before January 13th 2020. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
-  "insights": [],
+  "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
+  "insights": [
+    "Between mid-March and mid-May, direction requests dropped by an average of -49%",
+    "Eversince then, public transit direction requests are -46% below the baseline while walking and driving direction requests are 25% and 5% respectively above the baseline."
+  ],
   "type": "line_plot",
   "source": {
     "name": "Apple",

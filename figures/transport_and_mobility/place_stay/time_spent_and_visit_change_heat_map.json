@@ -1,7 +1,12 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Daily change in time spent in residential places and change in visits to public places in Austin TX. The data is categorized into 6 place categories. 3rd January to 6th February is the established baseline and subsequent days are compared to the median value for the corresponding dat of the week within the baseline period. The aforementioned preprocessing steps are performed by the data provider whom is referenced as the source.",
-  "insights": [],
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 2 February, 2021 in Austin TX.",
+  "insights": [
+    "Between mid-March and April ending, average public places visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
+    "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
+    "Change in average visits to public places since May is -31% while change in time spent in residential places is 15% compared to the baseline",
+    "The figure shows a clear weekday/weekend trend in workplaces and residential places where weekdays have the greater deviation from the baseline compared to weekends as a result of visits and time spent in the past being low and similar to current trends on weekends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
+  ],
   "type": "heat_map",
   "source": {
     "name": "Google",

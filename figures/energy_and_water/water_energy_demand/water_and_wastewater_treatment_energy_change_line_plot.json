@@ -1,10 +1,9 @@
 {
   "title": "Water and wastewater treatment energy change",
-  "caption": "Comparison between 2019 and subsequent years' water and wastewater treatment energy consumption within 1 January, 2020and 1 Sep, 2020 in Austin, TX.",
+  "caption": "Comparison between 2019 and subsequent years' water and wastewater treatment energy consumption within January, 2020 and September, 2020 in Austin, TX.",
   "insights": [
     "Prior to the realization of the severity of the pandemic in March 2020, wastewater treatment energy consumption was approaching that of 2019. However, between March and May 2020, consumption compared to 2019 increased by 26% points followed by an abrupt drop of -34% below the baseline by June, 2020. By September 2020, wastewater treatment energy consumption still remained below the 2019 baseline at -14%",
-    "Water treatment energy consumption in 2020 started off lower than that of 2019 but had increased towards 2019 values until March 2020. Eversince, the consumption has maintained an average value of -8% below the baseline.",
-    ""
+    "Water treatment energy consumption in 2020 started off lower than that of 2019 but had increased towards 2019 values until March 2020. Eversince, the consumption has maintained an average value of -8% below the baseline."
   ],
   "type": "line_plot",
   "source": {

@@ -1,6 +1,6 @@
 {
   "title": "Case count by zip code",
-  "caption": "Profiles of 7-day rolling average of COVID-19 new cases within 26 March, 2020 and 19 January, 2021 across Austin, TX zip-codes. The profiles are shown in descending order of peak case count.",
+  "caption": "Profiles of 7-day rolling average of COVID-19 new cases within 26 March, 2020 and 19 January, 2021 across Austin, TX zip-codes.",
   "insights": [
     "The highest number of cases was recorded in the 78660 zip-code in January 2021.",
     "There are 2 dominant local peaks observed across most profiles with the first occuring just after the onset of the pandemic and having a steeper ascent.",
