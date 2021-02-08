@@ -22,8 +22,10 @@ def _st_image(image_path=None, caption=None, title=None):
         labels = {'Heatmap': 'heat_map', 'Line': 'line_plot'}
         plot_type = labels[st.selectbox('Plot type:', ['Heatmap', 'Line'], key=image_path)]
         image_path = image_path.format(plot_type=plot_type)
-        if ('road_intersection_traffic_volume_change' in image_path) and 'line_plot' in image_path:
+        if ('road_intersection_traffic_volume_change_line_plot' in image_path):
             image_path = image_path.replace('change','distribution')
+        if 'public_transit_ridership_distribution_heat_map' in image_path:
+            image_path = image_path.replace('distribution','change')
 
     @st.cache(persist=False, allow_output_mutation=True, show_spinner=False, ttl=180)
     def download(image_url):
@@ -162,11 +164,11 @@ class Transport:
     @staticmethod
     def public_transit_ridership(plot_type):
         _st_image(
-            image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_change_heat_map.pdf'
+            image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_{{plot_type}}.pdf'
         )
-        _st_image(
-            image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_line_plot.pdf'
-        )
+        # _st_image(
+        #     image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_line_plot.pdf'
+        # )
 
     @staticmethod
     def road_traffic(plot_type):
