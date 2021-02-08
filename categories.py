@@ -5,10 +5,10 @@ import streamlit as st
 from pdf2image import convert_from_bytes
 
 
-def _st_image(image_path=None, caption=None):
+def _st_image(image_path=None, caption=None, title=None):
     # NOTE: the order of title and data['title'] results in behavior that may not
     # be expected by other api users
-    title = json.loads(
+    title = title or json.loads(
         open(
             image_path[: image_path.rfind('.') + 1].format(plot_type='line_plot') + 'json', 'r'
         ).read()
@@ -25,9 +25,12 @@ def _st_image(image_path=None, caption=None):
 
     @st.cache(persist=False, allow_output_mutation=True, show_spinner=False, ttl=180)
     def download(image_url):
-        data = json.loads(
-            open(image_url[: image_url.rfind('.') + 1] + 'json', 'r').read()
-        )
+        try:
+            data = json.loads(
+                open(image_url[: image_url.rfind('.') + 1] + 'json', 'r').read()
+            )
+        except:
+            data=None
         image = open(image_url, 'rb').read()
         if image_url.endswith('.pdf'):
             image = convert_from_bytes(image)[0]
@@ -36,11 +39,35 @@ def _st_image(image_path=None, caption=None):
     image, data = download(image_path)
 
     caption = caption or data['caption'] or image_path[image_path.rfind('/') + 1 :]
-    caption += f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})'
+    try:
+        caption += f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})'
+    except:
+        pass
     st.image(image, use_column_width=True, output_format='png')
     st.markdown(caption)
 
+class AirQuality:
+    ROOT = 'figures/air_quality'
 
+    @staticmethod
+    def all():
+        _st_image(
+            image_path=f'{AirQuality.ROOT}/no2_heat_map.pdf',
+            title='Nitrogen dioxide',
+            caption='  '
+        )
+        _st_image(
+            image_path=f'{AirQuality.ROOT}/ozone_heat_map.pdf',
+            title='Ozone',
+            caption='  '
+        )
+        _st_image(
+            image_path=f'{AirQuality.ROOT}/pm2_5_heat_map.pdf',
+            title='PM2.5',
+            caption='  '
+        )
+        
+        
 class Economy:
     ROOT = 'figures/economy'
 
