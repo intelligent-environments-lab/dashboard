@@ -67,7 +67,7 @@ def civil_infrastructure(plot_type=None, use_expanders=True):
         CivilInfrastructure.water_energy_demand(plot_type)
 
 def social_welfare(plot_type=None, use_expanders=True):
-    st.header('Social Welfare')
+    st.header('Community Needs')
 
     container = (
         st.beta_expander("Expand or collapse")
