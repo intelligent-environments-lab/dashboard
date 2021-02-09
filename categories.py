@@ -64,18 +64,18 @@ class AirQuality:
     def all():
         _st_image(
             image_path=f'{AirQuality.ROOT}/no2_heat_map.pdf',
-            title='Nitrogen dioxide',
-            caption='  '
+            # title='Nitrogen dioxide',
+            # caption='  '
         )
         _st_image(
             image_path=f'{AirQuality.ROOT}/ozone_heat_map.pdf',
-            title='Ozone',
-            caption='  '
+            # title='Ozone',
+            # caption='  '
         )
         _st_image(
             image_path=f'{AirQuality.ROOT}/pm2_5_heat_map.pdf',
-            title='PM2.5',
-            caption='  '
+            # title='PM2.5',
+            # caption='  '
         )
         
         

@@ -1,0 +1,14 @@
+{
+    "title": "PM 2.5 concentration change",
+    "caption": "Change in PM2.5 concentration for each week from February 2020 to February 2021",
+    "insights": ["For most of this period, PM2.5 concentration remained fairly consistent without significant variation.",
+    "During the week of Juen 29, 2020, a cloud of Saharan dust passed through Austin, resulting in elevated particulate matter levels."],
+    "type": "heat_map",
+    "source": {
+      "name": "\u200b\u200b\u200bTCEQ",
+      "url": "https://www.tceq.texas.gov/cgi-bin/compliance/monops/yearly_summary.pl",
+      "contact": null
+    },
+    "on_dashboard": true,
+    "data": {}
+  }
