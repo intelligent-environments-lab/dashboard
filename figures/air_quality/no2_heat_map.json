@@ -1,0 +1,13 @@
+{
+    "title": "Nitrogen dioxide change",
+    "caption": "Change in nitrogen dioxide concentration for each week from February 2020 to February 2021",
+    "insights": ["Compared to the beginning of the time period, nitrogen dioxide levels were relatively lower from June 28, 2020 to September 21, 2020 and were relatively higher after September 21, 2020."],
+    "type": "heat_map",
+    "source": {
+      "name": "\u200b\u200b\u200bTCEQ",
+      "url": "https://www.tceq.texas.gov/cgi-bin/compliance/monops/yearly_summary.pl",
+      "contact": null
+    },
+    "on_dashboard": true,
+    "data": {}
+  }

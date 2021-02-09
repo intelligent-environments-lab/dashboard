@@ -1,0 +1,13 @@
+{
+    "title": "Ozone concentration change",
+    "caption": "Change in ozone concentration for each week from February 2020 to February 2021",
+    "insights": ["Ozone fluctuated regularly throughout this period.","Largest concentrations occured between April 6, 2020 and June 8, 2020."],
+    "type": "heat_map",
+    "source": {
+      "name": "\u200b\u200b\u200bTCEQ",
+      "url": "https://www.tceq.texas.gov/cgi-bin/compliance/monops/yearly_summary.pl",
+      "contact": null
+    },
+    "on_dashboard": true,
+    "data": {}
+  }
