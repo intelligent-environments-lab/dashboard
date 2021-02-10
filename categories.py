@@ -147,7 +147,7 @@ class PublicHealth:
         df.columns = data['columns']
         df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%B %d, %Y')
         st.subheader(file['title'])
-        st.markdown(df.to_markdown())
+        st.markdown(df.set_index('Date').to_markdown())
         
         caption = f'{file["caption"]} \n\n**Data source:** [{file["source"]["name"]}]({file["source"]["url"]})'
         st.write(caption)
