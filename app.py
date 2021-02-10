@@ -14,9 +14,38 @@ from categories import (
     AirQuality,
 )
 
+class Toc:
+    # TOC class made by https://discuss.streamlit.io/u/synode
+    # Taken from https://discuss.streamlit.io/t/table-of-contents-widget/3470/7
+    def __init__(self):
+        self._items = []
+        self._placeholder = None
+    
+    def title(self, text):
+        self._markdown(text, "h1")
 
+    def header(self, text):
+        self._markdown(text, "h2", " " * 2)
+
+    def subheader(self, text):
+        self._markdown(text, "h3", " " * 4)
+
+    def placeholder(self, sidebar=False):
+        self._placeholder = st.sidebar.empty() if sidebar else st.empty()
+
+    def generate(self):
+        if self._placeholder:
+            self._placeholder.markdown("\n".join(self._items), unsafe_allow_html=True)
+    
+    def _markdown(self, text, level, space=""):
+        key = "".join(filter(str.isalnum, text)).lower()
+
+        st.markdown(f"<{level} id='{key}'>{text}</{level}>", unsafe_allow_html=True)
+        self._items.append(f"{space}* <a href='#{key}'>{text}</a>")
+
+toc = Toc()
 def economy(plot_type=None, use_expanders=False):
-    st.header('Economy')
+    toc.header('Economy')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -31,7 +60,7 @@ def economy(plot_type=None, use_expanders=False):
 
 
 def public_health(plot_type=None, use_expanders=False):
-    st.header('Public Health')
+    toc.header('Public Health')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -43,7 +72,7 @@ def public_health(plot_type=None, use_expanders=False):
 
 
 def transport(plot_type=None, use_expanders=False):
-    st.header('Transport & Mobility')
+    toc.header('Transport & Mobility')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -57,7 +86,7 @@ def transport(plot_type=None, use_expanders=False):
 
 
 def civil_infrastructure(plot_type=None, use_expanders=True):
-    st.header('Energy & Water')
+    toc.header('Energy & Water')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -67,7 +96,7 @@ def civil_infrastructure(plot_type=None, use_expanders=True):
 
 
 def social_welfare(plot_type=None, use_expanders=True):
-    st.header('Community Needs')
+    toc.header('Community Needs')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -77,7 +106,7 @@ def social_welfare(plot_type=None, use_expanders=True):
 
 
 def air_quality(plot_type=None, use_expanders=True):
-    st.header('Air Quality')
+    toc.header('Air Quality')
 
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
@@ -112,6 +141,10 @@ def main():
     st_markdown_image("images/Cockrell_RGB_formal_CAEE.png","https://caee.utexas.edu","CAEE Logo")
     st.sidebar.markdown('**Contact Email:** [nagy@utexas.edu](mailto:nagy@utexas.edu)')
     
+    
+    with st.sidebar.beta_expander("Outline"):
+        toc.placeholder()
+
     with st.sidebar.beta_expander("Options"):
         expanders = not st.checkbox("Hide expanders", True)
         st.markdown(
@@ -144,4 +177,5 @@ def main():
     
     with st.sidebar.beta_expander("DISCLAIMER"):
         st.markdown(disclaimer)
+    toc.generate()
 main()
