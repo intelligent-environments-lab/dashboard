@@ -110,7 +110,7 @@ def main():
     st_markdown_image("images/IELLogoAnimated.gif","https://nagy.caee.utexas.edu","IEL Logo")
     st_markdown_image("images/RGB_WCWH_wordmark_3-line_w-tag.png","https://bridgingbarriers.utexas.edu/whole-communities-whole-health/","WCWH Logo")
     st_markdown_image("images/Cockrell_RGB_formal_CAEE.png","https://caee.utexas.edu","CAEE Logo")
-    st.sidebar.markdown('Contact Email: [nagy@utexas.edu](mailto:nagy@utexas.edu)')
+    st.sidebar.markdown('**Contact Email:** [nagy@utexas.edu](mailto:nagy@utexas.edu)')
     
     with st.sidebar.beta_expander("Options"):
         expanders = not st.checkbox("Hide expanders", True)
@@ -138,5 +138,10 @@ def main():
         social_welfare(plot_type=None, use_expanders=expanders)
         air_quality(use_expanders=expanders)
 
-
+    with open("assets/disclaimer.txt",'r',encoding='utf-8') as f:
+        disclaimer = f.read()
+        print(disclaimer)
+    
+    with st.sidebar.beta_expander("DISCLAIMER"):
+        st.markdown(disclaimer)
 main()
