@@ -1,7 +1,12 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 7 February, 2021 in the Austin TX.",
-  "insights": [],
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 8 February, 2021 in the Austin TX.",
+  "insights": [
+    "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
+    " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
+    "Two intersections show unique changes, one of which is attributed to the volume of University of Texas at Austin student traffic at Martin Luther King Blvd / Red River St",
+    "The intersection at Airport Blvd / IH 35 SVRD intersection is unique as it shows various changes in traffic levels, attributable to it being a major intersection for a wide range of services used by central Austin residents."
+  ],
   "type": "line_plot",
   "source": {
     "name": "Austin Transportation Department, City of Austin",
@@ -354,7 +359,8 @@
       340,
       341,
       342,
-      343
+      343,
+      344
     ],
     "columns": [
       "timestamp",
@@ -5876,6 +5882,22 @@
         -16.03060133604721,
         -7.321034995476402,
         -17.937622022748084
+      ],
+      [
+        "2021-02-08 00:00:00",
+        null,
+        null,
+        -39.344813642288955,
+        null,
+        null,
+        -6.590169788333445,
+        -22.18203191813609,
+        null,
+        -6.484246138188472,
+        -35.046593639917305,
+        -15.7925205783406,
+        -7.751397542570466,
+        -19.027396178253618
       ]
     ]
   }
