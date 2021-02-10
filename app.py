@@ -152,7 +152,7 @@ def main():
             unsafe_allow_html=True,
         )
 
-    col1, col2, col3 = st.beta_columns(3)
+    #col1, col2, col3 = st.beta_columns(3)
     # with col1:
     #     public_health(plot_type, expanders)
     # with col2:
@@ -160,7 +160,7 @@ def main():
     # with col3:
     #     economy(plot_type, expanders)
 
-    col1, col2 = st.beta_columns(2)
+    col1,_,col2 = st.beta_columns([20,1,20])
     with col1:
         public_health(plot_type=None, use_expanders=expanders)
         economy(plot_type=None, use_expanders=expanders)
