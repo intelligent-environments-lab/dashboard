@@ -97,9 +97,9 @@ class Economy:
 
     @staticmethod
     def job_postings(plot_type):
-        _st_image(
-            image_path=f'{Economy.ROOT}/job_postings/new_job_postings_change_by_job_zone_{{plot_type}}.pdf',
-        )
+        # _st_image(
+        #     image_path=f'{Economy.ROOT}/job_postings/new_job_postings_change_by_job_zone_{{plot_type}}.pdf',
+        # )
         _st_image(
             image_path=f'{Economy.ROOT}/job_postings/new_job_postings_change_by_sector_{{plot_type}}.pdf'
         )

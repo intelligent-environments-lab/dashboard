@@ -23,7 +23,7 @@ def economy(plot_type=None, use_expanders=False):
     )
     with container:
         Economy.consumer_spending(plot_type)
-        Economy.employment(plot_type)
+        #Economy.employment(plot_type)
         Economy.job_postings(plot_type)
         Economy.real_estate_activity(plot_type)
         Economy.small_business_openings(plot_type)
