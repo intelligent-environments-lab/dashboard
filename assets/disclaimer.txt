@@ -1,7 +1,3 @@
---- BEGIN DISCLAIMER ---
-
 The Intelligent Environments Laboratory (IEL) at The University of Texas at Austin is providing information on the impact of COVID-19 on various areas in the City of Austin, TX. The information provided to you is for reference purposes only and is not intended to be suitable for legal, engineering, or surveying purposes. IEL makes reasonable effort to collect, produce and publish current and accurate maps and information. IEL makes no warranty, expressed or implied; representation; or guarantee as to the content, sequence, accuracy, timeliness, or completeness of the data provided. You are receiving this information “as is” and IEL explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.
 
 IEL shall assume no liability for any errors, omissions, or inaccuracies in the information provided regardless of their cause. IEL shall assume no liability for any decisions made or actions taken or not taken by the user of this application in reliance upon any information or data furnished hereunder. The use of this information indicates your unconditional acceptance of the above disclaimer.
-
---- END DISCLAIMER ---
