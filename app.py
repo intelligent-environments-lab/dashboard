@@ -51,12 +51,12 @@ def economy(plot_type=None, use_expanders=False):
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     with container:
-        Economy.consumer_spending(plot_type)
+        Economy.consumer_spending(plot_type, toc=toc)
         #Economy.employment(plot_type)
-        Economy.job_postings(plot_type)
-        Economy.real_estate_activity(plot_type)
-        Economy.small_business_openings(plot_type)
-        Economy.small_business_revenue(plot_type)
+        Economy.job_postings(plot_type, toc=toc)
+        Economy.real_estate_activity(plot_type, toc=toc)
+        Economy.small_business_openings(plot_type, toc=toc)
+        Economy.small_business_revenue(plot_type, toc=toc)
 
 
 def public_health(plot_type=None, use_expanders=False):
@@ -67,8 +67,8 @@ def public_health(plot_type=None, use_expanders=False):
     )
 
     with container:
-        PublicHealth.covid_19_policy()
-        PublicHealth.covid_19_case(plot_type)
+        PublicHealth.covid_19_policy(toc=toc)
+        PublicHealth.covid_19_case(plot_type, toc=toc)
 
 
 def transport(plot_type=None, use_expanders=False):
@@ -79,10 +79,10 @@ def transport(plot_type=None, use_expanders=False):
     )
 
     with container:
-        Transport.place_stay(plot_type)
-        Transport.road_traffic(plot_type)
-        Transport.public_transit_ridership(plot_type)
-        Transport.transit_mode(plot_type)
+        Transport.place_stay(plot_type, toc=toc)
+        Transport.road_traffic(plot_type, toc=toc)
+        Transport.public_transit_ridership(plot_type, toc=toc)
+        Transport.transit_mode(plot_type, toc=toc)
 
 
 def civil_infrastructure(plot_type=None, use_expanders=True):
@@ -92,7 +92,7 @@ def civil_infrastructure(plot_type=None, use_expanders=True):
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     with container:
-        CivilInfrastructure.water_energy_demand(plot_type)
+        CivilInfrastructure.water_energy_demand(plot_type, toc=toc)
 
 
 def social_welfare(plot_type=None, use_expanders=True):
@@ -102,7 +102,7 @@ def social_welfare(plot_type=None, use_expanders=True):
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     with container:
-        SocialWelfare.citizen_need(plot_type)
+        SocialWelfare.citizen_need(plot_type, toc=toc)
 
 
 def air_quality(plot_type=None, use_expanders=True):
@@ -112,7 +112,7 @@ def air_quality(plot_type=None, use_expanders=True):
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     with container:
-        AirQuality.all()
+        AirQuality.all(toc=toc)
 
 
 def main():
