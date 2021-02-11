@@ -14,13 +14,14 @@ from categories import (
     AirQuality,
 )
 
+
 class Toc:
     # TOC class made by https://discuss.streamlit.io/u/synode
     # Taken from https://discuss.streamlit.io/t/table-of-contents-widget/3470/7
     def __init__(self):
         self._items = []
         self._placeholder = None
-    
+
     def title(self, text):
         self._markdown(text, "h1")
 
@@ -36,112 +37,104 @@ class Toc:
     def generate(self):
         if self._placeholder:
             self._placeholder.markdown("\n".join(self._items), unsafe_allow_html=True)
-    
+
     def _markdown(self, text, level, space=""):
         key = "".join(filter(str.isalnum, text)).lower()
 
         st.markdown(f"<{level} id='{key}'>{text}</{level}>", unsafe_allow_html=True)
         self._items.append(f"{space}* <a href='#{key}'>{text}</a>")
 
+
 toc = Toc()
-def economy(plot_type=None, use_expanders=False):
-    toc.header('Economy')
 
+
+def container(use_expanders):
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
-    with container:
-        Economy.consumer_spending(plot_type, toc=toc)
-        #Economy.employment(plot_type)
-        Economy.job_postings(plot_type, toc=toc)
-        Economy.real_estate_activity(plot_type, toc=toc)
-        Economy.small_business_openings(plot_type, toc=toc)
-        Economy.small_business_revenue(plot_type, toc=toc)
+    return container
 
 
-def public_health(plot_type=None, use_expanders=False):
-    toc.header('Public Health')
+def economy(use_expanders=False):
+    toc.header("Economy")
 
-    container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
-    )
+    with container(use_expanders):
+        Economy.consumer_spending(toc=toc)
+        # Economy.employment()
+        Economy.job_postings(toc=toc)
+        Economy.real_estate_activity(toc=toc)
+        Economy.small_business_openings(toc=toc)
+        Economy.small_business_revenue(toc=toc)
 
-    with container:
+
+def public_health(use_expanders=False):
+    toc.header("Public Health")
+
+    with container(use_expanders):
         PublicHealth.covid_19_policy(toc=toc)
-        PublicHealth.covid_19_case(plot_type, toc=toc)
+        PublicHealth.covid_19_case(toc=toc)
 
 
-def transport(plot_type=None, use_expanders=False):
-    toc.header('Transport & Mobility')
+def transport(use_expanders=False):
+    toc.header("Transport & Mobility")
 
-    container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
-    )
-
-    with container:
-        Transport.place_stay(plot_type, toc=toc)
-        Transport.road_traffic(plot_type, toc=toc)
-        Transport.public_transit_ridership(plot_type, toc=toc)
-        Transport.transit_mode(plot_type, toc=toc)
+    with container(use_expanders):
+        Transport.place_stay(toc=toc)
+        Transport.road_traffic(toc=toc)
+        Transport.public_transit_ridership(toc=toc)
+        Transport.transit_mode(toc=toc)
 
 
-def civil_infrastructure(plot_type=None, use_expanders=True):
-    toc.header('Energy & Water')
+def civil_infrastructure(use_expanders=True):
+    toc.header("Energy & Water")
 
-    container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
-    )
-    with container:
-        CivilInfrastructure.water_energy_demand(plot_type, toc=toc)
+    with container(use_expanders):
+        CivilInfrastructure.water_energy_demand(toc=toc)
 
 
-def social_welfare(plot_type=None, use_expanders=True):
-    toc.header('Community Needs')
+def social_welfare(use_expanders=True):
+    toc.header("Community Needs")
 
-    container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
-    )
-    with container:
-        SocialWelfare.citizen_need(plot_type, toc=toc)
+    with container(use_expanders):
+        SocialWelfare.citizen_need(toc=toc)
 
 
-def air_quality(plot_type=None, use_expanders=True):
-    toc.header('Air Quality')
+def air_quality(use_expanders=True):
+    toc.header("Air Quality")
 
-    container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
-    )
-    with container:
-        AirQuality.all(toc=toc)
+    with container(use_expanders):
+        AirQuality.show(toc=toc)
 
 
 def main():
     st.set_page_config(
         layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
     )
-    st.title('IEL Covid-19 Dashboard')
+    st.title("IEL Covid-19 Dashboard")
 
-    # plot_type = st.sidebar.selectbox('Plot Type', ['Heatmap', 'Line'])
-    # plot_type = 'heat_map' if plot_type == 'Heatmap' else 'line_plot'
-    def st_markdown_image(image_path,hyperlink,alt_text=''):
+    def st_markdown_image(image_path, hyperlink, alt_text=""):
         image_folder = (
-            'https://raw.githubusercontent.com/intelligent-environments-lab/dashboard/main'
+            "https://raw.githubusercontent.com/intelligent-environments-lab/dashboard/main"
         )
         try:
             st.sidebar.markdown(
-                f'''<a href="{hyperlink}" target="_blank" rel="noreferrer noopener"><img src="{image_folder}/{image_path}"
-                alt="{alt_text}" width="280"></a>''',
+                f"""<a href="{hyperlink}" target="_blank" rel="noreferrer noopener"><img src="{image_folder}/{image_path}"
+                alt="{alt_text}" width="280"></a>""",
                 unsafe_allow_html=True,
             )
         except:
             st.sidebar.image(image_path, use_column_width=True)
+
     st.sidebar.subheader("Affiliations")
-    st_markdown_image("images/IELLogoAnimated.gif","https://nagy.caee.utexas.edu","IEL Logo")
-    st_markdown_image("images/RGB_WCWH_wordmark_3-line_w-tag.png","https://bridgingbarriers.utexas.edu/whole-communities-whole-health/","WCWH Logo")
-    st_markdown_image("images/Cockrell_RGB_formal_CAEE.png","https://caee.utexas.edu","CAEE Logo")
-    st.sidebar.markdown('**Contact Email:** [nagy@utexas.edu](mailto:nagy@utexas.edu)')
-    
-    
+    st_markdown_image("images/IELLogoAnimated.gif", "https://nagy.caee.utexas.edu", "IEL Logo")
+    st_markdown_image(
+        "images/RGB_WCWH_wordmark_3-line_w-tag.png",
+        "https://bridgingbarriers.utexas.edu/whole-communities-whole-health/",
+        "WCWH Logo",
+    )
+    st_markdown_image("images/Cockrell_RGB_formal_CAEE.png", "https://caee.utexas.edu", "CAEE Logo")
+    st.sidebar.markdown("**Contact Email:** [nagy@utexas.edu](mailto:nagy@utexas.edu)")
+
     with st.sidebar.beta_expander("Outline"):
         toc.placeholder()
 
@@ -152,30 +145,23 @@ def main():
             unsafe_allow_html=True,
         )
 
-    #col1, col2, col3 = st.beta_columns(3)
-    # with col1:
-    #     public_health(plot_type, expanders)
-    # with col2:
-    #     transport(plot_type, expanders)
-    # with col3:
-    #     economy(plot_type, expanders)
-
-    col1,_,col2 = st.beta_columns([20,1,20])
+    col1, _, col2 = st.beta_columns([20, 1, 20])
     with col1:
-        public_health(plot_type=None, use_expanders=expanders)
-        economy(plot_type=None, use_expanders=expanders)
+        public_health(expanders)
+        economy(expanders)
 
     with col2:
-        transport(plot_type=None, use_expanders=expanders)
-        civil_infrastructure(plot_type=None, use_expanders=expanders)
-        social_welfare(plot_type=None, use_expanders=expanders)
-        air_quality(use_expanders=expanders)
+        transport(expanders)
+        civil_infrastructure(expanders)
+        social_welfare(expanders)
+        air_quality(expanders)
 
-    with open("assets/disclaimer.txt",'r',encoding='utf-8') as f:
+    with open("assets/disclaimer.txt", "r", encoding="utf-8") as f:
         disclaimer = f.read()
-        print(disclaimer)
-    
+
     with st.sidebar.beta_expander("DISCLAIMER"):
         st.markdown(disclaimer)
     toc.generate()
+
+
 main()
