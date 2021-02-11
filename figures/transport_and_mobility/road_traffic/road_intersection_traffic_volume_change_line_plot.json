@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 8 February, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 9 February, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -360,7 +360,8 @@
       341,
       342,
       343,
-      344
+      344,
+      345
     ],
     "columns": [
       "timestamp",
@@ -5854,7 +5855,7 @@
       [
         "2021-02-06 00:00:00",
         null,
-        null,
+        -14.806200752941676,
         -38.88344538664069,
         null,
         null,
@@ -5865,12 +5866,12 @@
         -33.45468820993456,
         -15.605490634603825,
         -7.036905279332915,
-        -18.48315923726266
+        -18.023539426722543
       ],
       [
         "2021-02-07 00:00:00",
         null,
-        null,
+        -15.075960969828888,
         -33.46613029121928,
         null,
         null,
@@ -5881,12 +5882,12 @@
         -33.89440268755459,
         -16.03060133604721,
         -7.321034995476402,
-        -17.937622022748084
+        -17.579914391133187
       ],
       [
         "2021-02-08 00:00:00",
         null,
-        null,
+        -15.475343388235547,
         -39.344813642288955,
         null,
         null,
@@ -5897,7 +5898,23 @@
         -35.046593639917305,
         -15.7925205783406,
         -7.751397542570466,
-        -19.027396178253618
+        -18.583389579501358
+      ],
+      [
+        "2021-02-09 00:00:00",
+        null,
+        -15.71307238812372,
+        -40.97298406257965,
+        null,
+        null,
+        -6.236174528431844,
+        -19.991747744298465,
+        null,
+        -6.212253862769094,
+        -35.454170871171065,
+        -15.239976767688832,
+        -7.900376960528328,
+        -18.46509464819887
       ]
     ]
   }
