@@ -106,7 +106,7 @@ class Economy:
     @staticmethod
     def real_estate_activity(toc=None):
         _st_image(
-            image_path=f"{Economy.ROOT}/real_estate_activity/real_estate_activity_change_line_plot.pdf",
+            image_path=f"{Economy.ROOT}/real_estate_activity/real_estate_activity_change_{{plot_type}}.pdf",
             toc=toc,
         )
 
