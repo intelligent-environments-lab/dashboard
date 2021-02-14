@@ -112,6 +112,11 @@ def main():
     )
     st.title("IEL Covid-19 Dashboard")
 
+    with open("assets/introduction.txt", "r", encoding="utf-8") as f:
+        intro = f.read()
+
+    st.markdown(intro)
+    
     def st_markdown_image(image_path, hyperlink, alt_text=""):
         image_folder = (
             "https://raw.githubusercontent.com/intelligent-environments-lab/dashboard/main"
