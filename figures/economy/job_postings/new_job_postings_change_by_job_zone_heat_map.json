@@ -1,6 +1,6 @@
 {
   "title": "New job postings change by job zone",
-  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 5 February, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 12 February, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -20% in job postings across all job zones.",
     "The lowest mean decline was -53% in December, 2020.",
@@ -76,7 +76,8 @@
       "2021-01-15 00:00:00",
       "2021-01-22 00:00:00",
       "2021-01-29 00:00:00",
-      "2021-02-05 00:00:00"
+      "2021-02-05 00:00:00",
+      "2021-02-12 00:00:00"
     ],
     "data": [
       [
@@ -133,7 +134,8 @@
         -46.5,
         -28.199999999999996,
         -30.4,
-        -37.9
+        -37.9,
+        -43.2
       ],
       [
         "2 (some preparation)",
@@ -160,24 +162,24 @@
         5.38,
         -33.2,
         -33.900000000000006,
-        -25.3,
-        -32.9,
+        -25.6,
+        -33.0,
         -24.9,
         -7.720000000000001,
         -39.1,
         -15.0,
         -26.8,
-        -29.2,
+        -29.4,
         -34.300000000000004,
-        -22.8,
-        -34.0,
-        -2.5100000000000002,
-        -23.1,
+        -23.9,
+        -34.1,
+        -2.81,
+        -23.200000000000003,
         -35.699999999999996,
         -32.6,
         1.9300000000000002,
         -40.400000000000006,
-        -26.8,
+        -27.0,
         -27.700000000000003,
         -35.4,
         -58.099999999999994,
@@ -189,7 +191,8 @@
         -30.3,
         -22.3,
         -24.4,
-        -30.5
+        -30.5,
+        -20.7
       ],
       [
         "3 (medium preparation)",
@@ -245,7 +248,8 @@
         -22.5,
         -8.459999999999999,
         -5.18,
-        -27.6
+        -27.6,
+        -14.000000000000002
       ],
       [
         "4 (considerable preparation)",
@@ -301,7 +305,8 @@
         -24.9,
         -26.200000000000003,
         9.67,
-        -22.7
+        -22.7,
+        -7.7700000000000005
       ],
       [
         "5 (extensive preparation)",
@@ -357,7 +362,8 @@
         -34.2,
         -20.4,
         -3.6900000000000004,
-        -26.200000000000003
+        -26.200000000000003,
+        -9.13
       ]
     ]
   }
