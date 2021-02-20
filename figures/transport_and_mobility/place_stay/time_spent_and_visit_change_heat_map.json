@@ -1,6 +1,6 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 13 February, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 16 February, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -388,7 +388,10 @@
       "2021-02-10 00:00:00",
       "2021-02-11 00:00:00",
       "2021-02-12 00:00:00",
-      "2021-02-13 00:00:00"
+      "2021-02-13 00:00:00",
+      "2021-02-14 00:00:00",
+      "2021-02-15 00:00:00",
+      "2021-02-16 00:00:00"
     ],
     "data": [
       [
@@ -757,7 +760,10 @@
         -14.0,
         -21.0,
         -14.0,
-        -12.0
+        -12.0,
+        -56.0,
+        -72.0,
+        -38.0
       ],
       [
         "parks",
@@ -1125,7 +1131,10 @@
         -53.0,
         -64.0,
         -62.0,
-        -72.0
+        -72.0,
+        -86.0,
+        -46.0,
+        -56.0
       ],
       [
         "residential",
@@ -1493,7 +1502,10 @@
         19.0,
         25.0,
         27.0,
-        16.0
+        16.0,
+        22.0,
+        32.0,
+        27.0
       ],
       [
         "transit stations",
@@ -1861,7 +1873,10 @@
         -55.0,
         -61.0,
         -58.0,
-        -58.0
+        -58.0,
+        -80.0,
+        -90.0,
+        -86.0
       ],
       [
         "workplaces",
@@ -2229,7 +2244,10 @@
         -45.0,
         -52.0,
         -58.0,
-        -30.0
+        -30.0,
+        -60.0,
+        -94.0,
+        -91.0
       ]
     ]
   }
