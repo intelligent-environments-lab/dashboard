@@ -108,7 +108,7 @@ def air_quality(use_expanders=True):
 
 def main():
     st.set_page_config(
-        layout="wide", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
+        layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
     )
     st.title("IEL Covid-19 Dashboard")
 
@@ -150,16 +150,16 @@ def main():
             unsafe_allow_html=True,
         )
 
-    col1, _, col2 = st.beta_columns([20, 1, 20])
-    with col1:
-        public_health(expanders)
-        economy(expanders)
+    # col1, _, col2 = st.beta_columns([20, 1, 20])
+    # with col1:
+    public_health(expanders)
+    economy(expanders)
 
-    with col2:
-        transport(expanders)
-        civil_infrastructure(expanders)
-        social_welfare(expanders)
-        air_quality(expanders)
+    # with col2:
+    transport(expanders)
+    civil_infrastructure(expanders)
+    social_welfare(expanders)
+    air_quality(expanders)
 
     with open("assets/disclaimer.txt", "r", encoding="utf-8") as f:
         disclaimer = f.read()
