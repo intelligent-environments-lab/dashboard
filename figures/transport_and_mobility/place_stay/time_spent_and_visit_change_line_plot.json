@@ -1,10 +1,10 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 16 February, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 19 February, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -31% while change in time spent in residential places is 15% compared to the baseline.",
+    "Change in average visits to public places since May is -32% while change in time spent in residential places is 15% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -383,7 +383,10 @@
       364,
       365,
       366,
-      367
+      367,
+      368,
+      369,
+      370
     ],
     "columns": [
       "timestamp",
@@ -3337,6 +3340,30 @@
         27.0,
         -86.0,
         -91.0
+      ],
+      [
+        "2021-02-17 00:00:00",
+        -53.0,
+        -70.0,
+        33.0,
+        -88.0,
+        -91.0
+      ],
+      [
+        "2021-02-18 00:00:00",
+        -35.0,
+        -73.0,
+        32.0,
+        -79.0,
+        -89.0
+      ],
+      [
+        "2021-02-19 00:00:00",
+        -15.0,
+        -63.0,
+        26.0,
+        -61.0,
+        -74.0
       ]
     ]
   }
