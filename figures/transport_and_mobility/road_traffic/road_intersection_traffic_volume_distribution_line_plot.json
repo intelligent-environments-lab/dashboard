@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 10 February, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 24 February, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -362,7 +362,21 @@
       343,
       344,
       345,
-      346
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360
     ],
     "columns": [
       "timestamp",
@@ -2104,6 +2118,76 @@
         "2021-02-10 00:00:00",
         -19.014896389687387,
         13.065235030265377
+      ],
+      [
+        "2021-02-11 00:00:00",
+        -25.2990239962154,
+        15.718347841263896
+      ],
+      [
+        "2021-02-12 00:00:00",
+        -28.371221351242596,
+        15.95859056609763
+      ],
+      [
+        "2021-02-13 00:00:00",
+        -31.744816082899984,
+        16.046721224172483
+      ],
+      [
+        "2021-02-14 00:00:00",
+        -40.10529888037697,
+        15.36324100502603
+      ],
+      [
+        "2021-02-15 00:00:00",
+        -46.6134931201681,
+        14.650153203779498
+      ],
+      [
+        "2021-02-16 00:00:00",
+        -53.043223771035656,
+        14.694564951887566
+      ],
+      [
+        "2021-02-17 00:00:00",
+        -59.97532797272123,
+        14.235442656632069
+      ],
+      [
+        "2021-02-18 00:00:00",
+        -65.34182359379075,
+        15.377397326134602
+      ],
+      [
+        "2021-02-19 00:00:00",
+        -66.2067961212207,
+        15.731738802073256
+      ],
+      [
+        "2021-02-20 00:00:00",
+        -64.14020949908428,
+        17.15117756548614
+      ],
+      [
+        "2021-02-21 00:00:00",
+        -51.81012799844771,
+        25.321794862969043
+      ],
+      [
+        "2021-02-22 00:00:00",
+        -41.931810741080845,
+        26.97028211728827
+      ],
+      [
+        "2021-02-23 00:00:00",
+        -36.74316282229617,
+        26.553503284853775
+      ],
+      [
+        "2021-02-24 00:00:00",
+        -20.567235303268667,
+        13.204251042105643
       ]
     ]
   }
