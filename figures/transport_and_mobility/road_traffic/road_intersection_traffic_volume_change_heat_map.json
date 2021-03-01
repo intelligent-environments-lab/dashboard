@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 26 February, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 27 February, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -393,7 +393,8 @@
       "2021-02-23 00:00:00",
       "2021-02-24 00:00:00",
       "2021-02-25 00:00:00",
-      "2021-02-26 00:00:00"
+      "2021-02-26 00:00:00",
+      "2021-02-27 00:00:00"
     ],
     "data": [
       [
@@ -592,6 +593,7 @@
         -19.301715133287065,
         -18.720001384504606,
         -18.3711160122009,
+        null,
         null,
         null,
         null,
@@ -1126,6 +1128,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1492,7 +1495,8 @@
         -27.837628061676302,
         -21.739731570623427,
         -9.79385301932457,
-        -8.80179505638741
+        -8.80179505638741,
+        -12.221223002620608
       ],
       [
         "CAPITAL OF TEXAS HWY / MOPAC EXPY SVRD",
@@ -1858,6 +1862,7 @@
         -95.15570614792311,
         -95.15570614792311,
         null,
+        null,
         null
       ],
       [
@@ -2015,6 +2020,7 @@
         -23.070391485786814,
         -22.931144682623504,
         -23.216372909073325,
+        null,
         null,
         null,
         null,
@@ -2590,7 +2596,8 @@
         -3.872621950992995,
         -2.8761123668477704,
         -4.44991396469955,
-        -4.656618529809025
+        -4.656618529809025,
+        -4.826784871210953
       ],
       [
         "FAR WEST BLVD / WOOD HOLLOW DR",
@@ -2956,7 +2963,8 @@
         -38.61503148085814,
         -27.66606961041049,
         -18.61423669314602,
-        -12.911387104426867
+        -12.911387104426867,
+        -12.635478571892381
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -3237,6 +3245,7 @@
         -29.20549448256826,
         -29.59861000439697,
         -30.58035767978758,
+        null,
         null,
         null,
         null,
@@ -3688,7 +3697,8 @@
         -26.98928386745318,
         -11.528967205818214,
         -10.767762882713866,
-        -3.8364943633244653
+        -3.8364943633244653,
+        -1.2528831513333132
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -4054,7 +4064,8 @@
         -53.545035045769474,
         -44.74134389783989,
         -37.8278402589426,
-        -33.32089099639252
+        -33.32089099639252,
+        -32.60697494737491
       ],
       [
         "PARMER LN / ",
@@ -4420,7 +4431,8 @@
         -37.407358672769,
         -27.018004729631134,
         -18.790106738177336,
-        -13.447222808399925
+        -13.447222808399925,
+        -10.669095959814582
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -4786,7 +4798,8 @@
         -10.52263735092714,
         -8.400417741709765,
         -8.557346989143806,
-        -5.6342182361280555
+        -5.6342182361280555,
+        -4.767487842782262
       ]
     ]
   }
