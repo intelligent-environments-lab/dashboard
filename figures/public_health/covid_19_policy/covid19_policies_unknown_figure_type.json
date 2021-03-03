@@ -26,7 +26,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "columns": [
       "Date",
@@ -63,7 +64,7 @@
       ],
       [
         "15 April, 2020",
-        "Stimulus Pay"
+        "Stimulus pay"
       ],
       [
         "1 May, 2020",
@@ -96,6 +97,10 @@
       [
         "14 August, 2020",
         "Austin and Travis orders extended"
+      ],
+      [
+        "2 March, 2021",
+        "Face covering mandate lifted & 100% business opening"
       ]
     ]
   }

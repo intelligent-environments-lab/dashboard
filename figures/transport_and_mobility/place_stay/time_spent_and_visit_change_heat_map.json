@@ -1,6 +1,6 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 23 February, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 27 February, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -398,7 +398,11 @@
       "2021-02-20 00:00:00",
       "2021-02-21 00:00:00",
       "2021-02-22 00:00:00",
-      "2021-02-23 00:00:00"
+      "2021-02-23 00:00:00",
+      "2021-02-24 00:00:00",
+      "2021-02-25 00:00:00",
+      "2021-02-26 00:00:00",
+      "2021-02-27 00:00:00"
     ],
     "data": [
       [
@@ -777,7 +781,11 @@
         -6.0,
         -10.0,
         -5.0,
-        -10.0
+        -10.0,
+        -14.0,
+        -18.0,
+        -17.0,
+        -16.0
       ],
       [
         "parks",
@@ -1155,7 +1163,11 @@
         -47.0,
         -27.0,
         -21.0,
-        -14.0
+        -14.0,
+        -16.0,
+        -42.0,
+        -36.0,
+        -30.0
       ],
       [
         "residential",
@@ -1533,7 +1545,11 @@
         8.0,
         6.0,
         15.0,
-        15.0
+        15.0,
+        15.0,
+        16.0,
+        14.0,
+        5.0
       ],
       [
         "transit stations",
@@ -1911,7 +1927,11 @@
         -49.0,
         -48.0,
         -55.0,
-        -53.0
+        -53.0,
+        -48.0,
+        -51.0,
+        -50.0,
+        -45.0
       ],
       [
         "workplaces",
@@ -2289,7 +2309,11 @@
         -16.0,
         -6.0,
         -48.0,
-        -49.0
+        -49.0,
+        -44.0,
+        -47.0,
+        -41.0,
+        -9.0
       ]
     ]
   }
