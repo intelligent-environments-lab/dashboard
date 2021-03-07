@@ -16,12 +16,11 @@ def _st_image(image_path=None, caption=None, title=None, toc=None):
             ).read()
         )["title"]
     )
-    if title is not None:
-        try:
-            toc.subheader(title)
-        except:
-            st.subheader(title)
-
+    toc = toc or st
+    try:
+        toc.subheader(title)
+    except:
+        pass
     # Tells streamlit to create subheader with the given title followed by an
     # image from the provided url
     if "{plot_type}" in image_path:
@@ -45,175 +44,89 @@ def _st_image(image_path=None, caption=None, title=None, toc=None):
         return image, data
 
     image, data = download(image_path)
-
-    caption = caption or data["caption"] or image_path[image_path.rfind("/") + 1 :]
-    try:
-        insights = " \n\n**Insights:**"
-        for item in data["insights"]:
-            insights += f"\n- {item}"
-        caption += f"{insights}"
-    except:
-        pass
-    try:
-        caption += f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})'
-    except:
-        pass
     st.image(image, use_column_width=True, output_format="png")
-    st.markdown(caption)
+    st.markdown(caption or data["caption"] or image_path[image_path.rfind("/") + 1 :])
+    try:
+        st.markdown(" \n\n**Insights:**" + ''.join([f"\n- {item}" for item in data["insights"]]))
+    except:
+        pass
+    try:
+        st.markdown(f' \n\n**Data source:** [{data["source"]["name"]}]({data["source"]["url"]})')
+    except:
+        pass
+
+class Section:
+    @classmethod
+    def show(cls, items=None, toc=None):
+        items=items or cls.PLOTS.keys()
+        if type(items)==str:
+            items=[items]
+        for item in items:
+            _st_image(image_path=cls.PLOTS[item],toc=toc)
 
 
-class AirQuality:
+class AirQuality(Section):
     ROOT = "figures/air_quality"
-
-    @staticmethod
-    def show(toc=None):
-        plots = [
-            f"{AirQuality.ROOT}/no2_heat_map.pdf",
-            f"{AirQuality.ROOT}/ozone_heat_map.pdf",
-            f"{AirQuality.ROOT}/pm2_5_heat_map.pdf",
-        ]
-        for plot in plots:
-            _st_image(image_path=plot, toc=toc)
+    PLOTS = {
+        'no2':f"{ROOT}/no2_heat_map.pdf",
+        'ozone':f"{ROOT}/ozone_heat_map.pdf",
+        'pm2p5':f"{ROOT}/pm2_5_heat_map.pdf",
+    }
 
 
-class Economy:
+class Economy(Section):
     ROOT = "figures/economy"
+    PLOTS = {
+        'consumer_spending':f"{ROOT}/consumer_spending/card_spending_change_{{plot_type}}.pdf",
+        #'employment':f"{ROOT}/employment/active_employees_change_{{plot_type}}.pdf",
+        'job_postings':f"{ROOT}/job_postings/new_job_postings_change_by_sector_{{plot_type}}.pdf",
+        'real_estate_activity':f"{ROOT}/real_estate_activity/real_estate_activity_change_{{plot_type}}.pdf",
+        'small_business_openings':f"{ROOT}/small_business_opening/open_small_businesses_change_{{plot_type}}.pdf",
+        'small_business_revenue':f"{ROOT}/small_business_revenue/small_business_revenue_change_{{plot_type}}.pdf"
+    }
 
-    @staticmethod
-    def consumer_spending(toc=None):
-        _st_image(
-            image_path=f"{Economy.ROOT}/consumer_spending/card_spending_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def employment(toc=None):
-        _st_image(
-            image_path=f"{Economy.ROOT}/employment/active_employees_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def job_postings(toc=None):
-        # _st_image(
-        #     image_path=f'{Economy.ROOT}/job_postings/new_job_postings_change_by_job_zone_{{plot_type}}.pdf',
-        # )
-        _st_image(
-            image_path=f"{Economy.ROOT}/job_postings/new_job_postings_change_by_sector_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def real_estate_activity(toc=None):
-        _st_image(
-            image_path=f"{Economy.ROOT}/real_estate_activity/real_estate_activity_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def small_business_openings(toc=None):
-        _st_image(
-            image_path=f"{Economy.ROOT}/small_business_opening/open_small_businesses_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def small_business_revenue(toc=None):
-        _st_image(
-            image_path=f"{Economy.ROOT}/small_business_revenue/small_business_revenue_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-
-class PublicHealth:
+class PublicHealth(Section):
     ROOT = "figures/public_health"
-
-    @staticmethod
-    def covid_19_case(toc=None):
-        # st.subheader('Covid-19 Cases')
-        _st_image(image_path=f"{PublicHealth.ROOT}/covid_19_case/case_count_by_city_line_plot.pdf")
-        _st_image(
-            image_path=f"{PublicHealth.ROOT}/covid_19_case/case_count_by_zip_code_line_plot.pdf",
-            toc=toc,
-        )
+    PLOTS = {
+        'case_count_by_city':f"{ROOT}/covid_19_case/case_count_by_city_line_plot.pdf",
+        'case_count_by_zip':f"{ROOT}/covid_19_case/case_count_by_zip_code_line_plot.pdf"
+    }
 
     @staticmethod
     def covid_19_policy(toc=None):
         file = json.loads(
             open(
-                f"{PublicHealth.ROOT}/covid_19_policy/covid19_policies_unknown_figure_type.json",
-                "r",
+                f"{PublicHealth.ROOT}/covid_19_policy/covid19_policies_unknown_figure_type.json", "r",
             ).read()
         )
-        data = file["data"]
-        df = pd.DataFrame(data["data"], index=data["index"])
-        df.columns = data["columns"]
+        df = pd.DataFrame(file["data"]["data"], index=file["data"]["index"], columns=file["data"]["columns"])
         df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%B %d, %Y")
         try:
             toc.subheader(file["title"])
         except:
             st.subheader(file["title"])
-        st.markdown(df.set_index("Date").to_markdown())
 
+        st.markdown(df.set_index("Date").to_markdown())
         caption = f'{file["caption"]} \n\n**Data source:** [{file["source"]["name"]}]({file["source"]["url"]})'
         st.write(caption)
 
 
-class Transport:
+class Transport(Section):
     ROOT = "figures/transport_and_mobility"
-
-    @staticmethod
-    def place_stay(toc=None):
-        _st_image(
-            image_path=f"{Transport.ROOT}/place_stay/time_spent_and_visit_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-
-    @staticmethod
-    def public_transit_ridership(toc=None):
-        _st_image(
-            image_path=f"{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_{{plot_type}}.pdf",
-            toc=toc,
-        )
-        # _st_image(
-        #     image_path=f'{Transport.ROOT}/public_transit_ridership/public_transit_ridership_distribution_line_plot.pdf'
-        # )
-
-    @staticmethod
-    def road_traffic(toc=None):
-        _st_image(
-            image_path=f"{Transport.ROOT}/road_traffic/road_intersection_traffic_volume_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
-        # _st_image(
-        #     image_path=f'{Transport.ROOT}/road_traffic/road_intersection_traffic_volume_distribution_line_plot.pdf',
-        # )
-
-    @staticmethod
-    def transit_mode(toc=None):
-        _st_image(
-            image_path=f"{Transport.ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf",
-            toc=toc,
-        )
+    PLOTS = {
+        'place_stay':f"{ROOT}/place_stay/time_spent_and_visit_change_{{plot_type}}.pdf",
+        'public_transit_ridership':f"{ROOT}/public_transit_ridership/public_transit_ridership_distribution_{{plot_type}}.pdf",
+        'road_traffic':f"{ROOT}/road_traffic/road_intersection_traffic_volume_change_{{plot_type}}.pdf",
+        'transit_mode':f"{ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf"
+    }
 
 
-class CivilInfrastructure:
+class CivilInfrastructure(Section):
     ROOT = "figures/energy_and_water"
-
-    @staticmethod
-    def water_energy_demand(toc=None):
-        _st_image(
-            image_path=f"{CivilInfrastructure.ROOT}/water_energy_demand/water_and_wastewater_treatment_energy_change_line_plot.pdf",
-            toc=toc,
-        )
+    PLOTS={'water_energy_demand':f"{ROOT}/water_energy_demand/water_and_wastewater_treatment_energy_change_line_plot.pdf"}
 
 
-class SocialWelfare:
+class SocialWelfare(Section):
     ROOT = "figures/social_welfare"
+    PLOTS={'citizen_need':f"{ROOT}/citizen_need/need_related_call_count_{{plot_type}}.pdf"}
 
-    @staticmethod
-    def citizen_need(toc=None):
-        _st_image(
-            image_path=f"{SocialWelfare.ROOT}/citizen_need/need_related_call_count_{{plot_type}}.pdf",
-            toc=toc,
-        )

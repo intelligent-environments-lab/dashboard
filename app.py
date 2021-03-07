@@ -59,12 +59,13 @@ def economy(use_expanders=False):
     toc.header("Economy")
 
     with container(use_expanders):
-        Economy.consumer_spending(toc=toc)
-        # Economy.employment()
-        Economy.job_postings(toc=toc)
-        Economy.real_estate_activity(toc=toc)
-        Economy.small_business_openings(toc=toc)
-        Economy.small_business_revenue(toc=toc)
+        Economy.show(toc=toc)
+        # Economy.consumer_spending(toc=toc)
+        # # Economy.employment()
+        # Economy.job_postings(toc=toc)
+        # Economy.real_estate_activity(toc=toc)
+        # Economy.small_business_openings(toc=toc)
+        # Economy.small_business_revenue(toc=toc)
 
 
 def public_health(use_expanders=False):
@@ -72,32 +73,32 @@ def public_health(use_expanders=False):
 
     with container(use_expanders):
         PublicHealth.covid_19_policy(toc=toc)
-        PublicHealth.covid_19_case(toc=toc)
+        PublicHealth.show(toc=toc)
 
 
 def transport(use_expanders=False):
     toc.header("Transport & Mobility")
 
     with container(use_expanders):
-        Transport.place_stay(toc=toc)
-        Transport.road_traffic(toc=toc)
-        Transport.public_transit_ridership(toc=toc)
-        Transport.transit_mode(toc=toc)
+        Transport.show(toc=toc)
+        # Transport.place_stay(toc=toc)
+        # Transport.road_traffic(toc=toc)
+        # Transport.public_transit_ridership(toc=toc)
+        # Transport.transit_mode(toc=toc)
 
 
 def civil_infrastructure(use_expanders=True):
     toc.header("Energy & Water")
 
     with container(use_expanders):
-        CivilInfrastructure.water_energy_demand(toc=toc)
+        CivilInfrastructure.show('water_energy_demand',toc=toc)
 
 
 def social_welfare(use_expanders=True):
     toc.header("Community Needs")
 
     with container(use_expanders):
-        SocialWelfare.citizen_need(toc=toc)
-
+        SocialWelfare.show(['citizen_need'],toc=toc)
 
 def air_quality(use_expanders=True):
     toc.header("Air Quality")
