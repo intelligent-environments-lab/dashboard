@@ -5,6 +5,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
+from table_of_contents import Toc
 from categories import (
     Economy,
     PublicHealth,
@@ -14,111 +15,16 @@ from categories import (
     AirQuality,
 )
 
-
-class Toc:
-    # TOC class made by https://discuss.streamlit.io/u/synode
-    # Taken from https://discuss.streamlit.io/t/table-of-contents-widget/3470/7
-    def __init__(self):
-        self._items = []
-        self._placeholder = None
-
-    def title(self, text):
-        self._markdown(text, "h1")
-
-    def header(self, text):
-        self._markdown(text, "h2", " " * 2)
-
-    def subheader(self, text):
-        self._markdown(text, "h3", " " * 4)
-
-    def placeholder(self, sidebar=False):
-        self._placeholder = st.sidebar.empty() if sidebar else st.empty()
-
-    def generate(self):
-        if self._placeholder:
-            self._placeholder.markdown("\n".join(self._items), unsafe_allow_html=True)
-
-    def _markdown(self, text, level, space=""):
-        key = "".join(filter(str.isalnum, text)).lower()
-
-        st.markdown(f"<{level} id='{key}'>{text}</{level}>", unsafe_allow_html=True)
-        self._items.append(f"{space}* <a href='#{key}'>{text}</a>")
-
-
 toc = Toc()
 
-
-def container(use_expanders):
+def container(name,use_expanders=False):
+    toc.header(name)
     container = (
         st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     return container
 
-
-def economy(use_expanders=False):
-    toc.header("Economy")
-
-    with container(use_expanders):
-        Economy.show(toc=toc)
-        # Economy.consumer_spending(toc=toc)
-        # # Economy.employment()
-        # Economy.job_postings(toc=toc)
-        # Economy.real_estate_activity(toc=toc)
-        # Economy.small_business_openings(toc=toc)
-        # Economy.small_business_revenue(toc=toc)
-
-
-def public_health(use_expanders=False):
-    toc.header("Public Health")
-
-    with container(use_expanders):
-        PublicHealth.covid_19_policy(toc=toc)
-        PublicHealth.show(toc=toc)
-
-
-def transport(use_expanders=False):
-    toc.header("Transport & Mobility")
-
-    with container(use_expanders):
-        Transport.show(toc=toc)
-        # Transport.place_stay(toc=toc)
-        # Transport.road_traffic(toc=toc)
-        # Transport.public_transit_ridership(toc=toc)
-        # Transport.transit_mode(toc=toc)
-
-
-def civil_infrastructure(use_expanders=True):
-    toc.header("Energy & Water")
-
-    with container(use_expanders):
-        CivilInfrastructure.show('water_energy_demand',toc=toc)
-
-
-def social_welfare(use_expanders=True):
-    toc.header("Community Needs")
-
-    with container(use_expanders):
-        SocialWelfare.show(['citizen_need'],toc=toc)
-
-def air_quality(use_expanders=True):
-    toc.header("Air Quality")
-
-    with container(use_expanders):
-        AirQuality.show(toc=toc)
-
-
-def main():
-    st.set_page_config(
-        layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
-    )
-    st.title("IEL Covid-19 Dashboard")
-
-    with open("assets/introduction.txt", "r", encoding="utf-8") as f:
-        intro = f.read()
-
-    st.markdown(intro)
-    
-    def st_markdown_image(image_path, hyperlink, alt_text=""):
+def st_markdown_image(image_path, hyperlink, alt_text=""):
         image_folder = (
             "https://raw.githubusercontent.com/intelligent-environments-lab/dashboard/main"
         )
@@ -130,6 +36,16 @@ def main():
             )
         except:
             st.sidebar.image(image_path, use_column_width=True)
+
+def main():
+    st.set_page_config(
+        layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
+    )
+    st.title("IEL Covid-19 Dashboard")
+
+    with open("assets/introduction.txt", "r", encoding="utf-8") as f:
+        intro = f.read()
+    st.markdown(intro)
 
     st.sidebar.subheader("Affiliations")
     st_markdown_image("images/IELLogoAnimated.gif", "https://nagy.caee.utexas.edu", "IEL Logo")
@@ -153,20 +69,29 @@ def main():
 
     # col1, _, col2 = st.beta_columns([20, 1, 20])
     # with col1:
-    public_health(expanders)
-    economy(expanders)
+    with container('Public Health', expanders):
+        PublicHealth.covid_19_policy(toc=toc)
+        PublicHealth.show(toc=toc)
+    with container('Economy', expanders):
+        Economy.show(toc=toc)
 
     # with col2:
-    transport(expanders)
-    civil_infrastructure(expanders)
-    social_welfare(expanders)
-    air_quality(expanders)
+    with container("Transport & Mobility", expanders):
+        Transport.show(toc=toc)
+    with container("Energy & Water", expanders):
+        CivilInfrastructure.show('water_energy_demand',toc=toc)
+    with container("Community Needs", expanders):
+        SocialWelfare.show(['citizen_need'],toc=toc)
+    with container("Air Quality", expanders):
+        AirQuality.show(toc=toc)
 
-    with open("assets/disclaimer.txt", "r", encoding="utf-8") as f:
-        disclaimer = f.read()
 
     with st.sidebar.beta_expander("DISCLAIMER"):
+        with open("assets/disclaimer.txt", "r", encoding="utf-8") as f:
+            disclaimer = f.read()
+
         st.markdown(disclaimer)
+
     toc.generate()
 
 
