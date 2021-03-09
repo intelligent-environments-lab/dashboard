@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 2 March, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 March, 2020 to 7 March, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -382,7 +382,12 @@
       363,
       364,
       365,
-      366
+      366,
+      367,
+      368,
+      369,
+      370,
+      371
     ],
     "columns": [
       "timestamp",
@@ -6270,8 +6275,88 @@
         -2.471540737877167,
         -33.75668476322215,
         -9.767415277379389,
+        -6.081780125211844,
+        -15.035738625244155
+      ],
+      [
+        "2021-03-03 00:00:00",
         null,
-        -16.528065041916207
+        null,
+        -37.62315579008094,
+        null,
+        null,
+        -8.004438755777873,
+        -13.390594606725513,
+        null,
+        -2.3529363876133624,
+        -33.96965180915225,
+        -10.101088773337736,
+        -5.383760467001173,
+        -15.832232369955548
+      ],
+      [
+        "2021-03-04 00:00:00",
+        null,
+        null,
+        -37.13631814201225,
+        null,
+        null,
+        -6.554210152264597,
+        -12.970793403132953,
+        null,
+        -1.7662999587918047,
+        -33.81559044672558,
+        -10.0478808878644,
+        -4.296431296110861,
+        -15.226789183843207
+      ],
+      [
+        "2021-03-05 00:00:00",
+        null,
+        null,
+        -31.37027980526191,
+        null,
+        null,
+        -4.746497594414595,
+        -12.882137200346316,
+        null,
+        -1.5763225248944024,
+        -33.22865192699683,
+        -10.345658368009731,
+        -3.277448619013964,
+        -13.918142291276821
+      ],
+      [
+        "2021-03-06 00:00:00",
+        null,
+        null,
+        -24.281736510482293,
+        null,
+        null,
+        -3.267810765680607,
+        -12.025846954668703,
+        null,
+        -1.1202163477343772,
+        -33.06091631159658,
+        -11.398796480514061,
+        -2.292190992390114,
+        -12.492502051866678
+      ],
+      [
+        "2021-03-07 00:00:00",
+        null,
+        null,
+        -20.985807277948915,
+        null,
+        null,
+        -1.6029823470595013,
+        -11.453817079360137,
+        null,
+        -0.038062490298178986,
+        -32.431799203199034,
+        -11.810241377370176,
+        -0.964874002422521,
+        -11.326797682522638
       ]
     ]
   }
