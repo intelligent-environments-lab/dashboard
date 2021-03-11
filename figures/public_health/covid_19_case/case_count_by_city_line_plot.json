@@ -1,6 +1,6 @@
 {
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 2 March, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 9 March, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in January, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -356,7 +356,14 @@
       338,
       339,
       340,
-      341
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348
     ],
     "columns": [
       "timestamp",
@@ -1681,7 +1688,7 @@
       ],
       [
         "2021-02-18 00:00:00",
-        252.0
+        251.0
       ],
       [
         "2021-02-19 00:00:00",
@@ -1697,15 +1704,15 @@
       ],
       [
         "2021-02-22 00:00:00",
-        403.0
+        401.0
       ],
       [
         "2021-02-23 00:00:00",
-        390.0
+        389.0
       ],
       [
         "2021-02-24 00:00:00",
-        337.0
+        336.0
       ],
       [
         "2021-02-25 00:00:00",
@@ -1717,19 +1724,47 @@
       ],
       [
         "2021-02-27 00:00:00",
-        298.0
+        296.0
       ],
       [
         "2021-02-28 00:00:00",
-        259.0
+        257.0
       ],
       [
         "2021-03-01 00:00:00",
-        236.0
+        235.0
       ],
       [
         "2021-03-02 00:00:00",
-        209.0
+        208.0
+      ],
+      [
+        "2021-03-03 00:00:00",
+        202.0
+      ],
+      [
+        "2021-03-04 00:00:00",
+        188.0
+      ],
+      [
+        "2021-03-05 00:00:00",
+        157.0
+      ],
+      [
+        "2021-03-06 00:00:00",
+        132.0
+      ],
+      [
+        "2021-03-07 00:00:00",
+        152.0
+      ],
+      [
+        "2021-03-08 00:00:00",
+        126.0
+      ],
+      [
+        "2021-03-09 00:00:00",
+        115.0
       ]
     ]
   }
