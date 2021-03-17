@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import contextlib
-import os 
-import re 
 
 import streamlit as st
 import plotly.express as px
@@ -39,27 +37,7 @@ def st_markdown_image(image_path, hyperlink, alt_text=""):
         except:
             st.sidebar.image(image_path, use_column_width=True)
 
-def add_analytics():
-    # https://discuss.streamlit.io/t/how-to-add-google-analytics-or-js-code-in-a-streamlit-app/1610/18
-    code = """<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKW3C1V2YC"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JKW3C1V2YC');
-    </script>"""
-
-    a=os.path.dirname(st.__file__)+'/static/index.html'
-    with open(a, 'r') as f:
-        data=f.read()
-        if len(re.findall('UA-', data))==0:
-            with open(a, 'w') as ff:
-                newdata=re.sub('<head>','<head>'+code,data)
-                ff.write(newdata)
-
 def main():
-    add_analytics()
     st.set_page_config(
         layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
     )
