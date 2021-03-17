@@ -96,5 +96,5 @@ def main():
     toc.generate()
     
 
-with streamlit_analytics.track(firebase_key_file="assets/firebase-key.json", firebase_collection_name="counts"):
+with streamlit_analytics.track(firestore_key_file="assets/firebase-key.json", firestore_collection_name="counts"):
     main()
