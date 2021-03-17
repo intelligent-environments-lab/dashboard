@@ -42,7 +42,6 @@ def main():
     st.set_page_config(
         layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
     )
-    streamlit_analytics.start_tracking(firebase_key_file="assets/firebase-key.json", firebase_collection_name="counts")
     st.title("IEL Covid-19 Dashboard")
 
     with open("assets/introduction.txt", "r", encoding="utf-8") as f:
@@ -95,7 +94,7 @@ def main():
         st.markdown(disclaimer)
 
     toc.generate()
-    streamlit_analytics.stop_tracking(firebase_key_file="assets/firebase-key.json", firebase_collection_name="counts")
+    
 
-
-main()
+with streamlit_analytics.track(firebase_key_file="assets/firebase-key.json", firebase_collection_name="counts"):
+    main()
