@@ -89,7 +89,8 @@ class PublicHealth(Section):
     ROOT = "figures/public_health"
     PLOTS = {
         'case_count_by_city':f"{ROOT}/covid_19_case/case_count_by_city_line_plot.pdf",
-        'case_count_by_zip':f"{ROOT}/covid_19_case/case_count_by_zip_code_line_plot.pdf"
+        'case_count_by_zip':f"{ROOT}/covid_19_case/case_count_by_zip_code_line_plot.pdf",
+        'vaccination':f"{ROOT}/covid_19_vaccination/vaccination_line_plot.pdf"
     }
 
     @staticmethod
