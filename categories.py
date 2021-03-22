@@ -118,7 +118,9 @@ class Transport(Section):
         'place_stay':f"{ROOT}/place_stay/time_spent_and_visit_change_{{plot_type}}.pdf",
         'public_transit_ridership':f"{ROOT}/public_transit_ridership/public_transit_ridership_distribution_{{plot_type}}.pdf",
         'road_traffic':f"{ROOT}/road_traffic/road_intersection_traffic_volume_change_{{plot_type}}.pdf",
-        'transit_mode':f"{ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf"
+        'transit_mode':f"{ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf",
+        'flight_departures_city':f"{ROOT}/flight_departure/departures_destination_city_line_plot.pdf",
+        'flight_departures_airline':f"{ROOT}/flight_departure/departures_airline_line_plot.pdf"
     }
 
 
