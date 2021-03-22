@@ -128,6 +128,6 @@ class CivilInfrastructure(Section):
 
 
 class SocialWelfare(Section):
-    ROOT = "figures/social_welfare"
-    PLOTS={'citizen_need':f"{ROOT}/citizen_need/need_related_call_count_{{plot_type}}.pdf"}
+    ROOT = "figures/community_needs"
+    PLOTS={'citizen_need':f"{ROOT}/community_needs/need_related_call_count_{{plot_type}}.pdf"}
 
