@@ -2,9 +2,9 @@
   "title": "Departures - airline",
   "caption": "Comparison between weekly number of scheduled and departed flights for the top 8 airlines and 5 others within 5 January, 2020 and  27 December, 2020 outbound from Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
-    "There is an observed slight increase in scheduled flights identified by a distinct horn during the beginning of March for most of the top 8 airlines.",
+    "There is an observed slight increase in scheduled flights identified by a distinct horn during th beginning of March for most of the top 8 airlines.",
     "The horn is followed by a steep decline in the number of departed flights in the later weeks of March.",
-    "By the beginning of May, scheduled flights had equally declined and reached minimum counts for the observed period. However by July, most departures were one-third of or in some cases equal to the levels prior to the decline in May, and the number of cancelled flights had become minuscle.For the most part, departures have remained fairly consistent at the levels observed in July while flights serviced by certain airlines or departing to particular cities have slightly increased."
+    "By the beginning of May, scheduled flights had equally declined and reached minimum counts for the observed period.However by July, most departures were one-third of or in some cases equal to the levels prior to the decline in May, and the number of cancelled flights had become minuscle.For the most part, departures have remained fairly consistent at the levels observed in July while flights serviced by certain airlines or departing to particular cities have slightly increased."
   ],
   "type": "line_plot",
   "source": {
