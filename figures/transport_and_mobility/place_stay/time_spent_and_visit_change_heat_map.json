@@ -1,10 +1,10 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 16 March, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 19 March, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -32% while change in time spent in residential places is 15% compared to the baseline.",
+    "Change in average visits to public places since May is -31% while change in time spent in residential places is 15% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "heat_map",
@@ -419,7 +419,10 @@
       "2021-03-13 00:00:00",
       "2021-03-14 00:00:00",
       "2021-03-15 00:00:00",
-      "2021-03-16 00:00:00"
+      "2021-03-16 00:00:00",
+      "2021-03-17 00:00:00",
+      "2021-03-18 00:00:00",
+      "2021-03-19 00:00:00"
     ],
     "data": [
       [
@@ -819,7 +822,10 @@
         -11.0,
         -13.0,
         -9.0,
-        -7.0
+        -7.0,
+        -6.0,
+        -8.0,
+        -8.0
       ],
       [
         "parks",
@@ -1218,7 +1224,10 @@
         -31.0,
         -22.0,
         11.0,
-        -1.0
+        -1.0,
+        0.0,
+        9.0,
+        5.0
       ],
       [
         "residential",
@@ -1617,7 +1626,10 @@
         5.0,
         5.0,
         13.0,
-        14.0
+        14.0,
+        13.0,
+        13.0,
+        11.0
       ],
       [
         "transit stations",
@@ -2016,7 +2028,10 @@
         -41.0,
         -46.0,
         -47.0,
-        -46.0
+        -46.0,
+        -43.0,
+        -46.0,
+        -45.0
       ],
       [
         "workplaces",
@@ -2415,7 +2430,10 @@
         -14.0,
         -12.0,
         -49.0,
-        -51.0
+        -51.0,
+        -48.0,
+        -51.0,
+        -46.0
       ]
     ]
   }
