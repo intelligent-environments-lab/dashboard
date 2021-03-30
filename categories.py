@@ -120,7 +120,8 @@ class Transport(Section):
         'road_traffic':f"{ROOT}/road_traffic/road_intersection_traffic_volume_change_{{plot_type}}.pdf",
         'transit_mode':f"{ROOT}/transit_mode/direction_request_change_{{plot_type}}.pdf",
         'flight_departures_city':f"{ROOT}/flight_departure/departures_destination_city_line_plot.pdf",
-        'flight_departures_airline':f"{ROOT}/flight_departure/departures_airline_line_plot.pdf"
+        'flight_departures_airline':f"{ROOT}/flight_departure/departures_airline_line_plot.pdf",
+        'passenger_traffic':f'{ROOT}/flight_passenger_traffic/flight_passenger_traffic_line_plot.pdf'
     }
 
 
