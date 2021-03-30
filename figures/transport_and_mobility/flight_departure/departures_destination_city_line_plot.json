@@ -1,6 +1,6 @@
 {
   "title": "Departures - destination city",
-  "caption": "Comparison between weekly number of scheduled and departed flights for the top 8 destination cities and 39 others within 5 January, 2020 and  24 January, 2021 outbound from Austin-Bergstrom Intl, Austin, TX.",
+  "caption": "Comparison between weekly number of scheduled and departed flights for the top 8 destination cities and 39 others within 12 January, 2020 and  24 January, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "During the beginning of March, there was a slight increase in scheduled flights identified by a distinct horn for most of the top 8 destination cities.",
     "This horn is followed by a steep decline in the number of departed flights in the later weeks of March.",
@@ -15,7 +15,6 @@
   "on_dashboard": true,
   "data": {
     "index": [
-      0,
       1,
       2,
       3,
@@ -71,7 +70,6 @@
       53,
       54,
       55,
-      57,
       58,
       59,
       60,
@@ -127,7 +125,6 @@
       110,
       111,
       112,
-      114,
       115,
       116,
       117,
@@ -183,7 +180,6 @@
       167,
       168,
       169,
-      171,
       172,
       173,
       174,
@@ -239,7 +235,6 @@
       224,
       225,
       226,
-      228,
       229,
       230,
       231,
@@ -295,7 +290,6 @@
       281,
       282,
       283,
-      285,
       286,
       287,
       288,
@@ -351,7 +345,6 @@
       338,
       339,
       340,
-      342,
       343,
       344,
       345,
@@ -407,7 +400,6 @@
       395,
       396,
       397,
-      399,
       400,
       401,
       402,
@@ -463,7 +455,6 @@
       452,
       453,
       454,
-      456,
       457,
       458,
       459,
@@ -529,14 +520,6 @@
       "departed"
     ],
     "data": [
-      [
-        0,
-        "Denver",
-        "2020-01-05 00:00:00",
-        122.0,
-        0.0,
-        122.0
-      ],
       [
         0,
         "Denver",
@@ -976,14 +959,6 @@
         52.0,
         0.0,
         52.0
-      ],
-      [
-        1,
-        "Houston",
-        "2020-01-05 00:00:00",
-        142.0,
-        0.0,
-        142.0
       ],
       [
         1,
@@ -1428,14 +1403,6 @@
       [
         2,
         "Fort Worth",
-        "2020-01-05 00:00:00",
-        108.0,
-        0.0,
-        108.0
-      ],
-      [
-        2,
-        "Fort Worth",
         "2020-01-12 00:00:00",
         140.0,
         6.0,
@@ -1872,14 +1839,6 @@
         50.0,
         0.0,
         50.0
-      ],
-      [
-        3,
-        "Chicago",
-        "2020-01-05 00:00:00",
-        118.0,
-        0.0,
-        118.0
       ],
       [
         3,
@@ -2324,14 +2283,6 @@
       [
         4,
         "Atlanta",
-        "2020-01-05 00:00:00",
-        92.0,
-        0.0,
-        92.0
-      ],
-      [
-        4,
-        "Atlanta",
         "2020-01-12 00:00:00",
         144.0,
         0.0,
@@ -2768,14 +2719,6 @@
         41.0,
         0.0,
         41.0
-      ],
-      [
-        5,
-        "Phoenix",
-        "2020-01-05 00:00:00",
-        84.0,
-        0.0,
-        84.0
       ],
       [
         5,
@@ -3220,14 +3163,6 @@
       [
         6,
         "Dallas",
-        "2020-01-05 00:00:00",
-        80.0,
-        0.0,
-        80.0
-      ],
-      [
-        6,
-        "Dallas",
         "2020-01-12 00:00:00",
         140.0,
         12.0,
@@ -3668,14 +3603,6 @@
       [
         7,
         "Los Angeles",
-        "2020-01-05 00:00:00",
-        112.0,
-        0.0,
-        112.0
-      ],
-      [
-        7,
-        "Los Angeles",
         "2020-01-12 00:00:00",
         148.0,
         0.0,
@@ -4112,14 +4039,6 @@
         29.0,
         0.0,
         29.0
-      ],
-      [
-        999,
-        "Others",
-        "2020-01-05 00:00:00",
-        892.0,
-        4.0,
-        888.0
       ],
       [
         999,
