@@ -67,10 +67,9 @@ class Section:
             try:
                 _st_image(image_path=cls.PLOTS[item],toc=toc)
             except Exception as e:
-                #message = f"""An error occured while processing the plot 
-               # associated with: {path} \n\n {"".join(traceback.format_exception(e.__traceback__))}"""
+                message = f"""An error occured while processing the plot associated with: {path}"""
                 tb = traceback.format_exc()
-                st.error(tb)
+                st.error(message+'\n\n'+tb)
 
 
 class AirQuality(Section):
