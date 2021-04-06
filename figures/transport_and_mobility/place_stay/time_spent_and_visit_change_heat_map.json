@@ -1,10 +1,6 @@
 {
   "title": "Time spent and visit change",
-<<<<<<< HEAD
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 31 March, 2021 in Austin TX.",
-=======
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 27 March, 2021 in Austin TX.",
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 2 April, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -434,15 +430,13 @@
       "2021-03-24 00:00:00",
       "2021-03-25 00:00:00",
       "2021-03-26 00:00:00",
-<<<<<<< HEAD
       "2021-03-27 00:00:00",
       "2021-03-28 00:00:00",
       "2021-03-29 00:00:00",
       "2021-03-30 00:00:00",
-      "2021-03-31 00:00:00"
-=======
-      "2021-03-27 00:00:00"
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      "2021-03-31 00:00:00",
+      "2021-04-01 00:00:00",
+      "2021-04-02 00:00:00"
     ],
     "data": [
       [
@@ -853,15 +847,13 @@
         -9.0,
         -8.0,
         -6.0,
-<<<<<<< HEAD
         -10.0,
         -8.0,
         -9.0,
         -7.0,
-        -5.0
-=======
-        -10.0
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        -5.0,
+        -4.0,
+        0.0
       ],
       [
         "parks",
@@ -1271,15 +1263,13 @@
         -19.0,
         2.0,
         2.0,
-<<<<<<< HEAD
         0.0,
         1.0,
         -6.0,
         -9.0,
-        -17.0
-=======
+        -17.0,
+        -1.0,
         0.0
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
       ],
       [
         "residential",
@@ -1689,15 +1679,13 @@
         15.0,
         14.0,
         11.0,
-<<<<<<< HEAD
         3.0,
         4.0,
         13.0,
         14.0,
-        14.0
-=======
-        3.0
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        14.0,
+        12.0,
+        13.0
       ],
       [
         "transit stations",
@@ -2107,15 +2095,13 @@
         -46.0,
         -46.0,
         -45.0,
-<<<<<<< HEAD
         -42.0,
         -41.0,
         -48.0,
         -48.0,
-        -43.0
-=======
+        -43.0,
+        -42.0,
         -42.0
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
       ],
       [
         "workplaces",
@@ -2525,15 +2511,13 @@
         -42.0,
         -45.0,
         -40.0,
-<<<<<<< HEAD
         -13.0,
         -12.0,
         -43.0,
         -45.0,
-        -42.0
-=======
-        -13.0
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        -42.0,
+        -44.0,
+        -49.0
       ]
     ]
   }

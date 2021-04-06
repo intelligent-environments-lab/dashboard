@@ -3,11 +3,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-<<<<<<< HEAD
     "Eversince then, public transit direction requests have remained -46% below the baseline while walking and driving direction requests are 28% and 5% respectively above the baseline."
-=======
-    "Eversince then, public transit direction requests have remained -46% below the baseline while walking and driving direction requests are 27% and 5% respectively above the baseline."
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
   ],
   "type": "heat_map",
   "source": {
@@ -464,16 +460,14 @@
       "2021-03-26 00:00:00",
       "2021-03-27 00:00:00",
       "2021-03-28 00:00:00",
-<<<<<<< HEAD
       "2021-03-29 00:00:00",
       "2021-03-30 00:00:00",
       "2021-03-31 00:00:00",
       "2021-04-01 00:00:00",
       "2021-04-02 00:00:00",
-      "2021-04-03 00:00:00"
-=======
-      "2021-03-29 00:00:00"
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      "2021-04-03 00:00:00",
+      "2021-04-04 00:00:00",
+      "2021-04-05 00:00:00"
     ],
     "data": [
       [
@@ -918,16 +912,14 @@
         51.22999999999999,
         53.09,
         13.439999999999998,
-<<<<<<< HEAD
         16.939999999999998,
         18.53,
         23.730000000000004,
         32.81,
         50.59,
-        30.150000000000006
-=======
-        16.939999999999998
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        30.150000000000006,
+        -10.400000000000006,
+        16.200000000000003
       ],
       [
         "transit",
@@ -1371,16 +1363,14 @@
         -23.5,
         -23.78,
         -42.08,
-<<<<<<< HEAD
         -36.24,
         -32.43000000000001,
         -30.069999999999993,
         -32.25,
         -27.290000000000006,
-        -34.22
-=======
-        -36.24
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        -34.22,
+        -45.91,
+        -32.010000000000005
       ],
       [
         "walking",
@@ -1824,16 +1814,14 @@
         121.53999999999999,
         157.27999999999997,
         58.66,
-<<<<<<< HEAD
         36.900000000000006,
         37.78,
         41.19999999999999,
         62.94999999999999,
         110.80000000000001,
-        98.80000000000001
-=======
-        36.900000000000006
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+        98.80000000000001,
+        16.78,
+        35.41
       ]
     ]
   }

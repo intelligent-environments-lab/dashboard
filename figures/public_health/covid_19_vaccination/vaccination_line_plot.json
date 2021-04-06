@@ -1,16 +1,9 @@
 {
   "title": "Vaccination",
-<<<<<<< HEAD
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 3 April, 2021 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 4 April, 2021 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 3 April, 2021 550718 doses had been administered to 371068 people where about 53.0% had received full dosage.",
-    "Compared to 6 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 18.0%, number of first dose recipients was up by 12.0% and total number of full dose recipients was up by 32.0% on 3 April, 2021."
-=======
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 29 March, 2021 in Austin, TX.",
-  "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 29 March, 2021 477547 doses had been administered to 335593 people where about 46.0% had received full dosage.",
-    "Compared to 7 day(s) prior, total allocated doses was up by 33.0%, administered doses was up by 18.0%, number of first dose recipients was up by 15.0% and total number of full dose recipients was up by 27.0% on 29 March, 2021."
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 4 April, 2021 568318 doses had been administered to 380134 people where about 54.0% had received full dosage.",
+    "Compared to 6 day(s) prior, total allocated doses was up by 28.0%, administered doses was up by 19.0%, number of first dose recipients was up by 13.0% and total number of full dose recipients was up by 32.0% on 4 April, 2021."
   ],
   "type": "line_plot",
   "source": {
@@ -52,16 +45,13 @@
       28,
       29,
       30,
-<<<<<<< HEAD
       31,
       32,
       33,
       34,
       35,
-      36
-=======
-      31
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      36,
+      37
     ],
     "columns": [
       "index",
@@ -558,7 +548,6 @@
         8264.0,
         311477.0,
         32884.0
-<<<<<<< HEAD
       ],
       [
         32,
@@ -634,8 +623,21 @@
         8264.0,
         311477.0,
         32884.0
-=======
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      ],
+      [
+        37,
+        "Travis",
+        "2021-04-04 00:00:00",
+        1082250.0,
+        568318.0,
+        380134.0,
+        203859.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
       ]
     ]
   }

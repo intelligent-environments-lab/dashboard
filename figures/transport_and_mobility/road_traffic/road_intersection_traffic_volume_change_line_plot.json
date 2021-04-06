@@ -1,10 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-<<<<<<< HEAD
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 4 April, 2021 in the Austin TX.",
-=======
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 29 March, 2021 in the Austin TX.",
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 5 April, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -442,17 +438,14 @@
       419,
       420,
       421,
-<<<<<<< HEAD
       422,
       423,
       424,
       425,
       426,
       427,
-      428
-=======
-      422
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      428,
+      429
     ],
     "columns": [
       "timestamp",
@@ -7229,11 +7222,7 @@
         null,
         -29.52535160472531,
         null,
-<<<<<<< HEAD
         -23.78962203834315,
-=======
-        null,
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
         1.8596676878489806,
         -8.713681932387127,
         null,
@@ -7241,7 +7230,6 @@
         -33.17976401265167,
         -7.88882395468129,
         3.53303896843644,
-<<<<<<< HEAD
         -11.661425492730816
       ],
       [
@@ -7339,9 +7327,22 @@
         -10.003650508181252,
         1.0545515317253475,
         -12.220603292020273
-=======
-        -9.92882598621477
->>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
+      ],
+      [
+        "2021-04-05 00:00:00",
+        null,
+        null,
+        -26.031316893883268,
+        null,
+        null,
+        -3.5512148320031307,
+        -13.661910915340309,
+        null,
+        3.0313000873176685,
+        -37.73548489161518,
+        -10.08455533553737,
+        1.2620742295204186,
+        -12.395872650220168
       ]
     ]
   }
