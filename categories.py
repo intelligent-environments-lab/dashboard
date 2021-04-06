@@ -62,7 +62,11 @@ class Section:
         if type(items)==str:
             items=[items]
         for item in items:
-            _st_image(image_path=cls.PLOTS[item],toc=toc)
+            path = cls.PLOTS[item]
+            try:
+                _st_image(image_path=cls.PLOTS[item],toc=toc)
+            except Exception as e:
+                st.warning(str(e.__traceback__))
 
 
 class AirQuality(Section):
