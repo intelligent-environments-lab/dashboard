@@ -1,9 +1,16 @@
 {
   "title": "Vaccination",
+<<<<<<< HEAD
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 3 April, 2021 in Austin, TX.",
+  "insights": [
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 3 April, 2021 550718 doses had been administered to 371068 people where about 53.0% had received full dosage.",
+    "Compared to 6 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 18.0%, number of first dose recipients was up by 12.0% and total number of full dose recipients was up by 32.0% on 3 April, 2021."
+=======
   "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 29 March, 2021 in Austin, TX.",
   "insights": [
     "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 29 March, 2021 477547 doses had been administered to 335593 people where about 46.0% had received full dosage.",
     "Compared to 7 day(s) prior, total allocated doses was up by 33.0%, administered doses was up by 18.0%, number of first dose recipients was up by 15.0% and total number of full dose recipients was up by 27.0% on 29 March, 2021."
+>>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
   ],
   "type": "line_plot",
   "source": {
@@ -45,7 +52,16 @@
       28,
       29,
       30,
+<<<<<<< HEAD
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+=======
       31
+>>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
     ],
     "columns": [
       "index",
@@ -542,6 +558,84 @@
         8264.0,
         311477.0,
         32884.0
+<<<<<<< HEAD
+      ],
+      [
+        32,
+        "Travis",
+        "2021-03-30 00:00:00",
+        847580.0,
+        486924.0,
+        340408.0,
+        159137.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        33,
+        "Travis",
+        "2021-03-31 00:00:00",
+        847580.0,
+        505453.0,
+        350444.0,
+        168537.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        34,
+        "Travis",
+        "2021-04-01 00:00:00",
+        847580.0,
+        522187.0,
+        359010.0,
+        177355.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        35,
+        "Travis",
+        "2021-04-02 00:00:00",
+        847580.0,
+        537795.0,
+        366435.0,
+        186185.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        36,
+        "Travis",
+        "2021-04-03 00:00:00",
+        847580.0,
+        550718.0,
+        371068.0,
+        194950.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+=======
+>>>>>>> 9d2e333a0c4bf3d9dd718460a6ca8fb3e96abced
       ]
     ]
   }
