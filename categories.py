@@ -68,7 +68,7 @@ class Section:
                 _st_image(image_path=cls.PLOTS[item],toc=toc)
             except Exception as e:
                 message = f"""An error occured while processing the plot 
-                associated with: {path} \n {"".join(traceback.format_exception(None, e, e.__traceback__))}"""
+                associated with: {path} \n\n {"".join(traceback.format_exception(None, e, e.__traceback__))}"""
                 st.error(message)
 
 
