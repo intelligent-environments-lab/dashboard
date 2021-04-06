@@ -1,4 +1,5 @@
 import json
+import traceback
 
 import pandas as pd
 import streamlit as st
@@ -66,7 +67,7 @@ class Section:
             try:
                 _st_image(image_path=cls.PLOTS[item],toc=toc)
             except Exception as e:
-                st.warning(str(e.__traceback__))
+                st.warning(''.join(traceback.format_tb(e.__traceback__)))
 
 
 class AirQuality(Section):
