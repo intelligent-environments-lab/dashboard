@@ -3,7 +3,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -46% below the baseline while walking and driving direction requests are 28% and 5% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -45% below the baseline while walking and driving direction requests are 28% and 5% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -461,7 +461,8 @@
       444,
       445,
       446,
-      447
+      447,
+      448
     ],
     "columns": [
       "timestamp",
@@ -3157,6 +3158,12 @@
         16.200000000000003,
         -32.010000000000005,
         35.41
+      ],
+      [
+        "2021-04-06 00:00:00",
+        19.53,
+        -29.25,
+        41.379999999999995
       ]
     ]
   }
