@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 5 April, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 8 April, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -445,7 +445,10 @@
       426,
       427,
       428,
-      429
+      429,
+      430,
+      431,
+      432
     ],
     "columns": [
       "timestamp",
@@ -7343,6 +7346,54 @@
         -10.08455533553737,
         1.2620742295204186,
         -12.395872650220168
+      ],
+      [
+        "2021-04-06 00:00:00",
+        null,
+        null,
+        -22.18169225628559,
+        null,
+        null,
+        -3.2990887116415593,
+        -13.30359492283543,
+        null,
+        2.960922086052905,
+        -40.402674998016074,
+        -10.442675772738323,
+        1.2791143590254028,
+        -12.198527173776954
+      ],
+      [
+        "2021-04-07 00:00:00",
+        null,
+        null,
+        -24.809009665671997,
+        null,
+        null,
+        -3.356116306661149,
+        -13.510776476086088,
+        null,
+        3.2603082186885097,
+        -44.48822975154165,
+        -10.961041454586658,
+        1.675786323383009,
+        -13.169868444639434
+      ],
+      [
+        "2021-04-08 00:00:00",
+        null,
+        null,
+        -26.71326315467514,
+        null,
+        null,
+        -3.7372825856376473,
+        -13.680994377045261,
+        null,
+        3.0855512609269993,
+        -50.19451818329862,
+        -11.431176800858518,
+        1.330988520508581,
+        -14.477242188582801
       ]
     ]
   }

@@ -1,6 +1,6 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 3 April, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 4 April, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -429,7 +429,8 @@
       410,
       411,
       412,
-      413
+      413,
+      414
     ],
     "columns": [
       "timestamp",
@@ -3751,6 +3752,14 @@
         5.0,
         -41.0,
         -18.0
+      ],
+      [
+        "2021-04-04 00:00:00",
+        -31.0,
+        -6.0,
+        3.0,
+        -45.0,
+        -24.0
       ]
     ]
   }
