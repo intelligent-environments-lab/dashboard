@@ -88,6 +88,7 @@ class Economy(Section):
         #'employment':f"{ROOT}/employment/active_employees_change_{{plot_type}}.pdf",
         'job_postings':f"{ROOT}/job_postings/new_job_postings_change_by_sector_{{plot_type}}.pdf",
         'real_estate_activity':f"{ROOT}/real_estate_activity/real_estate_activity_change_{{plot_type}}.pdf",
+        'seated_diners':f"{ROOT}/seated_diners/seated_diners_change_line_plot.pdf",
         'small_business_openings':f"{ROOT}/small_business_opening/open_small_businesses_change_{{plot_type}}.pdf",
         'small_business_revenue':f"{ROOT}/small_business_revenue/small_business_revenue_change_{{plot_type}}.pdf"
     }
