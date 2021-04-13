@@ -1,9 +1,9 @@
 {
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 10 April, 2021 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 11 April, 2021 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 10 April, 2021 681859 doses had been administered to 442306 people where about 60.0% had received full dosage.",
-    "Compared to 6 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 20.0%, number of first dose recipients was up by 16.0% and total number of full dose recipients was up by 31.0% on 10 April, 2021."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 11 April, 2021 691969 doses had been administered to 447152 people where about 61.0% had received full dosage.",
+    "Compared to 6 day(s) prior, total allocated doses was up by 12.0%, administered doses was up by 18.0%, number of first dose recipients was up by 15.0% and total number of full dose recipients was up by 29.0% on 11 April, 2021."
   ],
   "type": "line_plot",
   "source": {
@@ -57,7 +57,8 @@
       40,
       41,
       42,
-      43
+      43,
+      44
     ],
     "columns": [
       "index",
@@ -728,6 +729,21 @@
         681859.0,
         442306.0,
         266202.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        44,
+        "Travis",
+        "2021-04-11 00:00:00",
+        1212100.0,
+        691969.0,
+        447152.0,
+        273241.0,
         1032386.0,
         129553.0,
         51820.0,
