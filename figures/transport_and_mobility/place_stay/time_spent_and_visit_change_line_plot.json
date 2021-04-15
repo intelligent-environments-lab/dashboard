@@ -1,10 +1,10 @@
 {
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 7 April, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 11 April, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -31% while change in time spent in residential places is 15% compared to the baseline.",
+    "Change in average visits to public places since May is -31% while change in time spent in residential places is 14% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -433,7 +433,11 @@
       414,
       415,
       416,
-      417
+      417,
+      418,
+      419,
+      420,
+      421
     ],
     "columns": [
       "timestamp",
@@ -3787,6 +3791,38 @@
         14.0,
         -42.0,
         -42.0
+      ],
+      [
+        "2021-04-08 00:00:00",
+        -6.0,
+        2.0,
+        13.0,
+        -45.0,
+        -44.0
+      ],
+      [
+        "2021-04-09 00:00:00",
+        -5.0,
+        -5.0,
+        11.0,
+        -43.0,
+        -39.0
+      ],
+      [
+        "2021-04-10 00:00:00",
+        -7.0,
+        10.0,
+        2.0,
+        -40.0,
+        -14.0
+      ],
+      [
+        "2021-04-11 00:00:00",
+        -7.0,
+        6.0,
+        3.0,
+        -42.0,
+        -12.0
       ]
     ]
   }
