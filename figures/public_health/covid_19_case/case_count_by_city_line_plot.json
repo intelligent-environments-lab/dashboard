@@ -1,6 +1,6 @@
 {
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 6 April, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 20 April, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in January, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -391,7 +391,21 @@
       373,
       374,
       375,
-      376
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390
     ],
     "columns": [
       "timestamp",
@@ -1884,7 +1898,7 @@
       ],
       [
         "2021-04-01 00:00:00",
-        111.0
+        110.0
       ],
       [
         "2021-04-02 00:00:00",
@@ -1904,7 +1918,63 @@
       ],
       [
         "2021-04-06 00:00:00",
-        145.0
+        129.0
+      ],
+      [
+        "2021-04-07 00:00:00",
+        126.0
+      ],
+      [
+        "2021-04-08 00:00:00",
+        126.0
+      ],
+      [
+        "2021-04-09 00:00:00",
+        125.0
+      ],
+      [
+        "2021-04-10 00:00:00",
+        141.0
+      ],
+      [
+        "2021-04-11 00:00:00",
+        138.0
+      ],
+      [
+        "2021-04-12 00:00:00",
+        132.0
+      ],
+      [
+        "2021-04-13 00:00:00",
+        121.0
+      ],
+      [
+        "2021-04-14 00:00:00",
+        128.0
+      ],
+      [
+        "2021-04-15 00:00:00",
+        130.0
+      ],
+      [
+        "2021-04-16 00:00:00",
+        128.0
+      ],
+      [
+        "2021-04-17 00:00:00",
+        128.0
+      ],
+      [
+        "2021-04-18 00:00:00",
+        113.0
+      ],
+      [
+        "2021-04-19 00:00:00",
+        141.0
+      ],
+      [
+        "2021-04-20 00:00:00",
+        142.0
       ]
     ]
   }

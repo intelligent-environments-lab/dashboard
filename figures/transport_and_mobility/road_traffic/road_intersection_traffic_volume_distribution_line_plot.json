@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 11 April, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 April, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -451,7 +451,16 @@
       432,
       433,
       434,
-      435
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444
     ],
     "columns": [
       "timestamp",
@@ -2638,6 +2647,51 @@
         "2021-04-11 00:00:00",
         -12.5110196312119,
         22.294604346375092
+      ],
+      [
+        "2021-04-12 00:00:00",
+        -13.399278565105845,
+        23.998625706713167
+      ],
+      [
+        "2021-04-13 00:00:00",
+        -14.451530368460157,
+        25.163801059861704
+      ],
+      [
+        "2021-04-14 00:00:00",
+        -13.605901349627118,
+        24.34692202953575
+      ],
+      [
+        "2021-04-15 00:00:00",
+        -14.04025514440922,
+        24.067437384652685
+      ],
+      [
+        "2021-04-16 00:00:00",
+        -16.237093413554096,
+        25.053316005899802
+      ],
+      [
+        "2021-04-17 00:00:00",
+        -16.159110005172924,
+        24.638235276754536
+      ],
+      [
+        "2021-04-18 00:00:00",
+        -15.674629830899791,
+        24.09547039257446
+      ],
+      [
+        "2021-04-19 00:00:00",
+        -13.266747578852103,
+        23.463801398877553
+      ],
+      [
+        "2021-04-20 00:00:00",
+        -12.81093488068397,
+        23.406393678362488
       ]
     ]
   }
