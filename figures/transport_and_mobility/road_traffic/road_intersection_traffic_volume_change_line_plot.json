@@ -1,6 +1,6 @@
 {
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 25 April, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 27 April, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -465,7 +465,9 @@
       446,
       447,
       448,
-      449
+      449,
+      450,
+      451
     ],
     "columns": [
       "timestamp",
@@ -7683,6 +7685,38 @@
         -8.940696310825189,
         3.7053067883659487,
         -12.720250479757999
+      ],
+      [
+        "2021-04-26 00:00:00",
+        null,
+        null,
+        -30.43375838402939,
+        null,
+        null,
+        3.4198018920488265,
+        -8.282748592614706,
+        null,
+        7.554452450484879,
+        -67.0982419195406,
+        -8.315199126681563,
+        4.15493930025527,
+        -14.142964911439611
+      ],
+      [
+        "2021-04-27 00:00:00",
+        null,
+        null,
+        -31.484325107656428,
+        null,
+        null,
+        3.1065542879632377,
+        -8.106697382424448,
+        null,
+        7.398736872807285,
+        -67.91957179464289,
+        -7.58687963398353,
+        1.6997000690085413,
+        -14.698926098418317
       ]
     ]
   }
