@@ -1,4 +1,5 @@
 {
+  "key": "departures_airline_line_plot",
   "title": "Departures - airline",
   "caption": "Comparison between weekly number of scheduled and departed flights for the top 8 airlines and 6 others within 12 January, 2020 and  21 February, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [

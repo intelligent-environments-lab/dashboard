@@ -1,4 +1,5 @@
 {
+  "key": "flight_passenger_traffic_line_plot",
   "title": "Flight passenger traffic",
   "caption": "Comparison between 2019 and subsequent years' 7-day rolling average flight passenger traffic within 1 January, 2020 and 22 March, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
@@ -475,3129 +476,3129 @@
       [
         "2021-03-22 00:00:00",
         13233,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         null
       ],
       [
         "2021-03-21 00:00:00",
         16360,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         null
       ],
       [
         "2021-03-20 00:00:00",
         10634,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         null
       ],
       [
         "2021-03-19 00:00:00",
         12608,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         null
       ],
       [
         "2021-03-18 00:00:00",
         13436,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         null
       ],
       [
         "2021-03-17 00:00:00",
         12136,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -45.079565416319156
       ],
       [
         "2021-03-16 00:00:00",
         13270,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -44.91302443243973
       ],
       [
         "2021-03-15 00:00:00",
         17140,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -46.12813695589763
       ],
       [
         "2021-03-14 00:00:00",
         16181,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -48.3635703042195
       ],
       [
         "2021-03-13 00:00:00",
         15083,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -46.8131238604517
       ],
       [
         "2021-03-12 00:00:00",
         17832,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -44.60176162755062
       ],
       [
         "2021-03-11 00:00:00",
         15149,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -43.61358364315289
       ],
       [
         "2021-03-10 00:00:00",
         9195,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -44.62113607184837
       ],
       [
         "2021-03-09 00:00:00",
         7222,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -47.699382235373676
       ],
       [
         "2021-03-08 00:00:00",
         12452,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -49.48007781157902
       ],
       [
         "2021-03-07 00:00:00",
         14753,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -49.52159510300776
       ],
       [
         "2021-03-06 00:00:00",
         9389,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -51.67964892817709
       ],
       [
         "2021-03-05 00:00:00",
         11175,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -52.90242674540659
       ],
       [
         "2021-03-04 00:00:00",
         10618,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.41252700604067
       ],
       [
         "2021-03-03 00:00:00",
         6576,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -55.53539767909607
       ],
       [
         "2021-03-02 00:00:00",
         5823,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.644954494810285
       ],
       [
         "2021-03-01 00:00:00",
         9777,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -55.502002232969026
       ],
       [
         "2021-02-28 00:00:00",
         12262,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -56.62743898234061
       ],
       [
         "2021-02-27 00:00:00",
         6745,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.81100484907142
       ],
       [
         "2021-02-26 00:00:00",
         9708,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.482078311639725
       ],
       [
         "2021-02-25 00:00:00",
         10240,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.94282251536796
       ],
       [
         "2021-02-24 00:00:00",
         6408,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.92459126147577
       ],
       [
         "2021-02-23 00:00:00",
         4885,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.457241287998045
       ],
       [
         "2021-02-22 00:00:00",
         7112,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.12609594579425
       ],
       [
         "2021-02-21 00:00:00",
         10379,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.09033965132322
       ],
       [
         "2021-02-20 00:00:00",
         9294,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.16473457141961
       ],
       [
         "2021-02-19 00:00:00",
         9001,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.16022491434129
       ],
       [
         "2021-02-18 00:00:00",
         2836,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.50941681459362
       ],
       [
         "2021-02-17 00:00:00",
         750,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.75086992876744
       ],
       [
         "2021-02-16 00:00:00",
         0,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.04273427598234
       ],
       [
         "2021-02-15 00:00:00",
         9,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -79.09910412892671
       ],
       [
         "2021-02-14 00:00:00",
         5740,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -81.76434601358376
       ],
       [
         "2021-02-13 00:00:00",
         7643,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -83.22152381020321
       ],
       [
         "2021-02-12 00:00:00",
         10641,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -79.64429088686812
       ],
       [
         "2021-02-11 00:00:00",
         9819,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.64147840640713
       ],
       [
         "2021-02-10 00:00:00",
         6523,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.84367801756204
       ],
       [
         "2021-02-09 00:00:00",
         4615,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.53840953534015
       ],
       [
         "2021-02-08 00:00:00",
         7842,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.35557582200334
       ],
       [
         "2021-02-07 00:00:00",
         8777,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.96791853170105
       ],
       [
         "2021-02-06 00:00:00",
         5590,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.767768531395454
       ],
       [
         "2021-02-05 00:00:00",
         7949,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.148138266166846
       ],
       [
         "2021-02-04 00:00:00",
         8065,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.91430075538402
       ],
       [
         "2021-02-03 00:00:00",
         5056,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.034498707167025
       ],
       [
         "2021-02-02 00:00:00",
         4362,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.360201445878786
       ],
       [
         "2021-02-01 00:00:00",
         6340,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.334786247289166
       ],
       [
         "2021-01-31 00:00:00",
         9326,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.69570713931892
       ],
       [
         "2021-01-30 00:00:00",
         4961,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.616399407145494
       ],
       [
         "2021-01-29 00:00:00",
         7035,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.59726748793928
       ],
       [
         "2021-01-28 00:00:00",
         7193,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.86069512709161
       ],
       [
         "2021-01-27 00:00:00",
         4656,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.75619409206693
       ],
       [
         "2021-01-26 00:00:00",
         3782,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.32814265262947
       ],
       [
         "2021-01-25 00:00:00",
         6411,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.05291146994277
       ],
       [
         "2021-01-24 00:00:00",
         8369,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.93916747664132
       ],
       [
         "2021-01-23 00:00:00",
         4695,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.56800949001412
       ],
       [
         "2021-01-22 00:00:00",
         7122,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.9216221154608
       ],
       [
         "2021-01-21 00:00:00",
         6657,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.45122435427614
       ],
       [
         "2021-01-20 00:00:00",
         4639,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.18620022316188
       ],
       [
         "2021-01-19 00:00:00",
         4719,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.72354680111843
       ],
       [
         "2021-01-18 00:00:00",
         9226,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.55014077873102
       ],
       [
         "2021-01-17 00:00:00",
         8077,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.86263766611586
       ],
       [
         "2021-01-16 00:00:00",
         5846,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.15573177167916
       ],
       [
         "2021-01-15 00:00:00",
         8647,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.49961399230744
       ],
       [
         "2021-01-14 00:00:00",
         7500,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.48420049614031
       ],
       [
         "2021-01-13 00:00:00",
         5103,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.26589171890974
       ],
       [
         "2021-01-12 00:00:00",
         4379,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.1924968539195
       ],
       [
         "2021-01-11 00:00:00",
         6906,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.769580938354984
       ],
       [
         "2021-01-10 00:00:00",
         7838,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.10042057710954
       ],
       [
         "2021-01-09 00:00:00",
         5792,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.4699070739391
       ],
       [
         "2021-01-08 00:00:00",
         6989,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.9966135954207
       ],
       [
         "2021-01-07 00:00:00",
         6894,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.83019246853048
       ],
       [
         "2021-01-06 00:00:00",
         5714,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.6384488949897
       ],
       [
         "2021-01-05 00:00:00",
         6722,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.74309141540441
       ],
       [
         "2021-01-04 00:00:00",
         10518,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -59.12907179691386
       ],
       [
         "2021-01-03 00:00:00",
         14763,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -55.23730850323469
       ],
       [
         "2021-01-02 00:00:00",
         12273,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -52.86844284004989
       ],
       [
         "2021-01-01 00:00:00",
         7557,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.53983512367275
       ],
       [
         "2020-12-31 00:00:00",
         7944,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.225438526283085
       ],
       [
         "2020-12-30 00:00:00",
         12248,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -51.28751841441743
       ],
       [
         "2020-12-29 00:00:00",
         10921,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -50.948002465948825
       ],
       [
         "2020-12-28 00:00:00",
         11534,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -52.34303505338864
       ],
       [
         "2020-12-27 00:00:00",
         13718,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.91166258600926
       ],
       [
         "2020-12-26 00:00:00",
         11351,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -56.27030107586148
       ],
       [
         "2020-12-25 00:00:00",
         6385,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.13173174301513
       ],
       [
         "2020-12-24 00:00:00",
         8446,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.15391281315426
       ],
       [
         "2020-12-23 00:00:00",
         13573,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -56.81495896058811
       ],
       [
         "2020-12-22 00:00:00",
         11618,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -56.64392715693503
       ],
       [
         "2020-12-21 00:00:00",
         11513,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.01689875515266
       ],
       [
         "2020-12-20 00:00:00",
         12615,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.06831387868851
       ],
       [
         "2020-12-19 00:00:00",
         13468,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.43831569151803
       ],
       [
         "2020-12-18 00:00:00",
         11958,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -54.88823200396895
       ],
       [
         "2020-12-17 00:00:00",
         10151,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -53.51948977982335
       ],
       [
         "2020-12-16 00:00:00",
         6355,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.09425436921223
       ],
       [
         "2020-12-15 00:00:00",
         5519,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.310041647757366
       ],
       [
         "2020-12-14 00:00:00",
         8346,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -59.593028487401334
       ],
       [
         "2020-12-13 00:00:00",
         9428,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.8971964279806
       ],
       [
         "2020-12-12 00:00:00",
         6966,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.95949197789149
       ],
       [
         "2020-12-11 00:00:00",
         8412,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.40585968824418
       ],
       [
         "2020-12-10 00:00:00",
         7492,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.92371216855297
       ],
       [
         "2020-12-09 00:00:00",
         5282,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.73260194964435
       ],
       [
         "2020-12-08 00:00:00",
         4611,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.26647107805154
       ],
       [
         "2020-12-07 00:00:00",
         7860,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.08504142878768
       ],
       [
         "2020-12-06 00:00:00",
         8999,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.22026377021089
       ],
       [
         "2020-12-05 00:00:00",
         5727,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.93595759736658
       ],
       [
         "2020-12-04 00:00:00",
         7945,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.35816933562847
       ],
       [
         "2020-12-03 00:00:00",
         7272,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.48304375393552
       ],
       [
         "2020-12-02 00:00:00",
         6086,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.15985141351123
       ],
       [
         "2020-12-01 00:00:00",
         8012,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.99448039812334
       ],
       [
         "2020-11-30 00:00:00",
         10394,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.54779342239583
       ],
       [
         "2020-11-29 00:00:00",
         12708,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.40036677998492
       ],
       [
         "2020-11-28 00:00:00",
         10133,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.24336136526913
       ],
       [
         "2020-11-27 00:00:00",
         8151,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.95532094194463
       ],
       [
         "2020-11-26 00:00:00",
         5330,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.189128639380385
       ],
       [
         "2020-11-25 00:00:00",
         11234,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -58.957761313746666
       ],
       [
         "2020-11-24 00:00:00",
         10268,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.30168748258671
       ],
       [
         "2020-11-23 00:00:00",
         10187,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -56.82018333378611
       ],
       [
         "2020-11-22 00:00:00",
         11138,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.47765944199637
       ],
       [
         "2020-11-21 00:00:00",
         10960,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.92577084122079
       ],
       [
         "2020-11-20 00:00:00",
         11032,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.375470694717485
       ],
       [
         "2020-11-19 00:00:00",
         9699,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -57.40875336963366
       ],
       [
         "2020-11-18 00:00:00",
         7087,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.149611280641636
       ],
       [
         "2020-11-17 00:00:00",
         5580,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.69506719246129
       ],
       [
         "2020-11-16 00:00:00",
         10131,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.280274284143744
       ],
       [
         "2020-11-15 00:00:00",
         10905,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -59.977429683055796
       ],
       [
         "2020-11-14 00:00:00",
         6848,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -62.10575408949655
       ],
       [
         "2020-11-13 00:00:00",
         9760,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.52448269859983
       ],
       [
         "2020-11-12 00:00:00",
         9645,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.75646938539437
       ],
       [
         "2020-11-11 00:00:00",
         7070,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.00358755969084
       ],
       [
         "2020-11-10 00:00:00",
         6387,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.73676157953632
       ],
       [
         "2020-11-09 00:00:00",
         10396,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.57024871300989
       ],
       [
         "2020-11-08 00:00:00",
         11378,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.48407622516392
       ],
       [
         "2020-11-07 00:00:00",
         6662,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.918692759254
       ],
       [
         "2020-11-06 00:00:00",
         9768,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.68526602465096
       ],
       [
         "2020-11-05 00:00:00",
         9565,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.95499942037945
       ],
       [
         "2020-11-04 00:00:00",
         6296,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.64009411866165
       ],
       [
         "2020-11-03 00:00:00",
         5842,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.90479233106862
       ],
       [
         "2020-11-02 00:00:00",
         9464,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.5018218245181
       ],
       [
         "2020-11-01 00:00:00",
         10065,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.51616449720493
       ],
       [
         "2020-10-31 00:00:00",
         6265,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.64130934348348
       ],
       [
         "2020-10-30 00:00:00",
         9189,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.7626012929895
       ],
       [
         "2020-10-29 00:00:00",
         8890,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.87023188054553
       ],
       [
         "2020-10-28 00:00:00",
         6540,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.21937439276351
       ],
       [
         "2020-10-27 00:00:00",
         6976,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.51802377740626
       ],
       [
         "2020-10-26 00:00:00",
         10055,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -63.65915153366401
       ],
       [
         "2020-10-25 00:00:00",
         9916,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.6195244397514
       ],
       [
         "2020-10-24 00:00:00",
         7553,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.02372443202897
       ],
       [
         "2020-10-23 00:00:00",
         10483,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.3900135922304
       ],
       [
         "2020-10-22 00:00:00",
         9860,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.57058811263403
       ],
       [
         "2020-10-21 00:00:00",
         6859,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.6509059531801
       ],
       [
         "2020-10-20 00:00:00",
         6920,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -64.87305253018751
       ],
       [
         "2020-10-19 00:00:00",
         10015,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.71547298105477
       ],
       [
         "2020-10-18 00:00:00",
         10426,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.28925047829811
       ],
       [
         "2020-10-17 00:00:00",
         7544,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.26937891694087
       ],
       [
         "2020-10-16 00:00:00",
         10269,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.62838235502683
       ],
       [
         "2020-10-15 00:00:00",
         10035,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.41154779834963
       ],
       [
         "2020-10-14 00:00:00",
         7209,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.49563356053069
       ],
       [
         "2020-10-13 00:00:00",
         7200,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.23024531369357
       ],
       [
         "2020-10-12 00:00:00",
         10027,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.3773681490449
       ],
       [
         "2020-10-11 00:00:00",
         10225,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.9281256931753
       ],
       [
         "2020-10-10 00:00:00",
         7953,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.90320661353721
       ],
       [
         "2020-10-09 00:00:00",
         10186,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.58564432521817
       ],
       [
         "2020-10-08 00:00:00",
         10001,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.69602532350991
       ],
       [
         "2020-10-07 00:00:00",
         6894,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.76210456495598
       ],
       [
         "2020-10-06 00:00:00",
         5908,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.35779387324848
       ],
       [
         "2020-10-05 00:00:00",
         8582,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.35504985601283
       ],
       [
         "2020-10-04 00:00:00",
         9715,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.95769211730962
       ],
       [
         "2020-10-03 00:00:00",
         6445,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.4867640916079
       ],
       [
         "2020-10-02 00:00:00",
         9249,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.0237228794834
       ],
       [
         "2020-10-01 00:00:00",
         8864,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.18584635394342
       ],
       [
         "2020-09-30 00:00:00",
         6345,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.92071531278175
       ],
       [
         "2020-09-29 00:00:00",
         5460,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.09050642974498
       ],
       [
         "2020-09-28 00:00:00",
         8335,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.30090723055648
       ],
       [
         "2020-09-27 00:00:00",
         9218,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.61404731674838
       ],
       [
         "2020-09-26 00:00:00",
         6184,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.75019470148474
       ],
       [
         "2020-09-25 00:00:00",
         8682,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.23096418363895
       ],
       [
         "2020-09-24 00:00:00",
         8677,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.35320868989734
       ],
       [
         "2020-09-23 00:00:00",
         6040,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.59126662834603
       ],
       [
         "2020-09-22 00:00:00",
         5560,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.65172727610995
       ],
       [
         "2020-09-21 00:00:00",
         8030,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.00547028027879
       ],
       [
         "2020-09-20 00:00:00",
         9173,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.38811331866229
       ],
       [
         "2020-09-19 00:00:00",
         5998,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.50971149958893
       ],
       [
         "2020-09-18 00:00:00",
         8573,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.34825671158758
       ],
       [
         "2020-09-17 00:00:00",
         8555,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.00744374321803
       ],
       [
         "2020-09-16 00:00:00",
         5786,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.02596003568992
       ],
       [
         "2020-09-15 00:00:00",
         4823,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.23562613723271
       ],
       [
         "2020-09-14 00:00:00",
         7088,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.43363932833611
       ],
       [
         "2020-09-13 00:00:00",
         8049,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.43662507263004
       ],
       [
         "2020-09-12 00:00:00",
         5617,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.54038705639266
       ],
       [
         "2020-09-11 00:00:00",
         7490,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.97155476991213
       ],
       [
         "2020-09-10 00:00:00",
         8123,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.16516850675684
       ],
       [
         "2020-09-09 00:00:00",
         5945,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.09347757466485
       ],
       [
         "2020-09-08 00:00:00",
         7687,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.92526043986906
       ],
       [
         "2020-09-07 00:00:00",
         10294,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.75866880226893
       ],
       [
         "2020-09-06 00:00:00",
         7006,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.94256451465593
       ],
       [
         "2020-09-05 00:00:00",
         6289,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.00005802367852
       ],
       [
         "2020-09-04 00:00:00",
         11229,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.53858765822315
       ],
       [
         "2020-09-03 00:00:00",
         9972,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.63544637225008
       ],
       [
         "2020-09-02 00:00:00",
         6049,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.86710686678527
       ],
       [
         "2020-09-01 00:00:00",
         4851,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -61.79043521585902
       ],
       [
         "2020-08-31 00:00:00",
         6555,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.6379588266256
       ],
       [
         "2020-08-30 00:00:00",
         8497,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -65.52658776166768
       ],
       [
         "2020-08-29 00:00:00",
         5389,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -66.63377634756066
       ],
       [
         "2020-08-28 00:00:00",
         7647,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.21239451223887
       ],
       [
         "2020-08-27 00:00:00",
         8035,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.79897656885925
       ],
       [
         "2020-08-26 00:00:00",
         5390,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.48785970267987
       ],
       [
         "2020-08-25 00:00:00",
         4777,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.6770485236339
       ],
       [
         "2020-08-24 00:00:00",
         6882,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.16914827043169
       ],
       [
         "2020-08-23 00:00:00",
         8273,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.80380089413754
       ],
       [
         "2020-08-22 00:00:00",
         5921,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.29634499306607
       ],
       [
         "2020-08-21 00:00:00",
         8217,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -68.84548080974183
       ],
       [
         "2020-08-20 00:00:00",
         8548,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.34691598797978
       ],
       [
         "2020-08-19 00:00:00",
         5739,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.36069526270775
       ],
       [
         "2020-08-18 00:00:00",
         5429,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.0231952710196
       ],
       [
         "2020-08-17 00:00:00",
         7735,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.04651738253769
       ],
       [
         "2020-08-16 00:00:00",
         8414,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.46728096448213
       ],
       [
         "2020-08-15 00:00:00",
         5939,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.70533603935985
       ],
       [
         "2020-08-14 00:00:00",
         8436,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -69.76906743907833
       ],
       [
         "2020-08-13 00:00:00",
         8147,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.0631405680036
       ],
       [
         "2020-08-12 00:00:00",
         5859,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.07323398786775
       ],
       [
         "2020-08-11 00:00:00",
         5244,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.25082058286391
       ],
       [
         "2020-08-10 00:00:00",
         7675,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.53023488742414
       ],
       [
         "2020-08-09 00:00:00",
         8471,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.3980257943836
       ],
       [
         "2020-08-08 00:00:00",
         6339,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.14675165047015
       ],
       [
         "2020-08-07 00:00:00",
         8180,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.51737275535292
       ],
       [
         "2020-08-06 00:00:00",
         8390,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.26472414497843
       ],
       [
         "2020-08-05 00:00:00",
         5573,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.56418690892225
       ],
       [
         "2020-08-04 00:00:00",
         5416,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.60621308241687
       ],
       [
         "2020-08-03 00:00:00",
         7632,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.96294363763104
       ],
       [
         "2020-08-02 00:00:00",
         8354,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -72.13513289482121
       ],
       [
         "2020-08-01 00:00:00",
         7565,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.63957810665993
       ],
       [
         "2020-07-31 00:00:00",
         8487,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.75364615018518
       ],
       [
         "2020-07-30 00:00:00",
         7973,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.95238706240033
       ],
       [
         "2020-07-29 00:00:00",
         5681,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.85843046803934
       ],
       [
         "2020-07-28 00:00:00",
         5067,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.95073111396933
       ],
       [
         "2020-07-27 00:00:00",
         7623,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -72.25104289559093
       ],
       [
         "2020-07-26 00:00:00",
         7722,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -72.66126653473496
       ],
       [
         "2020-07-25 00:00:00",
         6371,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -73.25459745343458
       ],
       [
         "2020-07-24 00:00:00",
         8031,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -73.63481945819699
       ],
       [
         "2020-07-23 00:00:00",
         7619,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.11566156368357
       ],
       [
         "2020-07-22 00:00:00",
         5493,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.39207950718735
       ],
       [
         "2020-07-21 00:00:00",
         5018,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.49192231163735
       ],
       [
         "2020-07-20 00:00:00",
         7037,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.83745123891956
       ],
       [
         "2020-07-19 00:00:00",
         7271,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.05728023475201
       ],
       [
         "2020-07-18 00:00:00",
         6216,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.18393689782293
       ],
       [
         "2020-07-17 00:00:00",
         7504,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.50338927756393
       ],
       [
         "2020-07-16 00:00:00",
         7208,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.80236177908272
       ],
       [
         "2020-07-15 00:00:00",
         5504,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.82872841613319
       ],
       [
         "2020-07-14 00:00:00",
         5146,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.78316110533787
       ],
       [
         "2020-07-13 00:00:00",
         7484,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.52267913492258
       ],
       [
         "2020-07-12 00:00:00",
         7490,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.34646205180528
       ],
       [
         "2020-07-11 00:00:00",
         6535,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.1218276065885
       ],
       [
         "2020-07-10 00:00:00",
         7576,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.00583818562158
       ],
       [
         "2020-07-09 00:00:00",
         7322,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.9946613833048
       ],
       [
         "2020-07-08 00:00:00",
         6004,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.89542215244306
       ],
       [
         "2020-07-07 00:00:00",
         6663,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.25979192974776
       ],
       [
         "2020-07-06 00:00:00",
         8662,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -73.57851891470747
       ],
       [
         "2020-07-05 00:00:00",
         8125,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -72.00481143761442
       ],
       [
         "2020-07-04 00:00:00",
         4505,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -72.39390323896431
       ],
       [
         "2020-07-03 00:00:00",
         8717,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.90102033549182
       ],
       [
         "2020-07-02 00:00:00",
         8838,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.86929189618589
       ],
       [
         "2020-07-01 00:00:00",
         6663,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.13644299388656
       ],
       [
         "2020-06-30 00:00:00",
         5183,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -70.67509945221953
       ],
       [
         "2020-06-29 00:00:00",
         7432,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.51032909052576
       ],
       [
         "2020-06-28 00:00:00",
         7134,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -73.32890726672053
       ],
       [
         "2020-06-27 00:00:00",
         5349,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -73.56796479994524
       ],
       [
         "2020-06-26 00:00:00",
         7140,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -74.49221930577043
       ],
       [
         "2020-06-25 00:00:00",
         6750,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.79887711488274
       ],
       [
         "2020-06-24 00:00:00",
         5068,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -76.95138074091152
       ],
       [
         "2020-06-23 00:00:00",
         5148,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.09794700276768
       ],
       [
         "2020-06-22 00:00:00",
         7103,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.16133805022608
       ],
       [
         "2020-06-21 00:00:00",
         6737,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.31561592047917
       ],
       [
         "2020-06-20 00:00:00",
         5149,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.41392109091258
       ],
       [
         "2020-06-19 00:00:00",
         6571,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.47144107021983
       ],
       [
         "2020-06-18 00:00:00",
         6110,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.63069979954612
       ],
       [
         "2020-06-17 00:00:00",
         4431,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.8811827227304
       ],
       [
         "2020-06-16 00:00:00",
         4704,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -77.96929354315141
       ],
       [
         "2020-06-15 00:00:00",
         6613,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -78.23914819092754
       ],
       [
         "2020-06-14 00:00:00",
         6839,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -78.20226173786945
       ],
       [
         "2020-06-13 00:00:00",
         4648,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -78.47987545229216
       ],
       [
         "2020-06-12 00:00:00",
         5916,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -78.93753579897988
       ],
       [
         "2020-06-11 00:00:00",
         5828,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -79.28440725736532
       ],
       [
         "2020-06-10 00:00:00",
         3883,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -79.71184844892159
       ],
       [
         "2020-06-09 00:00:00",
         3693,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -80.43141617330313
       ],
       [
         "2020-06-08 00:00:00",
         5343,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -81.33598824572643
       ],
       [
         "2020-06-07 00:00:00",
         5384,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -82.03236804453391
       ],
       [
         "2020-06-06 00:00:00",
         3615,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -82.55091482598641
       ],
       [
         "2020-06-05 00:00:00",
         4464,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -83.28057132173714
       ],
       [
         "2020-06-04 00:00:00",
         4450,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -83.97791903927512
       ],
       [
         "2020-06-03 00:00:00",
         3003,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -84.35642499357861
       ],
       [
         "2020-06-02 00:00:00",
         2909,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -84.71182744514383
       ],
       [
         "2020-06-01 00:00:00",
         4371,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -85.24529472422203
       ],
       [
         "2020-05-31 00:00:00",
         3960,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -86.00561111630437
       ],
       [
         "2020-05-30 00:00:00",
         2627,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -86.45770869524243
       ],
       [
         "2020-05-29 00:00:00",
         3710,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -86.81761870889173
       ],
       [
         "2020-05-28 00:00:00",
         3513,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.43310624127578
       ],
       [
         "2020-05-27 00:00:00",
         2599,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.5330929265888
       ],
       [
         "2020-05-26 00:00:00",
         3030,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.1124272142033
       ],
       [
         "2020-05-25 00:00:00",
         4209,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.03062042883985
       ],
       [
         "2020-05-24 00:00:00",
         3068,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.47050849479581
       ],
       [
         "2020-05-23 00:00:00",
         2605,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.50467861799913
       ],
       [
         "2020-05-22 00:00:00",
         3886,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.3989736792346
       ],
       [
         "2020-05-21 00:00:00",
         3333,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.25578161464672
       ],
       [
         "2020-05-20 00:00:00",
         2376,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.37993500315109
       ],
       [
         "2020-05-19 00:00:00",
         1877,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -88.25735700182928
       ],
       [
         "2020-05-18 00:00:00",
         2368,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -89.41399130549163
       ],
       [
         "2020-05-17 00:00:00",
         2596,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -89.59257088031339
       ],
       [
         "2020-05-16 00:00:00",
         1792,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -89.96488804383596
       ],
       [
         "2020-05-15 00:00:00",
         2444,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -90.66318313940188
       ],
       [
         "2020-05-14 00:00:00",
         2419,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.08039464335934
       ],
       [
         "2020-05-13 00:00:00",
         1694,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.38052760977745
       ],
       [
         "2020-05-12 00:00:00",
         1402,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.54049083130842
       ],
       [
         "2020-05-11 00:00:00",
         2088,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.5225601623438
       ],
       [
         "2020-05-10 00:00:00",
         1727,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.94918609940954
       ],
       [
         "2020-05-09 00:00:00",
         1492,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -92.09239753788361
       ],
       [
         "2020-05-08 00:00:00",
         2002,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -92.24797070023416
       ],
       [
         "2020-05-07 00:00:00",
         1825,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -92.55836112780084
       ],
       [
         "2020-05-06 00:00:00",
         1276,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -92.79093930749819
       ],
       [
         "2020-05-05 00:00:00",
         990,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.07325212859489
       ],
       [
         "2020-05-04 00:00:00",
         1502,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.68822758865623
       ],
       [
         "2020-05-03 00:00:00",
         1651,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.75206293371174
       ],
       [
         "2020-05-02 00:00:00",
         1187,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.86378290466284
       ],
       [
         "2020-05-01 00:00:00",
         1766,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.96976272465311
       ],
       [
         "2020-04-30 00:00:00",
         1263,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.39229541907595
       ],
       [
         "2020-04-29 00:00:00",
         1119,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.46909567127328
       ],
       [
         "2020-04-28 00:00:00",
         922,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.49966096704948
       ],
       [
         "2020-04-27 00:00:00",
         1188,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.64279705855749
       ],
       [
         "2020-04-26 00:00:00",
         1233,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.81771998020115
       ],
       [
         "2020-04-25 00:00:00",
         886,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.0268012541129
       ],
       [
         "2020-04-24 00:00:00",
         1121,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.42424069736794
       ],
       [
         "2020-04-23 00:00:00",
         1085,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.549023597495
       ],
       [
         "2020-04-22 00:00:00",
         887,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.68124135812617
       ],
       [
         "2020-04-21 00:00:00",
         819,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.67657423428955
       ],
       [
         "2020-04-20 00:00:00",
         992,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.7182542613112
       ],
       [
         "2020-04-19 00:00:00",
         1058,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.8050790641059
       ],
       [
         "2020-04-18 00:00:00",
         744,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.88830362974751
       ],
       [
         "2020-04-17 00:00:00",
         1053,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.97463020107179
       ],
       [
         "2020-04-16 00:00:00",
         857,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.12885420655945
       ],
       [
         "2020-04-15 00:00:00",
         899,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.14898309019773
       ],
       [
         "2020-04-14 00:00:00",
         866,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.15926350220434
       ],
       [
         "2020-04-13 00:00:00",
         953,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.234670141682
       ],
       [
         "2020-04-12 00:00:00",
         920,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.27645506381076
       ],
       [
         "2020-04-11 00:00:00",
         863,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.18162299677617
       ],
       [
         "2020-04-10 00:00:00",
         897,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.2476029109691
       ],
       [
         "2020-04-09 00:00:00",
         1020,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.07635540902568
       ],
       [
         "2020-04-08 00:00:00",
         802,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.09548435109389
       ],
       [
         "2020-04-07 00:00:00",
         921,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.075711273233
       ],
       [
         "2020-04-06 00:00:00",
         1040,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -96.01770470088944
       ],
       [
         "2020-04-05 00:00:00",
         1237,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.8360421538707
       ],
       [
         "2020-04-04 00:00:00",
         1156,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.67566313391264
       ],
       [
         "2020-04-03 00:00:00",
         1300,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.42884996781211
       ],
       [
         "2020-04-02 00:00:00",
         1215,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -95.26410795112137
       ],
       [
         "2020-04-01 00:00:00",
         1378,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.92182194271787
       ],
       [
         "2020-03-31 00:00:00",
         1364,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.70188707508389
       ],
       [
         "2020-03-30 00:00:00",
         1514,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -94.37349707347758
       ],
       [
         "2020-03-29 00:00:00",
         1956,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.9552489178463
       ],
       [
         "2020-03-28 00:00:00",
         1957,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.47077289953408
       ],
       [
         "2020-03-27 00:00:00",
         1920,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -93.09178744443467
       ],
       [
         "2020-03-26 00:00:00",
         1972,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -92.46134384046672
       ],
       [
         "2020-03-25 00:00:00",
         2231,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.90850152620371
       ],
       [
         "2020-03-24 00:00:00",
         2774,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -91.08358231124546
       ],
       [
         "2020-03-23 00:00:00",
         3054,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -89.55880592701767
       ],
       [
         "2020-03-22 00:00:00",
         4086,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -87.7115384249943
       ],
       [
         "2020-03-21 00:00:00",
         4276,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -86.05825471888446
       ],
       [
         "2020-03-20 00:00:00",
         4742,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -84.2915689552177
       ],
       [
         "2020-03-19 00:00:00",
         4935,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -82.83353448401287
       ],
       [
         "2020-03-18 00:00:00",
         6131,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -81.01679981604158
       ],
       [
         "2020-03-17 00:00:00",
         7504,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -78.91391777018372
       ],
       [
         "2020-03-16 00:00:00",
         10272,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -75.39974630278746
       ],
       [
         "2020-03-15 00:00:00",
         14052,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -71.49819941666773
       ],
       [
         "2020-03-14 00:00:00",
         13303,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -67.39794746777658
       ],
       [
         "2020-03-13 00:00:00",
         17752,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -60.71282978349043
       ],
       [
         "2020-03-12 00:00:00",
         18085,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -53.79206531136845
       ],
       [
         "2020-03-11 00:00:00",
         19436,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -46.84897451067428
       ],
       [
         "2020-03-10 00:00:00",
         18672,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -40.595204969592835
       ],
       [
         "2020-03-09 00:00:00",
         23482,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -30.754449501580837
       ],
       [
         "2020-03-08 00:00:00",
         25357,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -24.200196069762423
       ],
       [
         "2020-03-07 00:00:00",
         20380,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -19.58547879416327
       ],
       [
         "2020-03-06 00:00:00",
         25868,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -12.59157721019333
       ],
       [
         "2020-03-05 00:00:00",
         25175,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -3.303244643410397
       ],
       [
         "2020-03-04 00:00:00",
         21595,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         -0.4780512136222459
       ],
       [
         "2020-03-03 00:00:00",
         19340,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         0.6520219772868749
       ],
       [
         "2020-03-02 00:00:00",
         23847,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         8.462318842898524
       ],
       [
         "2020-03-01 00:00:00",
         24503,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         9.409318286170484
       ],
       [
         "2020-02-29 00:00:00",
         17014,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         14.247767409590272
       ],
       [
         "2020-02-28 00:00:00",
         25796,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         12.468985265866836
       ],
       [
         "2020-02-27 00:00:00",
         25930,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         11.914032668245241
       ],
       [
         "2020-02-26 00:00:00",
         22494,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         18.026995729651322
       ],
       [
         "2020-02-25 00:00:00",
         20495,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         18.909110594325043
       ],
       [
         "2020-02-24 00:00:00",
         26229,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         9.056771208306904
       ],
       [
         "2020-02-23 00:00:00",
         26131,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.085751204134024
       ],
       [
         "2020-02-22 00:00:00",
         17415,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         12.019359922564794
       ],
       [
         "2020-02-21 00:00:00",
         24777,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         11.754877624928852
       ],
       [
         "2020-02-20 00:00:00",
         25453,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         11.65765048523887
       ],
       [
         "2020-02-19 00:00:00",
         21835,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         7.668590137934034
       ],
       [
         "2020-02-18 00:00:00",
         23570,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         8.638223945255566
       ],
       [
         "2020-02-17 00:00:00",
         27032,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         12.078548469980818
       ],
       [
         "2020-02-16 00:00:00",
         22078,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         10.763132903830371
       ],
       [
         "2020-02-15 00:00:00",
         16271,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         10.49956905827807
       ],
       [
         "2020-02-14 00:00:00",
         25889,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         11.689443468544694
       ],
       [
         "2020-02-13 00:00:00",
         25804,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         11.09405645645464
       ],
       [
         "2020-02-12 00:00:00",
         19970,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         14.603970974818704
       ],
       [
         "2020-02-11 00:00:00",
         17221,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         13.324062868421562
       ],
       [
         "2020-02-10 00:00:00",
         23232,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         9.86398855256292
       ],
       [
         "2020-02-09 00:00:00",
         25117,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.094990185447823
       ],
       [
         "2020-02-08 00:00:00",
         15130,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.422552832527106
       ],
       [
         "2020-02-07 00:00:00",
         23734,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.45392157726685
       ],
       [
         "2020-02-06 00:00:00",
         23701,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         18.66276721653137
       ],
       [
         "2020-02-05 00:00:00",
         18430,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.301800244598624
       ],
       [
         "2020-02-04 00:00:00",
         16443,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.602303515834056
       ],
       [
         "2020-02-03 00:00:00",
         22800,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         21.156097388631252
       ],
       [
         "2020-02-02 00:00:00",
         21608,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         16.94956158553124
       ],
       [
         "2020-02-01 00:00:00",
         15091,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         16.96927887776994
       ],
       [
         "2020-01-31 00:00:00",
         24052,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.8738423162688
       ],
       [
         "2020-01-30 00:00:00",
         23001,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         20.03597837859898
       ],
       [
         "2020-01-29 00:00:00",
         19702,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         23.478541584658966
       ],
       [
         "2020-01-28 00:00:00",
         16688,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         24.490026258835474
       ],
       [
         "2020-01-27 00:00:00",
         22093,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         21.230340102364718
       ],
       [
         "2020-01-26 00:00:00",
         24184,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         24.747619498712417
       ],
       [
         "2020-01-25 00:00:00",
         14785,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         25.070163600625612
       ],
       [
         "2020-01-24 00:00:00",
         23679,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         24.210898004885678
       ],
       [
         "2020-01-23 00:00:00",
         22486,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         21.90370773207716
       ],
       [
         "2020-01-22 00:00:00",
         19278,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.57884840357882
       ],
       [
         "2020-01-21 00:00:00",
         21381,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.576629772879294
       ],
       [
         "2020-01-20 00:00:00",
         25382,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         21.427412925730174
       ],
       [
         "2020-01-19 00:00:00",
         20546,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         14.447519036812034
       ],
       [
         "2020-01-18 00:00:00",
         16012,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         13.922390419509
       ],
       [
         "2020-01-17 00:00:00",
         26076,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         15.187262978175912
       ],
       [
         "2020-01-16 00:00:00",
         24482,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         15.755682545748542
       ],
       [
         "2020-01-15 00:00:00",
         19481,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.154244384392932
       ],
       [
         "2020-01-14 00:00:00",
         16015,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.176777829877782
       ],
       [
         "2020-01-13 00:00:00",
         21055,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         15.274213130587329
       ],
       [
         "2020-01-12 00:00:00",
         22921,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.94622628593496
       ],
       [
         "2020-01-11 00:00:00",
         15095,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         21.23427406992386
       ],
       [
         "2020-01-10 00:00:00",
         21837,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         20.71620671096807
       ],
       [
         "2020-01-09 00:00:00",
         20787,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         20.1741584000167
       ],
       [
         "2020-01-08 00:00:00",
         18066,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.000657628601235
       ],
       [
         "2020-01-07 00:00:00",
         18086,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.738713074772246
       ],
       [
         "2020-01-06 00:00:00",
         21480,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         19.069869594685276
       ],
       [
         "2020-01-05 00:00:00",
         23968,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         14.012893281540448
       ],
       [
         "2020-01-04 00:00:00",
         20797,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         18.121261464470823
       ],
       [
         "2020-01-03 00:00:00",
         23569,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         17.13232191204452
       ],
       [
         "2020-01-02 00:00:00",
         23788,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         12.952201282928721
       ],
       [
         "2020-01-01 00:00:00",
         22913,
-        "Austin Bergstrom International (AUS) ",
+        "Austin Bergstrom International (AUS)",
         0,
         10.936193178558865
       ]

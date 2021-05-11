@@ -1,9 +1,10 @@
 {
+  "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 6 May, 2021 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 9 May, 2021 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 6 May, 2021 1064097 doses had been administered to 637661 people where about 73.0% had received full dosage.",
-    "Compared to 12 day(s) prior, total allocated doses was up by 50.0%, administered doses was up by 13.0%, number of first dose recipients was up by 7.0% and total number of full dose recipients was up by 22.0% on 6 May, 2021."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 9 May, 2021 1089729 doses had been administered to 644813 people where about 75.0% had received full dosage.",
+    "Compared to 13 day(s) prior, total allocated doses was up by 37.0%, administered doses was up by 14.0%, number of first dose recipients was up by 7.0% and total number of full dose recipients was up by 24.0% on 9 May, 2021."
   ],
   "type": "line_plot",
   "source": {
@@ -83,7 +84,10 @@
       66,
       67,
       68,
-      69
+      69,
+      70,
+      71,
+      72
     ],
     "columns": [
       "index",
@@ -1144,6 +1148,51 @@
         1064097.0,
         637661.0,
         467341.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        70,
+        "Travis",
+        "2021-05-07 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        71,
+        "Travis",
+        "2021-05-08 00:00:00",
+        2165090.0,
+        1084384.0,
+        643436.0,
+        482348.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        72,
+        "Travis",
+        "2021-05-09 00:00:00",
+        2165090.0,
+        1089729.0,
+        644813.0,
+        486432.0,
         1032386.0,
         129553.0,
         51820.0,

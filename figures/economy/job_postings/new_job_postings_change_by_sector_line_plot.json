@@ -1,6 +1,7 @@
 {
+  "key": "new_job_postings_change_by_sector_line_plot",
   "title": "New job postings change by sector",
-  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 23 April, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 30 April, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -25% in job postings across all sectors.",
     "The lowest mean decline was -59% in December, 2020.",
@@ -79,7 +80,8 @@
       60,
       61,
       62,
-      63
+      63,
+      64
     ],
     "columns": [
       "timestamp",
@@ -661,11 +663,20 @@
       [
         "2021-04-23 00:00:00",
         24.8,
-        8.03,
+        8.19,
         10.7,
         16.8,
-        9.27,
-        13.919999999999998
+        9.55,
+        14.008
+      ],
+      [
+        "2021-04-30 00:00:00",
+        -12.5,
+        -4.67,
+        -25.4,
+        15.2,
+        3.15,
+        -4.844
       ]
     ]
   }

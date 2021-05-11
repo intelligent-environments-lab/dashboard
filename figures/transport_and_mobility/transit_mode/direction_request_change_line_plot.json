@@ -1,9 +1,10 @@
 {
+  "key": "direction_request_change_line_plot",
   "title": "Direction request change",
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -44% below the baseline while walking and driving direction requests are 31% and 7% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -44% below the baseline while walking and driving direction requests are 32% and 8% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -486,7 +487,15 @@
       469,
       470,
       471,
-      472
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480
     ],
     "columns": [
       "timestamp",
@@ -3332,6 +3341,54 @@
         44.41999999999999,
         -26.569999999999993,
         97.66999999999999
+      ],
+      [
+        "2021-05-01 00:00:00",
+        32.55000000000001,
+        -31.069999999999993,
+        113.99000000000001
+      ],
+      [
+        "2021-05-02 00:00:00",
+        20.590000000000003,
+        -33.58,
+        70.08000000000001
+      ],
+      [
+        "2021-05-03 00:00:00",
+        20.700000000000003,
+        -27.010000000000005,
+        44.120000000000005
+      ],
+      [
+        "2021-05-04 00:00:00",
+        22.260000000000005,
+        -24.58,
+        47.49000000000001
+      ],
+      [
+        "2021-05-05 00:00:00",
+        30.139999999999986,
+        -23.459999999999994,
+        66.78
+      ],
+      [
+        "2021-05-06 00:00:00",
+        37.53999999999999,
+        -23.64,
+        80.94999999999999
+      ],
+      [
+        "2021-05-07 00:00:00",
+        61.00999999999999,
+        -19.049999999999997,
+        131.65
+      ],
+      [
+        "2021-05-08 00:00:00",
+        56.16,
+        -22.090000000000003,
+        145.12
       ]
     ]
   }

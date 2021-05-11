@@ -1,6 +1,7 @@
 {
+  "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 30 April, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 9 May, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -470,7 +471,16 @@
       451,
       452,
       453,
-      454
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463
     ],
     "columns": [
       "timestamp",
@@ -2752,6 +2762,51 @@
         "2021-04-30 00:00:00",
         -15.944152998762336,
         25.748639689434842
+      ],
+      [
+        "2021-05-01 00:00:00",
+        -17.274845869803023,
+        24.753923966127434
+      ],
+      [
+        "2021-05-02 00:00:00",
+        -21.2561579391778,
+        26.651874900963175
+      ],
+      [
+        "2021-05-03 00:00:00",
+        -19.07589568593423,
+        25.67534675331087
+      ],
+      [
+        "2021-05-04 00:00:00",
+        -19.47314474767344,
+        26.105060617680323
+      ],
+      [
+        "2021-05-05 00:00:00",
+        -8.293996840077249,
+        13.905329735127792
+      ],
+      [
+        "2021-05-06 00:00:00",
+        -5.6451447071603695,
+        11.699013193930458
+      ],
+      [
+        "2021-05-07 00:00:00",
+        -3.2190831307395884,
+        9.550601946376215
+      ],
+      [
+        "2021-05-08 00:00:00",
+        -2.7068611736285715,
+        12.685831588031672
+      ],
+      [
+        "2021-05-09 00:00:00",
+        -1.776954838544841,
+        12.670105826594963
       ]
     ]
   }

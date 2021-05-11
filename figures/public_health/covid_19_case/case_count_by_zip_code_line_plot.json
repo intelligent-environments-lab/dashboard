@@ -1,4 +1,5 @@
 {
+  "key": "case_count_by_zip_code_line_plot",
   "title": "Case count by zip code",
   "caption": "Profiles of 7-day rolling average of COVID-19 new case counts within 26 March, 2020 and 27 April, 2021 across zip-codes in Austin, TX.",
   "insights": [
