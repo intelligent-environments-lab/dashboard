@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 9 May, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 13 May, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -480,7 +480,11 @@
       460,
       461,
       462,
-      463
+      463,
+      464,
+      465,
+      466,
+      467
     ],
     "columns": [
       "timestamp",
@@ -7915,13 +7919,77 @@
         null,
         null,
         null,
-        null,
+        -4.61678313112155,
         null,
         10.292962604663282,
         null,
         -5.301104557621833,
         8.908582260552768,
-        -1.776954838544841
+        -2.344920497060183
+      ],
+      [
+        "2021-05-10 00:00:00",
+        null,
+        null,
+        -25.199598761923365,
+        null,
+        null,
+        null,
+        -4.725448236507966,
+        null,
+        9.959381355254697,
+        null,
+        -5.707574858634359,
+        8.453020528726446,
+        -3.4440439946169095
+      ],
+      [
+        "2021-05-11 00:00:00",
+        null,
+        null,
+        -26.121204660201112,
+        null,
+        null,
+        null,
+        -5.3064172301358195,
+        null,
+        9.073366518076075,
+        null,
+        -5.927426902182281,
+        7.571315542054262,
+        -4.142073346477774
+      ],
+      [
+        "2021-05-12 00:00:00",
+        null,
+        null,
+        -25.818573829664338,
+        null,
+        null,
+        null,
+        -5.684120866088762,
+        null,
+        8.688800897523738,
+        null,
+        -5.756405285942761,
+        7.096744173843482,
+        -4.2947109820657285
+      ],
+      [
+        "2021-05-13 00:00:00",
+        null,
+        null,
+        -30.666199853220544,
+        null,
+        null,
+        null,
+        -6.020379541603201,
+        null,
+        8.575408978365505,
+        null,
+        -5.345566289651136,
+        6.914568847843439,
+        -5.308433571653187
       ]
     ]
   }

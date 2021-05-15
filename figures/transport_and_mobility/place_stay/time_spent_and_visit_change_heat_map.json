@@ -1,7 +1,7 @@
 {
   "key": "time_spent_and_visit_change_heat_map",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 6 May, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 11 May, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -471,7 +471,12 @@
       "2021-05-03 00:00:00",
       "2021-05-04 00:00:00",
       "2021-05-05 00:00:00",
-      "2021-05-06 00:00:00"
+      "2021-05-06 00:00:00",
+      "2021-05-07 00:00:00",
+      "2021-05-08 00:00:00",
+      "2021-05-09 00:00:00",
+      "2021-05-10 00:00:00",
+      "2021-05-11 00:00:00"
     ],
     "data": [
       [
@@ -922,7 +927,12 @@
         -2.0,
         -1.0,
         -1.0,
-        -3.0
+        -3.0,
+        -1.0,
+        -2.0,
+        -3.0,
+        -5.0,
+        -4.0
       ],
       [
         "parks",
@@ -1372,7 +1382,12 @@
         -3.0,
         -2.0,
         0.0,
-        5.0
+        5.0,
+        0.0,
+        6.0,
+        -10.0,
+        -15.0,
+        -30.0
       ],
       [
         "residential",
@@ -1822,7 +1837,12 @@
         12.0,
         13.0,
         12.0,
-        12.0
+        12.0,
+        9.0,
+        1.0,
+        1.0,
+        12.0,
+        14.0
       ],
       [
         "transit stations",
@@ -2272,7 +2292,12 @@
         -39.0,
         -43.0,
         -39.0,
-        -37.0
+        -37.0,
+        -37.0,
+        -34.0,
+        -35.0,
+        -39.0,
+        -40.0
       ],
       [
         "workplaces",
@@ -2722,7 +2747,12 @@
         -43.0,
         -44.0,
         -41.0,
-        -44.0
+        -44.0,
+        -39.0,
+        -14.0,
+        -12.0,
+        -43.0,
+        -45.0
       ]
     ]
   }
