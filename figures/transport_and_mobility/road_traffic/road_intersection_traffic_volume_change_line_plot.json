@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 13 May, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 16 May, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -484,7 +484,10 @@
       464,
       465,
       466,
-      467
+      467,
+      468,
+      469,
+      470
     ],
     "columns": [
       "timestamp",
@@ -7990,6 +7993,54 @@
         -5.345566289651136,
         6.914568847843439,
         -5.308433571653187
+      ],
+      [
+        "2021-05-14 00:00:00",
+        null,
+        null,
+        -28.134302323413028,
+        null,
+        null,
+        null,
+        -5.877165675563247,
+        null,
+        8.418386813613571,
+        null,
+        -5.572347080705212,
+        6.578020031716759,
+        -4.917481646870231
+      ],
+      [
+        "2021-05-15 00:00:00",
+        null,
+        null,
+        -23.927128206501486,
+        null,
+        null,
+        null,
+        -6.403014878746618,
+        null,
+        7.856796797436081,
+        null,
+        -5.70046458100405,
+        6.41010645123951,
+        -4.352740883515311
+      ],
+      [
+        "2021-05-16 00:00:00",
+        null,
+        null,
+        -27.670268512832884,
+        null,
+        null,
+        null,
+        -6.986912593791874,
+        null,
+        6.895646166752596,
+        null,
+        -7.077462917667275,
+        5.638053355606381,
+        -5.84018890038661
       ]
     ]
   }
