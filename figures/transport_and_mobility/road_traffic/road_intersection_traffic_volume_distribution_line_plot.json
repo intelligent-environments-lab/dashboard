@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 3 June, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 11 June, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -505,7 +505,15 @@
       485,
       486,
       487,
-      488
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496
     ],
     "columns": [
       "timestamp",
@@ -2957,6 +2965,46 @@
         "2021-06-03 00:00:00",
         -12.530124925685596,
         25.90888647654331
+      ],
+      [
+        "2021-06-04 00:00:00",
+        -11.498600527535038,
+        25.665695447298972
+      ],
+      [
+        "2021-06-05 00:00:00",
+        -11.221374768771467,
+        26.216469832625325
+      ],
+      [
+        "2021-06-06 00:00:00",
+        -11.010969679417906,
+        26.139983507719815
+      ],
+      [
+        "2021-06-07 00:00:00",
+        -7.09401696372598,
+        27.47024365383299
+      ],
+      [
+        "2021-06-08 00:00:00",
+        -7.108701756956777,
+        27.85445500923385
+      ],
+      [
+        "2021-06-09 00:00:00",
+        -6.991743173069246,
+        28.46051846809804
+      ],
+      [
+        "2021-06-10 00:00:00",
+        -6.222685422902352,
+        28.780663389180944
+      ],
+      [
+        "2021-06-11 00:00:00",
+        -4.935501020609926,
+        30.543869249309108
       ]
     ]
   }
