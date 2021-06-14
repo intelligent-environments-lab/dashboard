@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 11 June, 2021 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 12 June, 2021 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 11 June, 2021 1297697 doses had been administered to 735055 people where about 83.0% had received full dosage.",
-    "Compared to 13 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 5.0%, number of first dose recipients was up by 3.0% and total number of full dose recipients was up by 6.0% on 11 June, 2021."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 12 June, 2021 1299989 doses had been administered to 735843 people where about 84.0% had received full dosage.",
+    "Compared to 13 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 5.0%, number of first dose recipients was up by 3.0% and total number of full dose recipients was up by 6.0% on 12 June, 2021."
   ],
   "type": "line_plot",
   "source": {
@@ -120,7 +120,8 @@
       102,
       103,
       104,
-      105
+      105,
+      106
     ],
     "columns": [
       "index",
@@ -1721,6 +1722,21 @@
         1297697.0,
         735055.0,
         612820.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0
+      ],
+      [
+        106,
+        "Travis",
+        "2021-06-12 00:00:00",
+        2165090.0,
+        1299989.0,
+        735843.0,
+        614440.0,
         1032386.0,
         129553.0,
         51820.0,
