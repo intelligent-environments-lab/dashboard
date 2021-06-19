@@ -1,11 +1,11 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 11 June, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 14 June, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -30% while change in time spent in residential places is 14% compared to the baseline.",
+    "Change in average visits to public places since May is -29% while change in time spent in residential places is 14% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -499,7 +499,10 @@
       479,
       480,
       481,
-      482
+      482,
+      483,
+      484,
+      485
     ],
     "columns": [
       "timestamp",
@@ -4373,6 +4376,30 @@
         9.0,
         -30.0,
         -42.0
+      ],
+      [
+        "2021-06-12 00:00:00",
+        -5.0,
+        6.0,
+        1.0,
+        -31.0,
+        -13.0
+      ],
+      [
+        "2021-06-13 00:00:00",
+        -4.0,
+        3.0,
+        2.0,
+        -28.0,
+        -10.0
+      ],
+      [
+        "2021-06-14 00:00:00",
+        -1.0,
+        -5.0,
+        11.0,
+        -32.0,
+        -45.0
       ]
     ]
   }

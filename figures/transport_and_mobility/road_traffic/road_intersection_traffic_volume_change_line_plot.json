@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 13 June, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 17 June, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -515,7 +515,11 @@
       495,
       496,
       497,
-      498
+      498,
+      499,
+      500,
+      501,
+      502
     ],
     "columns": [
       "timestamp",
@@ -8517,6 +8521,70 @@
         -8.136731456183949,
         8.346710048608395,
         -6.312668466635113
+      ],
+      [
+        "2021-06-14 00:00:00",
+        null,
+        null,
+        15.442618753827434,
+        null,
+        null,
+        null,
+        -8.317423970680986,
+        null,
+        9.528254972888485,
+        -63.782126929187235,
+        -8.140901808109524,
+        8.326451880490305,
+        -7.8238545167952545
+      ],
+      [
+        "2021-06-15 00:00:00",
+        null,
+        null,
+        16.024382477115264,
+        null,
+        null,
+        null,
+        -8.02693947386706,
+        null,
+        9.8155468138002,
+        -64.05619762148775,
+        -8.146994093653621,
+        8.772903273520892,
+        -7.602883104095345
+      ],
+      [
+        "2021-06-16 00:00:00",
+        null,
+        null,
+        18.62158736605025,
+        null,
+        null,
+        null,
+        -8.004721612928652,
+        null,
+        10.038738636569361,
+        -64.44990227909742,
+        -7.907898620379121,
+        9.15266286730511,
+        -7.091588940413412
+      ],
+      [
+        "2021-06-17 00:00:00",
+        null,
+        null,
+        17.373367560182306,
+        null,
+        null,
+        null,
+        -7.919612662449064,
+        null,
+        10.55967445340806,
+        null,
+        -7.638153171138678,
+        9.039160962624456,
+        4.282887428525416
       ]
     ]
   }
