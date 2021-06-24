@@ -1,7 +1,7 @@
 {
   "key": "time_spent_and_visit_change_heat_map",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 16 June, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 20 June, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -512,7 +512,11 @@
       "2021-06-13 00:00:00",
       "2021-06-14 00:00:00",
       "2021-06-15 00:00:00",
-      "2021-06-16 00:00:00"
+      "2021-06-16 00:00:00",
+      "2021-06-17 00:00:00",
+      "2021-06-18 00:00:00",
+      "2021-06-19 00:00:00",
+      "2021-06-20 00:00:00"
     ],
     "data": [
       [
@@ -1004,7 +1008,11 @@
         -4.0,
         -1.0,
         3.0,
-        3.0
+        3.0,
+        0.0,
+        2.0,
+        -3.0,
+        -5.0
       ],
       [
         "parks",
@@ -1495,7 +1503,11 @@
         3.0,
         -5.0,
         -1.0,
-        -5.0
+        -5.0,
+        3.0,
+        0.0,
+        14.0,
+        -4.0
       ],
       [
         "residential",
@@ -1986,7 +1998,11 @@
         2.0,
         11.0,
         12.0,
-        11.0
+        11.0,
+        11.0,
+        8.0,
+        0.0,
+        0.0
       ],
       [
         "transit stations",
@@ -2477,7 +2493,11 @@
         -28.0,
         -32.0,
         -33.0,
-        -27.0
+        -27.0,
+        -31.0,
+        -31.0,
+        -29.0,
+        -29.0
       ],
       [
         "workplaces",
@@ -2968,7 +2988,11 @@
         -10.0,
         -45.0,
         -45.0,
-        -43.0
+        -43.0,
+        -47.0,
+        -43.0,
+        -15.0,
+        -12.0
       ]
     ]
   }

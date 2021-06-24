@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_heat_map",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 18 June, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 22 June, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -535,7 +535,11 @@
       "2021-06-15 00:00:00",
       "2021-06-16 00:00:00",
       "2021-06-17 00:00:00",
-      "2021-06-18 00:00:00"
+      "2021-06-18 00:00:00",
+      "2021-06-19 00:00:00",
+      "2021-06-20 00:00:00",
+      "2021-06-21 00:00:00",
+      "2021-06-22 00:00:00"
     ],
     "data": [
       [
@@ -763,6 +767,10 @@
         -19.301715133287065,
         -18.720001384504606,
         -18.3711160122009,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1550,6 +1558,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -2057,7 +2069,11 @@
         16.024382477115264,
         18.62158736605025,
         17.373367560182306,
-        16.96890091076651
+        16.96890091076651,
+        16.324168181788707,
+        19.710194883402274,
+        24.998407826380177,
+        27.079701146657424
       ],
       [
         "CAPITAL OF TEXAS HWY / MOPAC EXPY SVRD",
@@ -2451,6 +2467,10 @@
         -95.15570614792311,
         -95.15570614792311,
         -95.15570614792311,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -3071,6 +3091,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -3531,6 +3555,10 @@
         2.8260174527037685,
         3.26191048801445,
         0.17348918831740257,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -4085,7 +4113,11 @@
         -8.02693947386706,
         -8.004721612928652,
         -7.919612662449064,
-        null
+        -8.054433041834661,
+        -7.835004608901353,
+        -7.975045117794322,
+        -8.104586770520985,
+        -8.381090730055098
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -4395,6 +4427,10 @@
         -29.20549448256826,
         -29.59861000439697,
         -30.58035767978758,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -5099,7 +5135,11 @@
         9.8155468138002,
         10.038738636569361,
         10.55967445340806,
-        10.854979512221371
+        10.854979512221371,
+        10.952292067934666,
+        11.112254666937305,
+        11.141261732103269,
+        11.129702060397946
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -5606,7 +5646,11 @@
         -64.05619762148775,
         -64.44990227909742,
         -64.61562572754083,
-        -65.01577717148047
+        -65.01577717148047,
+        -65.80905573274325,
+        -66.5461377375695,
+        -67.9395198290649,
+        -68.97204881490777
       ],
       [
         "PARMER LN / ",
@@ -6113,7 +6157,11 @@
         -8.146994093653621,
         -7.907898620379121,
         -7.638153171138678,
-        -7.095973419553312
+        -7.095973419553312,
+        -6.919122228949414,
+        -6.409136463141165,
+        -6.183659435698511,
+        -5.807791905825618
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -6620,7 +6668,11 @@
         8.772903273520892,
         9.15266286730511,
         9.039160962624456,
-        9.262785869509159
+        9.262785869509159,
+        9.427242405682463,
+        9.112395963469412,
+        9.085714473752903,
+        8.909470848587066
       ]
     ]
   }

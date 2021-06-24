@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 18 June, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 22 June, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -520,7 +520,11 @@
       500,
       501,
       502,
-      503
+      503,
+      504,
+      505,
+      506,
+      507
     ],
     "columns": [
       "timestamp",
@@ -8595,13 +8599,77 @@
         null,
         null,
         null,
-        null,
+        -8.054433041834661,
         null,
         10.854979512221371,
         -65.01577717148047,
         -7.095973419553312,
         9.262785869509159,
-        -7.0050168597073466
+        -7.179919556728566
+      ],
+      [
+        "2021-06-19 00:00:00",
+        null,
+        null,
+        16.324168181788707,
+        null,
+        null,
+        null,
+        -7.835004608901353,
+        null,
+        10.952292067934666,
+        -65.80905573274325,
+        -6.919122228949414,
+        9.427242405682463,
+        -7.309913319198029
+      ],
+      [
+        "2021-06-20 00:00:00",
+        null,
+        null,
+        19.710194883402274,
+        null,
+        null,
+        null,
+        -7.975045117794322,
+        null,
+        11.112254666937305,
+        -66.5461377375695,
+        -6.409136463141165,
+        9.112395963469412,
+        -6.832578967449332
+      ],
+      [
+        "2021-06-21 00:00:00",
+        null,
+        null,
+        24.998407826380177,
+        null,
+        null,
+        null,
+        -8.104586770520985,
+        null,
+        11.141261732103269,
+        -67.9395198290649,
+        -6.183659435698511,
+        9.085714473752903,
+        -6.167063667174676
+      ],
+      [
+        "2021-06-22 00:00:00",
+        null,
+        null,
+        27.079701146657424,
+        null,
+        null,
+        null,
+        -8.381090730055098,
+        null,
+        11.129702060397946,
+        -68.97204881490777,
+        -5.807791905825618,
+        8.909470848587066,
+        -6.0070095658576745
       ]
     ]
   }
