@@ -4,7 +4,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -41% below the baseline while walking and driving direction requests are 39% and 12% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -41% below the baseline while walking and driving direction requests are 40% and 12% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -547,7 +547,16 @@
       529,
       530,
       531,
-      532
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541
     ],
     "columns": [
       "timestamp",
@@ -3753,6 +3762,60 @@
         36.849999999999994,
         -19.5,
         58.370000000000005
+      ],
+      [
+        "2021-06-30 00:00:00",
+        44.00999999999999,
+        -13.469999999999999,
+        68.96000000000001
+      ],
+      [
+        "2021-07-01 00:00:00",
+        51.08000000000001,
+        -11.810000000000002,
+        86.37
+      ],
+      [
+        "2021-07-02 00:00:00",
+        64.47,
+        -13.400000000000006,
+        127.00999999999999
+      ],
+      [
+        "2021-07-03 00:00:00",
+        45.56999999999999,
+        -20.060000000000002,
+        147.29
+      ],
+      [
+        "2021-07-04 00:00:00",
+        14.019999999999996,
+        -27.14,
+        97.41
+      ],
+      [
+        "2021-07-05 00:00:00",
+        20.53,
+        -27.370000000000005,
+        48.27000000000001
+      ],
+      [
+        "2021-07-06 00:00:00",
+        34.97,
+        -12.049999999999997,
+        62.599999999999994
+      ],
+      [
+        "2021-07-07 00:00:00",
+        40.44,
+        -10.950000000000003,
+        76.32
+      ],
+      [
+        "2021-07-08 00:00:00",
+        44.25,
+        -17.53,
+        77.68
       ]
     ]
   }

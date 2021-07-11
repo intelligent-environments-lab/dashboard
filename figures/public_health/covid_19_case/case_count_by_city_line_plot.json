@@ -1,7 +1,7 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 28 June, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 6 July, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in January, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -475,7 +475,15 @@
       456,
       457,
       458,
-      459
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467
     ],
     "columns": [
       "timestamp",
@@ -2268,31 +2276,31 @@
       ],
       [
         "2021-06-15 00:00:00",
-        49.0
+        43.0
       ],
       [
         "2021-06-16 00:00:00",
-        52.0
+        null
       ],
       [
         "2021-06-17 00:00:00",
-        52.0
+        null
       ],
       [
         "2021-06-18 00:00:00",
-        52.0
+        null
       ],
       [
         "2021-06-19 00:00:00",
-        52.0
+        null
       ],
       [
         "2021-06-20 00:00:00",
-        52.0
+        null
       ],
       [
         "2021-06-21 00:00:00",
-        95.0
+        89.0
       ],
       [
         "2021-06-22 00:00:00",
@@ -2300,27 +2308,59 @@
       ],
       [
         "2021-06-23 00:00:00",
-        61.0
+        null
       ],
       [
         "2021-06-24 00:00:00",
-        50.0
+        null
       ],
       [
         "2021-06-25 00:00:00",
-        50.0
+        null
       ],
       [
         "2021-06-26 00:00:00",
-        50.0
+        null
       ],
       [
         "2021-06-27 00:00:00",
-        50.0
+        null
       ],
       [
         "2021-06-28 00:00:00",
-        72.0
+        50.0
+      ],
+      [
+        "2021-06-29 00:00:00",
+        38.0
+      ],
+      [
+        "2021-06-30 00:00:00",
+        63.0
+      ],
+      [
+        "2021-07-01 00:00:00",
+        62.0
+      ],
+      [
+        "2021-07-02 00:00:00",
+        62.0
+      ],
+      [
+        "2021-07-03 00:00:00",
+        62.0
+      ],
+      [
+        "2021-07-04 00:00:00",
+        62.0
+      ],
+      [
+        "2021-07-05 00:00:00",
+        50.0
+      ],
+      [
+        "2021-07-06 00:00:00",
+        59.0
       ]
     ]
   }

@@ -4,7 +4,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -41% below the baseline while walking and driving direction requests are 39% and 12% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -41% below the baseline while walking and driving direction requests are 40% and 12% respectively above the baseline."
   ],
   "type": "heat_map",
   "source": {
@@ -553,7 +553,16 @@
       "2021-06-26 00:00:00",
       "2021-06-27 00:00:00",
       "2021-06-28 00:00:00",
-      "2021-06-29 00:00:00"
+      "2021-06-29 00:00:00",
+      "2021-06-30 00:00:00",
+      "2021-07-01 00:00:00",
+      "2021-07-02 00:00:00",
+      "2021-07-03 00:00:00",
+      "2021-07-04 00:00:00",
+      "2021-07-05 00:00:00",
+      "2021-07-06 00:00:00",
+      "2021-07-07 00:00:00",
+      "2021-07-08 00:00:00"
     ],
     "data": [
       [
@@ -1090,7 +1099,16 @@
         60.47999999999999,
         26.33,
         32.81999999999999,
-        36.849999999999994
+        36.849999999999994,
+        44.00999999999999,
+        51.08000000000001,
+        64.47,
+        45.56999999999999,
+        14.019999999999996,
+        20.53,
+        34.97,
+        40.44,
+        44.25
       ],
       [
         "transit",
@@ -1626,7 +1644,16 @@
         -16.58,
         -23.03,
         -17.629999999999995,
-        -19.5
+        -19.5,
+        -13.469999999999999,
+        -11.810000000000002,
+        -13.400000000000006,
+        -20.060000000000002,
+        -27.14,
+        -27.370000000000005,
+        -12.049999999999997,
+        -10.950000000000003,
+        -17.53
       ],
       [
         "walking",
@@ -2162,7 +2189,16 @@
         160.75,
         70.71000000000001,
         54.639999999999986,
-        58.370000000000005
+        58.370000000000005,
+        68.96000000000001,
+        86.37,
+        127.00999999999999,
+        147.29,
+        97.41,
+        48.27000000000001,
+        62.599999999999994,
+        76.32,
+        77.68
       ]
     ]
   }
