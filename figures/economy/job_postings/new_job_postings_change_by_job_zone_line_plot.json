@@ -1,7 +1,7 @@
 {
   "key": "new_job_postings_change_by_job_zone_line_plot",
   "title": "New job postings change by job zone",
-  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 2 July, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 9 July, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -20% in job postings across all job zones.",
     "The lowest mean decline was -54% in December, 2020.",
@@ -90,7 +90,8 @@
       70,
       71,
       72,
-      73
+      73,
+      74
     ],
     "columns": [
       "timestamp",
@@ -767,6 +768,15 @@
         17.599999999999998,
         14.399999999999999,
         7.991999999999999
+      ],
+      [
+        "2021-07-09 00:00:00",
+        -24.0,
+        -24.7,
+        -16.7,
+        -11.600000000000001,
+        -4.67,
+        -16.334
       ]
     ]
   }
