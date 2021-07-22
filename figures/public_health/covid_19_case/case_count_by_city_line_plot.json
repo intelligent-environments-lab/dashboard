@@ -1,7 +1,7 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 14 July, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 21 July, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in January, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -491,7 +491,14 @@
       472,
       473,
       474,
-      475
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
     ],
     "columns": [
       "timestamp",
@@ -2401,6 +2408,34 @@
       [
         "2021-07-14 00:00:00",
         126.0
+      ],
+      [
+        "2021-07-15 00:00:00",
+        148.0
+      ],
+      [
+        "2021-07-16 00:00:00",
+        167.0
+      ],
+      [
+        "2021-07-17 00:00:00",
+        167.0
+      ],
+      [
+        "2021-07-18 00:00:00",
+        167.0
+      ],
+      [
+        "2021-07-19 00:00:00",
+        167.0
+      ],
+      [
+        "2021-07-20 00:00:00",
+        187.0
+      ],
+      [
+        "2021-07-21 00:00:00",
+        204.0
       ]
     ]
   }
