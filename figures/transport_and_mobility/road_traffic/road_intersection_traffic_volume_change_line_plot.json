@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 24 July, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 27 July, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -556,7 +556,10 @@
       536,
       537,
       538,
-      539
+      539,
+      540,
+      541,
+      542
     ],
     "columns": [
       "timestamp",
@@ -9214,6 +9217,54 @@
         -3.422398226821065,
         6.027583714889127,
         5.8257772407969455
+      ],
+      [
+        "2021-07-25 00:00:00",
+        null,
+        null,
+        32.4378135086981,
+        null,
+        null,
+        null,
+        -9.728919639121921,
+        null,
+        5.291419599727097,
+        null,
+        -3.741981952931377,
+        5.947247662091802,
+        6.04111583569274
+      ],
+      [
+        "2021-07-26 00:00:00",
+        null,
+        null,
+        48.018225903906284,
+        null,
+        null,
+        null,
+        -9.550666042601346,
+        null,
+        5.40072671114518,
+        null,
+        -4.291183309170924,
+        6.622684633248617,
+        9.239957579305562
+      ],
+      [
+        "2021-07-27 00:00:00",
+        null,
+        null,
+        49.06207258452503,
+        null,
+        null,
+        null,
+        -9.701345166617125,
+        null,
+        5.05461654067402,
+        null,
+        -5.259591828702493,
+        6.544786898368689,
+        9.140107805649626
       ]
     ]
   }
