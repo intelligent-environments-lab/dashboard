@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_heat_map",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 1 August, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 7 August, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -579,7 +579,13 @@
       "2021-07-29 00:00:00",
       "2021-07-30 00:00:00",
       "2021-07-31 00:00:00",
-      "2021-08-01 00:00:00"
+      "2021-08-01 00:00:00",
+      "2021-08-02 00:00:00",
+      "2021-08-03 00:00:00",
+      "2021-08-04 00:00:00",
+      "2021-08-05 00:00:00",
+      "2021-08-06 00:00:00",
+      "2021-08-07 00:00:00"
     ],
     "data": [
       [
@@ -807,6 +813,12 @@
         -19.301715133287065,
         -18.720001384504606,
         -18.3711160122009,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1682,6 +1694,12 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -2233,7 +2251,13 @@
         45.03137128249199,
         37.793435283235105,
         25.799452788705565,
-        19.242632654877987
+        19.242632654877987,
+        -0.6352033544761306,
+        2.8515389606746857,
+        -9.643651400642101,
+        -16.748288684425,
+        -19.649620319210722,
+        -16.267704095390776
       ],
       [
         "CAPITAL OF TEXAS HWY / MOPAC EXPY SVRD",
@@ -2627,6 +2651,12 @@
         -95.15570614792311,
         -95.15570614792311,
         -95.15570614792311,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -3335,6 +3365,12 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -3795,6 +3831,12 @@
         2.8260174527037685,
         3.26191048801445,
         0.17348918831740257,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -4437,7 +4479,13 @@
         -9.593412315105704,
         -9.730331066154891,
         -9.315494472532452,
-        null
+        -9.79099925131592,
+        -10.566107983333316,
+        -10.267856521363939,
+        -10.023460051041445,
+        -9.940439663763813,
+        -10.206408272123726,
+        -10.482316804658211
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -4747,6 +4795,12 @@
         -29.20549448256826,
         -29.59861000439697,
         -30.58035767978758,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -5539,7 +5593,13 @@
         4.370050862898465,
         4.303817233733554,
         4.465014368006723,
-        3.9259999942900903
+        3.9259999942900903,
+        2.6185595936388464,
+        2.4672638904368176,
+        2.6174960674376364,
+        2.46508398786319,
+        2.2437667391901956,
+        2.115626160102078
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -6051,6 +6111,12 @@
         -66.5461377375695,
         -67.9395198290649,
         -68.97204881490777,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -6641,7 +6707,13 @@
         -7.5342429317630515,
         -7.993933724440233,
         -8.356218139160875,
-        -8.7566323417313
+        -8.7566323417313,
+        -8.951672490918485,
+        -7.685818567954402,
+        -5.283033337014201,
+        -4.960609433996676,
+        -7.758785596588742,
+        -7.3972674348603205
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -7192,7 +7264,13 @@
         6.45346260805627,
         6.532153678669774,
         6.505978914654203,
-        6.1893603536294455
+        6.1893603536294455,
+        4.850838952851236,
+        4.702346395736373,
+        4.709521340828112,
+        4.4438887319746465,
+        4.312292365298957,
+        4.358715531666195
       ]
     ]
   }
