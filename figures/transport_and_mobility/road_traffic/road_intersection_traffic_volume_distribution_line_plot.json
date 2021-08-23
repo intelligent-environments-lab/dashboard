@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 7 August, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 August, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -570,7 +570,20 @@
       550,
       551,
       552,
-      553
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566
     ],
     "columns": [
       "timestamp",
@@ -3347,6 +3360,71 @@
         "2021-08-07 00:00:00",
         -5.534589328628207,
         7.740188726171073
+      ],
+      [
+        "2021-08-08 00:00:00",
+        -5.448045635370737,
+        7.787448697120581
+      ],
+      [
+        "2021-08-09 00:00:00",
+        -3.5644026084146447,
+        6.961070477788527
+      ],
+      [
+        "2021-08-10 00:00:00",
+        -5.060490514362994,
+        8.809343148460329
+      ],
+      [
+        "2021-08-11 00:00:00",
+        -3.7719684961900852,
+        7.299676296552918
+      ],
+      [
+        "2021-08-12 00:00:00",
+        -2.2792714901544846,
+        6.590021030860117
+      ],
+      [
+        "2021-08-13 00:00:00",
+        -0.7210046428172898,
+        6.061798158929266
+      ],
+      [
+        "2021-08-14 00:00:00",
+        -0.23575174606988886,
+        6.01542390473401
+      ],
+      [
+        "2021-08-15 00:00:00",
+        -0.13759490446639583,
+        6.245943871669551
+      ],
+      [
+        "2021-08-16 00:00:00",
+        -0.16395189166707258,
+        5.958878001237659
+      ],
+      [
+        "2021-08-17 00:00:00",
+        -0.8376952483090647,
+        5.951991654823732
+      ],
+      [
+        "2021-08-18 00:00:00",
+        -0.5186532769476566,
+        5.588553518177272
+      ],
+      [
+        "2021-08-19 00:00:00",
+        -0.3709209824639965,
+        5.373031287238865
+      ],
+      [
+        "2021-08-20 00:00:00",
+        -0.15978394317600375,
+        5.307554300053808
       ]
     ]
   }

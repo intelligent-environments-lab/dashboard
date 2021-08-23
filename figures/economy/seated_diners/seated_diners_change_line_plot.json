@@ -1,7 +1,7 @@
 {
   "key": "seated_diners_change_line_plot",
   "title": "Seated diners change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' number of restaurant seated diners within 18 February, 2020 and 7 August, 2021 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' number of restaurant seated diners within 18 February, 2020 and 20 August, 2021 in Austin, TX.",
   "insights": [
     "Prior to mid-March 2020, daily number of seated diners was nearly same as observed in 2019 followed by a complete 100% drop in seated diners until the start of May, 2020.",
     "By the end of June, 2020, the deviation from the baseline had steeply changed from -100% to about -60% as social distancing orders were relaxed.",
@@ -555,7 +555,20 @@
       533,
       534,
       535,
-      536
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549
     ],
     "columns": [
       "timestamp",
@@ -2709,6 +2722,58 @@
       [
         "2021-08-07 00:00:00",
         13.37
+      ],
+      [
+        "2021-08-08 00:00:00",
+        21.81
+      ],
+      [
+        "2021-08-09 00:00:00",
+        -7.85
+      ],
+      [
+        "2021-08-10 00:00:00",
+        -26.27
+      ],
+      [
+        "2021-08-11 00:00:00",
+        -29.24
+      ],
+      [
+        "2021-08-12 00:00:00",
+        -12.32
+      ],
+      [
+        "2021-08-13 00:00:00",
+        -2.12
+      ],
+      [
+        "2021-08-14 00:00:00",
+        13.33
+      ],
+      [
+        "2021-08-15 00:00:00",
+        -0.19
+      ],
+      [
+        "2021-08-16 00:00:00",
+        1.26
+      ],
+      [
+        "2021-08-17 00:00:00",
+        -10.95
+      ],
+      [
+        "2021-08-18 00:00:00",
+        -10.77
+      ],
+      [
+        "2021-08-19 00:00:00",
+        -10.05
+      ],
+      [
+        "2021-08-20 00:00:00",
+        2.31
       ]
     ]
   }

@@ -1,12 +1,12 @@
 {
   "key": "real_estate_activity_change_line_plot",
   "title": "Real estate activity change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and June, 2021 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and July, 2021 in Austin, TX.",
   "insights": [
-    "The number of listing in 2020 was generally lower than that of 2019 at an average of -38% irrespective of the pandemic.",
+    "The number of listing in 2020 was generally lower than that of 2019 at an average of -39% irrespective of the pandemic.",
     "Average and median price in 2020 has remained higher than that of 2019.",
-    "Since May, 2020, average price has increased by an average of 25% points.",
-    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 43% respectively above the baseline."
+    "Since May, 2020, average price has increased by an average of 26% points.",
+    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 44% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -34,7 +34,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "columns": [
       "timestamp",
@@ -104,9 +105,9 @@
       [
         "2020-08-01 00:00:00+00:00",
         -28.14885496183206,
-        2.468152866242038,
-        22.150150271694848,
-        19.207930021248693,
+        2.5477707006369426,
+        22.23448596226021,
+        19.197761154505336,
         13.531353135313532
       ],
       [
@@ -135,7 +136,7 @@
       ],
       [
         "2020-12-01 00:00:00+00:00",
-        -36.10648918469218,
+        -36.02329450915141,
         21.421800947867297,
         48.041588582272595,
         21.92342058973198,
@@ -143,15 +144,15 @@
       ],
       [
         "2021-01-01 00:00:00+00:00",
-        -63.61474435196195,
-        23.328380386329865,
-        66.8690912404579,
-        35.304576394018696,
-        35.86475482386263
+        -63.67419738406659,
+        23.476968796433876,
+        67.023172237715,
+        35.26659318585906,
+        35.7172360889833
       ],
       [
         "2021-02-01 00:00:00+00:00",
-        -67.0886075949367,
+        -67.209162145871,
         -3.579676674364896,
         34.44780027008581,
         39.4391974963675,
@@ -159,7 +160,7 @@
       ],
       [
         "2021-03-01 00:00:00+00:00",
-        -73.49125775521715,
+        -73.54765933446137,
         13.022351797862003,
         61.249343519235175,
         42.67038368739313,
@@ -167,27 +168,35 @@
       ],
       [
         "2021-04-01 00:00:00+00:00",
-        -61.55555555555556,
-        0.5892255892255892,
-        48.81508843501611,
-        47.94318859435138,
-        48.0
+        -61.666666666666664,
+        0.7575757575757576,
+        49.650825353170355,
+        48.52539708353662,
+        48.8
       ],
       [
         "2021-05-01 00:00:00+00:00",
-        -67.91338582677166,
-        -7.229778095919828,
-        36.40958085382486,
-        47.04032957502168,
-        46.753246753246756
+        -68.06102362204724,
+        -7.086614173228346,
+        36.407700348096355,
+        46.8118444091705,
+        45.97402597402598
       ],
       [
         "2021-06-01 00:00:00+00:00",
-        -61.420612813370475,
-        9.350850077279754,
-        63.37711005001958,
-        49.40638217680807,
+        -61.745589600742804,
+        9.273570324574962,
+        62.379312009069366,
+        48.5989781816659,
         47.43589743589744
+      ],
+      [
+        "2021-07-01 00:00:00+00:00",
+        -47.22744360902256,
+        7.407407407407407,
+        55.572814809781505,
+        44.84363757703417,
+        48.96103896103896
       ]
     ]
   }

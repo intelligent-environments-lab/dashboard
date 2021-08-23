@@ -4,7 +4,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -39% below the baseline while walking and driving direction requests are 44% and 14% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -38% below the baseline while walking and driving direction requests are 45% and 15% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -586,7 +586,20 @@
       568,
       569,
       570,
-      571
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584
     ],
     "columns": [
       "timestamp",
@@ -4026,6 +4039,84 @@
         53.97,
         -23.019999999999996,
         145.56
+      ],
+      [
+        "2021-08-08 00:00:00",
+        22.010000000000005,
+        -28.53,
+        65.22
+      ],
+      [
+        "2021-08-09 00:00:00",
+        33.099999999999994,
+        -14.400000000000006,
+        61.610000000000014
+      ],
+      [
+        "2021-08-10 00:00:00",
+        35.47999999999999,
+        -15.430000000000007,
+        63.19
+      ],
+      [
+        "2021-08-11 00:00:00",
+        37.69999999999999,
+        -17.180000000000007,
+        64.57
+      ],
+      [
+        "2021-08-12 00:00:00",
+        45.28999999999999,
+        -15.86,
+        80.88
+      ],
+      [
+        "2021-08-13 00:00:00",
+        63.77000000000001,
+        -13.989999999999995,
+        138.43
+      ],
+      [
+        "2021-08-14 00:00:00",
+        55.389999999999986,
+        -14.689999999999998,
+        163.0
+      ],
+      [
+        "2021-08-15 00:00:00",
+        17.25,
+        -27.769999999999996,
+        57.33000000000001
+      ],
+      [
+        "2021-08-16 00:00:00",
+        37.44,
+        0.9599999999999937,
+        81.82
+      ],
+      [
+        "2021-08-17 00:00:00",
+        39.02000000000001,
+        -2.230000000000004,
+        81.41
+      ],
+      [
+        "2021-08-18 00:00:00",
+        41.94,
+        1.6800000000000068,
+        93.59
+      ],
+      [
+        "2021-08-19 00:00:00",
+        48.55000000000001,
+        4.969999999999999,
+        105.31
+      ],
+      [
+        "2021-08-20 00:00:00",
+        70.88,
+        12.049999999999997,
+        176.0
       ]
     ]
   }
