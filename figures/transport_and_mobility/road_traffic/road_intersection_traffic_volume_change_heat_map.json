@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_heat_map",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 August, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 24 August, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -598,7 +598,11 @@
       "2021-08-17 00:00:00",
       "2021-08-18 00:00:00",
       "2021-08-19 00:00:00",
-      "2021-08-20 00:00:00"
+      "2021-08-20 00:00:00",
+      "2021-08-21 00:00:00",
+      "2021-08-22 00:00:00",
+      "2021-08-23 00:00:00",
+      "2021-08-24 00:00:00"
     ],
     "data": [
       [
@@ -826,6 +830,10 @@
         -19.301715133287065,
         -18.720001384504606,
         -18.3711160122009,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1739,6 +1747,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -2309,6 +2321,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -2703,6 +2719,10 @@
         -95.15570614792311,
         -95.15570614792311,
         -95.15570614792311,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -3449,6 +3469,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -3909,6 +3933,10 @@
         2.8260174527037685,
         3.26191048801445,
         0.17348918831740257,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -4589,7 +4617,11 @@
         -8.406656633634226,
         -7.569043276256229,
         -6.862064632395126,
-        -6.2965534690578755
+        -6.2965534690578755,
+        -5.876523303058319,
+        -5.005423866385111,
+        -4.379662742263331,
+        -4.378627146909271
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -4899,6 +4931,10 @@
         -29.20549448256826,
         -29.59861000439697,
         -30.58035767978758,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -5729,7 +5765,11 @@
         3.5693826825080746,
         3.550334105041464,
         3.713751870887151,
-        3.8988829416749256
+        3.8988829416749256,
+        3.513718360473829,
+        3.9830642096964755,
+        3.380636990457009,
+        2.7509748728611485
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -6241,6 +6281,10 @@
         -66.5461377375695,
         -67.9395198290649,
         -68.97204881490777,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -6869,7 +6913,11 @@
         -4.733730461191862,
         -4.234615173341124,
         -4.352413725757215,
-        -4.430561160512336
+        -4.430561160512336,
+        -4.385505484569921,
+        -3.8802996862854697,
+        -4.385746339664933,
+        -4.737244727361429
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -7439,7 +7487,11 @@
         6.220223419081756,
         6.178711236765262,
         6.017042557409203,
-        6.189095915191271
+        6.189095915191271,
+        5.871541702700476,
+        7.0689033131429815,
+        6.9196846113950965,
+        7.046755291417979
       ]
     ]
   }
