@@ -1,7 +1,7 @@
 {
   "key": "new_job_postings_change_by_job_zone_heat_map",
   "title": "New job postings change by job zone",
-  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 27 August, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 3 September, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -20% in job postings across all job zones.",
     "The lowest mean decline was -54% in December, 2020.",
@@ -106,7 +106,8 @@
       "2021-08-06 00:00:00",
       "2021-08-13 00:00:00",
       "2021-08-20 00:00:00",
-      "2021-08-27 00:00:00"
+      "2021-08-27 00:00:00",
+      "2021-09-03 00:00:00"
     ],
     "data": [
       [
@@ -192,7 +193,8 @@
         21.0,
         -11.600000000000001,
         23.7,
-        37.6
+        38.2,
+        11.899999999999999
       ],
       [
         "2 (some preparation)",
@@ -276,8 +278,9 @@
         6.32,
         26.8,
         -7.3999999999999995,
-        9.66,
-        16.6
+        9.950000000000001,
+        17.2,
+        3.5000000000000004
       ],
       [
         "3 (medium preparation)",
@@ -361,8 +364,9 @@
         22.8,
         28.199999999999996,
         -4.32,
-        13.5,
-        4.97
+        13.700000000000001,
+        5.54,
+        1.68
       ],
       [
         "4 (considerable preparation)",
@@ -446,8 +450,9 @@
         18.2,
         25.3,
         7.5200000000000005,
-        12.8,
-        7.449999999999999
+        13.0,
+        7.84,
+        10.100000000000001
       ],
       [
         "5 (extensive preparation)",
@@ -532,7 +537,8 @@
         24.2,
         20.5,
         15.2,
-        7.449999999999999
+        7.829999999999999,
+        4.91
       ]
     ]
   }
