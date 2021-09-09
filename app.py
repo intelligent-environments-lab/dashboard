@@ -21,7 +21,7 @@ toc = Toc()
 def container(name,use_expanders=False):
     toc.header(name)
     container = (
-        st.beta_expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
+        st.expander("Expand or collapse") if use_expanders else contextlib.nullcontext()
     )
     return container
 
@@ -58,10 +58,10 @@ def main():
     st_markdown_image("images/Cockrell_RGB_formal_CAEE.png", "https://caee.utexas.edu", "CAEE Logo")
     st.sidebar.markdown("**Contact Email:** [nagy@utexas.edu](mailto:nagy@utexas.edu)")
 
-    with st.sidebar.beta_expander("Outline"):
+    with st.sidebar.expander("Outline"):
         toc.placeholder()
 
-    with st.sidebar.beta_expander("Options"):
+    with st.sidebar.expander("Options"):
         expanders = not st.checkbox("Hide expanders", True)
         st.markdown(
             '<font color="green">Note: plots can be enlarged to fullscreen if the expanders are turned off!</font>',
@@ -87,7 +87,7 @@ def main():
         AirQuality.show(toc=toc)
 
 
-    with st.sidebar.beta_expander("DISCLAIMER"):
+    with st.sidebar.expander("DISCLAIMER"):
         with open("assets/disclaimer.txt", "r", encoding="utf-8") as f:
             disclaimer = f.read()
 
