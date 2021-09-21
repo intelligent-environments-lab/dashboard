@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 16 September, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 19 September, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -610,7 +610,10 @@
       590,
       591,
       592,
-      593
+      593,
+      594,
+      595,
+      596
     ],
     "columns": [
       "timestamp",
@@ -10132,6 +10135,54 @@
         -6.157130338479887,
         6.38583196607565,
         -0.26352076752717046
+      ],
+      [
+        "2021-09-17 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.188803863533577,
+        null,
+        3.007572841292312,
+        null,
+        -6.2196993630387265,
+        6.303139654583494,
+        -0.27444768267412445
+      ],
+      [
+        "2021-09-18 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.120638226083881,
+        null,
+        3.2723967047410887,
+        null,
+        -6.171885176324326,
+        6.5411818480835935,
+        -0.11973621239588117
+      ],
+      [
+        "2021-09-19 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.2211192691878745,
+        null,
+        3.807744314010669,
+        null,
+        -5.999070965848569,
+        null,
+        -2.1374819736752584
       ]
     ]
   }
