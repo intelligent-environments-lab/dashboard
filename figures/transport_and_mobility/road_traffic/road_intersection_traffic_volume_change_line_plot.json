@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 19 September, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 23 September, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -613,7 +613,11 @@
       593,
       594,
       595,
-      596
+      596,
+      597,
+      598,
+      599,
+      600
     ],
     "columns": [
       "timestamp",
@@ -10181,8 +10185,72 @@
         3.807744314010669,
         null,
         -5.999070965848569,
+        7.234080303460533,
+        0.20540859560868951
+      ],
+      [
+        "2021-09-20 00:00:00",
         null,
-        -2.1374819736752584
+        null,
+        null,
+        null,
+        null,
+        null,
+        -3.7500587138181865,
+        null,
+        3.6421917957463883,
+        null,
+        -6.363837747605364,
+        7.689642035286856,
+        0.3044843424024235
+      ],
+      [
+        "2021-09-21 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.051416961849745,
+        null,
+        3.772408097603415,
+        null,
+        -6.524885991553721,
+        7.659943523863883,
+        0.21401216701595804
+      ],
+      [
+        "2021-09-22 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.187501360097497,
+        null,
+        3.5988144576718466,
+        null,
+        -6.767608350653857,
+        7.948991311845396,
+        0.1481740146914723
+      ],
+      [
+        "2021-09-23 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -3.7776208317142133,
+        null,
+        3.400378599144941,
+        null,
+        -6.885406903069947,
+        8.226069490918759,
+        0.24085508881988482
       ]
     ]
   }
