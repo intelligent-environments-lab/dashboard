@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 7 October, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 10 October, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -631,7 +631,10 @@
       611,
       612,
       613,
-      614
+      614,
+      615,
+      616,
+      617
     ],
     "columns": [
       "timestamp",
@@ -10489,6 +10492,54 @@
         -6.691143826844988,
         7.883355057153474,
         -0.47272468312072013
+      ],
+      [
+        "2021-10-08 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.745089980018989,
+        null,
+        1.5798169934391761,
+        null,
+        -7.126909072188732,
+        8.367505203470456,
+        -0.48116921382452205
+      ],
+      [
+        "2021-10-09 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -5.10734165332309,
+        null,
+        1.508503975511876,
+        null,
+        -7.979595401928849,
+        8.110696198034663,
+        -0.8669342204263497
+      ],
+      [
+        "2021-10-10 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.99973990637708,
+        null,
+        1.407667953217948,
+        null,
+        -8.233301370499644,
+        7.231725267428622,
+        -1.1484120140575387
       ]
     ]
   }
