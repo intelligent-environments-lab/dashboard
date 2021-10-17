@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 12 October, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 15 October, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -636,7 +636,10 @@
       616,
       617,
       618,
-      619
+      619,
+      620,
+      621,
+      622
     ],
     "columns": [
       "timestamp",
@@ -10574,6 +10577,54 @@
         -7.4899014240655895,
         5.438322350777499,
         -2.0353410191742345
+      ],
+      [
+        "2021-10-13 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -6.9347688322702625,
+        null,
+        -0.38239061709139127,
+        null,
+        -7.869281922399987,
+        4.320055908622076,
+        -2.7165963657848913
+      ],
+      [
+        "2021-10-14 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -7.537841456834202,
+        null,
+        -0.8076103139347603,
+        null,
+        -7.592039960649212,
+        2.9561254574175626,
+        -3.2453415685001525
+      ],
+      [
+        "2021-10-15 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -7.156462406976892,
+        null,
+        -0.5585072500999014,
+        null,
+        -6.806351780831795,
+        2.7493946786871715,
+        -2.9429816898053542
       ]
     ]
   }
