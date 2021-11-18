@@ -1,7 +1,7 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 5 November, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 12 November, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in September, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -605,7 +605,14 @@
       586,
       587,
       588,
-      589
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596
     ],
     "columns": [
       "timestamp",
@@ -2971,6 +2978,34 @@
       [
         "2021-11-05 00:00:00",
         134.0
+      ],
+      [
+        "2021-11-06 00:00:00",
+        134.0
+      ],
+      [
+        "2021-11-07 00:00:00",
+        134.0
+      ],
+      [
+        "2021-11-08 00:00:00",
+        134.0
+      ],
+      [
+        "2021-11-09 00:00:00",
+        135.0
+      ],
+      [
+        "2021-11-10 00:00:00",
+        134.0
+      ],
+      [
+        "2021-11-11 00:00:00",
+        144.0
+      ],
+      [
+        "2021-11-12 00:00:00",
+        177.0
       ]
     ]
   }

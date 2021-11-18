@@ -4,7 +4,7 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
-    "Eversince then, public transit direction requests have remained -28% below the baseline while walking and driving direction requests are 59% and 20% respectively above the baseline."
+    "Eversince then, public transit direction requests have remained -27% below the baseline while walking and driving direction requests are 60% and 20% respectively above the baseline."
   ],
   "type": "heat_map",
   "source": {
@@ -686,7 +686,14 @@
       "2021-11-06 00:00:00",
       "2021-11-07 00:00:00",
       "2021-11-08 00:00:00",
-      "2021-11-09 00:00:00"
+      "2021-11-09 00:00:00",
+      "2021-11-10 00:00:00",
+      "2021-11-11 00:00:00",
+      "2021-11-12 00:00:00",
+      "2021-11-13 00:00:00",
+      "2021-11-14 00:00:00",
+      "2021-11-15 00:00:00",
+      "2021-11-16 00:00:00"
     ],
     "data": [
       [
@@ -1356,7 +1363,14 @@
         60.46000000000001,
         23.879999999999995,
         29.99000000000001,
-        39.360000000000014
+        39.360000000000014,
+        48.83000000000001,
+        61.56,
+        89.72,
+        82.88,
+        36.370000000000005,
+        41.77000000000001,
+        47.27000000000001
       ],
       [
         "transit",
@@ -2025,7 +2039,14 @@
         14.64,
         -2.3599999999999994,
         14.319999999999993,
-        28.879999999999995
+        28.879999999999995,
+        38.110000000000014,
+        38.19,
+        49.599999999999994,
+        33.00999999999999,
+        1.2399999999999949,
+        25.629999999999995,
+        27.129999999999995
       ],
       [
         "walking",
@@ -2694,7 +2715,14 @@
         184.16000000000003,
         86.72999999999999,
         65.06,
-        80.63
+        80.63,
+        95.74000000000001,
+        135.99,
+        217.37,
+        278.18,
+        110.61000000000001,
+        88.93,
+        98.5
       ]
     ]
   }
