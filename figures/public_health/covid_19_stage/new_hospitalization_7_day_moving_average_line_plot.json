@@ -1,7 +1,7 @@
 {
   "key": "new_hospitalization_7_day_moving_average_line_plot",
   "title": "New hospitalization 7-day moving average",
-  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 16 November, 2021 in Austin, TX.",
+  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 18 November, 2021 in Austin, TX.",
   "insights": [],
   "type": "line_plot",
   "source": {
@@ -625,7 +625,9 @@
       610,
       611,
       612,
-      613
+      613,
+      614,
+      615
     ],
     "columns": [
       "index",
@@ -4315,6 +4317,18 @@
       [
         613,
         "2021-11-16 00:00:00+00:00",
+        12.857,
+        2.0
+      ],
+      [
+        614,
+        "2021-11-17 00:00:00+00:00",
+        13.0,
+        2.0
+      ],
+      [
+        615,
+        "2021-11-18 00:00:00+00:00",
         12.857,
         2.0
       ]
