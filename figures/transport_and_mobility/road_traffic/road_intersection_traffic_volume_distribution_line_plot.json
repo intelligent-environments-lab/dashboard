@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 26 November, 2021 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 9 December, 2021 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -681,7 +681,20 @@
       661,
       662,
       663,
-      664
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677
     ],
     "columns": [
       "timestamp",
@@ -4013,6 +4026,71 @@
         "2021-11-26 00:00:00",
         -14.940685142044654,
         4.298538042387006
+      ],
+      [
+        "2021-11-27 00:00:00",
+        -18.194945812476526,
+        3.867763068113558
+      ],
+      [
+        "2021-11-28 00:00:00",
+        -19.35234892592214,
+        3.6965445024720274
+      ],
+      [
+        "2021-11-29 00:00:00",
+        -19.36416427165979,
+        3.4774689427603853
+      ],
+      [
+        "2021-11-30 00:00:00",
+        -19.37029644008434,
+        3.2035359304492568
+      ],
+      [
+        "2021-12-01 00:00:00",
+        -18.861581315100455,
+        3.1149680179167305
+      ],
+      [
+        "2021-12-02 00:00:00",
+        -11.657143253306984,
+        3.2525475256130134
+      ],
+      [
+        "2021-12-03 00:00:00",
+        -7.626822112489095,
+        3.441767865287531
+      ],
+      [
+        "2021-12-04 00:00:00",
+        -4.104813616893866,
+        3.8270697748091105
+      ],
+      [
+        "2021-12-05 00:00:00",
+        -2.610031369891571,
+        3.4842908218261384
+      ],
+      [
+        "2021-12-06 00:00:00",
+        -2.1660964391861954,
+        3.3565241944080992
+      ],
+      [
+        "2021-12-07 00:00:00",
+        -1.8852396201169537,
+        3.633510479043479
+      ],
+      [
+        "2021-12-08 00:00:00",
+        -1.637832965822777,
+        3.762832238748421
+      ],
+      [
+        "2021-12-09 00:00:00",
+        -1.504150855398588,
+        3.8522809285429456
       ]
     ]
   }

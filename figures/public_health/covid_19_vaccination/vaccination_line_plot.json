@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 7 December, 2021 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 9 December, 2021 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 7 December, 2021 1909224 doses had been administered to 952152 people where about 87.0% had received full dosage.",
-    "Compared to 19 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 6.0%, number of first dose recipients was up by 2.0% and total number of full dose recipients was up by 3.0% on 7 December, 2021."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 9 December, 2021 1924760 doses had been administered to 954517 people where about 88.0% had received full dosage.",
+    "Compared to 20 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 6.0%, number of first dose recipients was up by 2.0% and total number of full dose recipients was up by 3.0% on 9 December, 2021."
   ],
   "type": "line_plot",
   "source": {
@@ -299,7 +299,9 @@
       281,
       282,
       283,
-      284
+      284,
+      285,
+      286
     ],
     "columns": [
       "index",
@@ -5155,6 +5157,40 @@
         1909224.0,
         952152.0,
         832562.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0
+      ],
+      [
+        285,
+        "Travis",
+        "2021-12-08 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        286,
+        "Travis",
+        "2021-12-09 00:00:00",
+        2165090.0,
+        1924760.0,
+        954517.0,
+        836373.0,
         1032386.0,
         129553.0,
         51820.0,

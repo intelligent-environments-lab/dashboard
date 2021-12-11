@@ -1,7 +1,7 @@
 {
   "key": "new_job_postings_change_by_sector_heat_map",
   "title": "New job postings change by sector",
-  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 19 November, 2021 in Austin, TX.",
+  "caption": "Comparison between January, 2020 weeks (baseline) and subsequent weeks' job postings within 7 February, 2020 and 3 December, 2021 in Austin, TX.",
   "insights": [
     "Between mid-March and mid-April, 2020 there was an abrupt mean decline of -25% in job postings across all sectors.",
     "The lowest mean decline was -59% in December, 2020.",
@@ -118,7 +118,9 @@
       "2021-10-29 00:00:00",
       "2021-11-05 00:00:00",
       "2021-11-12 00:00:00",
-      "2021-11-19 00:00:00"
+      "2021-11-19 00:00:00",
+      "2021-11-26 00:00:00",
+      "2021-12-03 00:00:00"
     ],
     "data": [
       [
@@ -216,7 +218,9 @@
         -16.1,
         -0.0233,
         20.1,
-        -2.54
+        -2.45,
+        -5.52,
+        12.8
       ],
       [
         "financial activities",
@@ -313,7 +317,9 @@
         5.83,
         38.7,
         -0.307,
-        13.700000000000001
+        13.700000000000001,
+        -11.700000000000001,
+        -13.200000000000001
       ],
       [
         "leisure and hospitality",
@@ -410,7 +416,9 @@
         -24.4,
         12.1,
         -8.73,
-        4.2700000000000005
+        4.2700000000000005,
+        -22.2,
+        2.3
       ],
       [
         "manufacturing",
@@ -507,7 +515,9 @@
         -4.45,
         18.4,
         42.4,
-        35.199999999999996
+        35.199999999999996,
+        -2.9499999999999997,
+        20.599999999999998
       ],
       [
         "professional and business services",
@@ -604,7 +614,9 @@
         -31.4,
         9.56,
         3.42,
-        -0.894
+        -0.894,
+        -23.599999999999998,
+        -35.9
       ]
     ]
   }
