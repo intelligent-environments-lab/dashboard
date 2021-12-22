@@ -1,11 +1,11 @@
 {
   "key": "tsa_throughput_line_plot",
   "title": "Tsa throughput",
-  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 20 November, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 27 November, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
     "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
-    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 20 November, 2021 traffic was 150.0% points greater than the lowest point before mid-April.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 27 November, 2021 traffic was 113.0% points greater than the lowest point before mid-April.",
     "In 2020, Periods surrounding holidays such as 4 July (Independence Day), 1 September (Labor Day), 27 November (Thanksgiving) and 25 - 31 December (Christmas and New Year) experienced local spikes in  TSA throughput but never rose to the levels that had been observed in 2019."
   ],
   "type": "line_plot",
@@ -706,7 +706,14 @@
       686,
       687,
       688,
-      689
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696
     ],
     "columns": [
       "timestamp",
@@ -6236,6 +6243,62 @@
         0,
         19626.0,
         51.8314481626912
+      ],
+      [
+        "2021-11-21 00:00:00",
+        "AUS",
+        31315,
+        0,
+        28327.0,
+        15.947126777251185
+      ],
+      [
+        "2021-11-22 00:00:00",
+        "AUS",
+        29534,
+        0,
+        28663.0,
+        10.382717895051577
+      ],
+      [
+        "2021-11-23 00:00:00",
+        "AUS",
+        28970,
+        0,
+        23584.0,
+        49.3452933292092
+      ],
+      [
+        "2021-11-24 00:00:00",
+        "AUS",
+        28971,
+        0,
+        25163.0,
+        28.840167215156097
+      ],
+      [
+        "2021-11-25 00:00:00",
+        "AUS",
+        15732,
+        0,
+        25356.0,
+        -39.31960194399444
+      ],
+      [
+        "2021-11-26 00:00:00",
+        "AUS",
+        21399,
+        0,
+        26753.0,
+        -25.955017301038062
+      ],
+      [
+        "2021-11-27 00:00:00",
+        "AUS",
+        28240,
+        0,
+        17063.0,
+        14.75476451704661
       ]
     ]
   }

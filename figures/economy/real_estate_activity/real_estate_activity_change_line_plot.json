@@ -1,12 +1,12 @@
 {
   "key": "real_estate_activity_change_line_plot",
   "title": "Real estate activity change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and October, 2021 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and November, 2021 in Austin, TX.",
   "insights": [
-    "The number of listing in 2020 was generally lower than that of 2019 at an average of -39% irrespective of the pandemic.",
+    "The number of listing in 2020 was generally lower than that of 2019 at an average of -40% irrespective of the pandemic.",
     "Average and median price in 2020 has remained higher than that of 2019.",
     "Since May, 2020, average price has increased by an average of 27% points.",
-    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 10% and 44% respectively above the baseline."
+    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 46% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -38,7 +38,8 @@
       18,
       19,
       20,
-      21
+      21,
+      22
     ],
     "columns": [
       "timestamp",
@@ -224,6 +225,14 @@
         48.035284461301806,
         40.82396368470487,
         37.4719387755102
+      ],
+      [
+        "2021-11-01 00:00:00+00:00",
+        -47.22753346080306,
+        25.084745762711865,
+        73.3602055362677,
+        38.59404317859524,
+        35.678391959798994
       ]
     ]
   }

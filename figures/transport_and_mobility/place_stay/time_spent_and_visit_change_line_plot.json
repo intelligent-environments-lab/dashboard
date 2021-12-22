@@ -1,7 +1,7 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 10 December, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 18 December, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
@@ -681,7 +681,15 @@
       661,
       662,
       663,
-      664
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672
     ],
     "columns": [
       "timestamp",
@@ -6011,6 +6019,70 @@
         7.0,
         -23.0,
         -28.0
+      ],
+      [
+        "2021-12-11 00:00:00",
+        -4.0,
+        -21.0,
+        2.0,
+        -26.0,
+        -9.0
+      ],
+      [
+        "2021-12-12 00:00:00",
+        -4.0,
+        -22.0,
+        3.0,
+        -19.0,
+        -7.0
+      ],
+      [
+        "2021-12-13 00:00:00",
+        1.0,
+        -25.0,
+        9.0,
+        -27.0,
+        -33.0
+      ],
+      [
+        "2021-12-14 00:00:00",
+        5.0,
+        -20.0,
+        9.0,
+        -29.0,
+        -34.0
+      ],
+      [
+        "2021-12-15 00:00:00",
+        7.0,
+        -14.0,
+        9.0,
+        -19.0,
+        -31.0
+      ],
+      [
+        "2021-12-16 00:00:00",
+        5.0,
+        -10.0,
+        8.0,
+        -21.0,
+        -35.0
+      ],
+      [
+        "2021-12-17 00:00:00",
+        3.0,
+        -7.0,
+        7.0,
+        -24.0,
+        -31.0
+      ],
+      [
+        "2021-12-18 00:00:00",
+        -8.0,
+        -45.0,
+        5.0,
+        -21.0,
+        -15.0
       ]
     ]
   }
