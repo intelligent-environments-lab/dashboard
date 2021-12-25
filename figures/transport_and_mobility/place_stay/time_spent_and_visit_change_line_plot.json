@@ -1,11 +1,11 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 19 December, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 21 December, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -26% while change in time spent in residential places is 12% compared to the baseline.",
+    "Change in average visits to public places since May is -25% while change in time spent in residential places is 12% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -690,7 +690,9 @@
       670,
       671,
       672,
-      673
+      673,
+      674,
+      675
     ],
     "columns": [
       "timestamp",
@@ -6092,6 +6094,22 @@
         3.0,
         -16.0,
         -8.0
+      ],
+      [
+        "2021-12-20 00:00:00",
+        5.0,
+        -17.0,
+        10.0,
+        -25.0,
+        -46.0
+      ],
+      [
+        "2021-12-21 00:00:00",
+        9.0,
+        -11.0,
+        11.0,
+        -22.0,
+        -48.0
       ]
     ]
   }
