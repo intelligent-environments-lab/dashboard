@@ -1,11 +1,11 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 24 December, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 26 December, 2021 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -25% while change in time spent in residential places is 12% compared to the baseline.",
+    "Change in average visits to public places since May is -26% while change in time spent in residential places is 12% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -695,7 +695,9 @@
       675,
       676,
       677,
-      678
+      678,
+      679,
+      680
     ],
     "columns": [
       "timestamp",
@@ -6137,6 +6139,22 @@
         16.0,
         -36.0,
         -74.0
+      ],
+      [
+        "2021-12-25 00:00:00",
+        -60.0,
+        -28.0,
+        12.0,
+        -43.0,
+        -71.0
+      ],
+      [
+        "2021-12-26 00:00:00",
+        -19.0,
+        -28.0,
+        3.0,
+        -25.0,
+        -21.0
       ]
     ]
   }

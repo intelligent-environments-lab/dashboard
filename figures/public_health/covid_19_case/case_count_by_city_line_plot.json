@@ -1,9 +1,9 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 8 December, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 29 December, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
-    "The all time peak was recorded in September, 2021.",
+    "The all time peak was recorded in December, 2021.",
     "Counts have been on an increase since the beginning of November, 2020.",
     "Prior to November, 2020 the count had declined between mid-July to late October, 2020."
   ],
@@ -638,7 +638,28 @@
       619,
       620,
       621,
-      622
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643
     ],
     "columns": [
       "timestamp",
@@ -3136,6 +3157,90 @@
       [
         "2021-12-08 00:00:00",
         169.0
+      ],
+      [
+        "2021-12-09 00:00:00",
+        179.0
+      ],
+      [
+        "2021-12-10 00:00:00",
+        183.0
+      ],
+      [
+        "2021-12-11 00:00:00",
+        183.0
+      ],
+      [
+        "2021-12-12 00:00:00",
+        183.0
+      ],
+      [
+        "2021-12-13 00:00:00",
+        183.0
+      ],
+      [
+        "2021-12-14 00:00:00",
+        203.0
+      ],
+      [
+        "2021-12-15 00:00:00",
+        195.0
+      ],
+      [
+        "2021-12-16 00:00:00",
+        217.0
+      ],
+      [
+        "2021-12-17 00:00:00",
+        284.0
+      ],
+      [
+        "2021-12-18 00:00:00",
+        284.0
+      ],
+      [
+        "2021-12-19 00:00:00",
+        284.0
+      ],
+      [
+        "2021-12-20 00:00:00",
+        284.0
+      ],
+      [
+        "2021-12-21 00:00:00",
+        416.0
+      ],
+      [
+        "2021-12-22 00:00:00",
+        544.0
+      ],
+      [
+        "2021-12-23 00:00:00",
+        641.0
+      ],
+      [
+        "2021-12-24 00:00:00",
+        754.0
+      ],
+      [
+        "2021-12-25 00:00:00",
+        754.0
+      ],
+      [
+        "2021-12-26 00:00:00",
+        754.0
+      ],
+      [
+        "2021-12-27 00:00:00",
+        754.0
+      ],
+      [
+        "2021-12-28 00:00:00",
+        768.0
+      ],
+      [
+        "2021-12-29 00:00:00",
+        942.0
       ]
     ]
   }
