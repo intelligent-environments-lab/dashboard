@@ -1,11 +1,11 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 26 December, 2021 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 7 January, 2022 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -26% while change in time spent in residential places is 12% compared to the baseline.",
+    "Change in average visits to public places since May is -25% while change in time spent in residential places is 12% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -697,7 +697,19 @@
       677,
       678,
       679,
-      680
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692
     ],
     "columns": [
       "timestamp",
@@ -6155,6 +6167,102 @@
         3.0,
         -25.0,
         -21.0
+      ],
+      [
+        "2021-12-27 00:00:00",
+        -5.0,
+        1.0,
+        13.0,
+        -29.0,
+        -58.0
+      ],
+      [
+        "2021-12-28 00:00:00",
+        0.0,
+        -7.0,
+        14.0,
+        -24.0,
+        -56.0
+      ],
+      [
+        "2021-12-29 00:00:00",
+        3.0,
+        0.0,
+        15.0,
+        -24.0,
+        -54.0
+      ],
+      [
+        "2021-12-30 00:00:00",
+        9.0,
+        11.0,
+        14.0,
+        -33.0,
+        -57.0
+      ],
+      [
+        "2021-12-31 00:00:00",
+        13.0,
+        3.0,
+        17.0,
+        -40.0,
+        -66.0
+      ],
+      [
+        "2022-01-01 00:00:00",
+        -34.0,
+        -16.0,
+        12.0,
+        -40.0,
+        -47.0
+      ],
+      [
+        "2022-01-02 00:00:00",
+        -20.0,
+        -57.0,
+        9.0,
+        -28.0,
+        -19.0
+      ],
+      [
+        "2022-01-03 00:00:00",
+        -1.0,
+        -26.0,
+        16.0,
+        -31.0,
+        -50.0
+      ],
+      [
+        "2022-01-04 00:00:00",
+        -1.0,
+        -24.0,
+        16.0,
+        -31.0,
+        -45.0
+      ],
+      [
+        "2022-01-05 00:00:00",
+        1.0,
+        -19.0,
+        14.0,
+        -31.0,
+        -38.0
+      ],
+      [
+        "2022-01-06 00:00:00",
+        -3.0,
+        -24.0,
+        15.0,
+        -42.0,
+        -42.0
+      ],
+      [
+        "2022-01-07 00:00:00",
+        -6.0,
+        -40.0,
+        15.0,
+        -47.0,
+        -36.0
       ]
     ]
   }
