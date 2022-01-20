@@ -1,7 +1,7 @@
 {
   "key": "new_hospitalization_7_day_moving_average_line_plot",
   "title": "New hospitalization 7-day moving average",
-  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 14 January, 2022 in Austin, TX.",
+  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 19 January, 2022 in Austin, TX.",
   "insights": [],
   "type": "line_plot",
   "source": {
@@ -684,7 +684,12 @@
       669,
       670,
       671,
-      672
+      672,
+      673,
+      674,
+      675,
+      676,
+      677
     ],
     "columns": [
       "index",
@@ -4729,6 +4734,36 @@
         672,
         "2022-01-14 00:00:00+00:00",
         117.571,
+        5.0
+      ],
+      [
+        673,
+        "2022-01-15 00:00:00+00:00",
+        120.143,
+        5.0
+      ],
+      [
+        674,
+        "2022-01-16 00:00:00+00:00",
+        117.714,
+        5.0
+      ],
+      [
+        675,
+        "2022-01-17 00:00:00+00:00",
+        119.714,
+        5.0
+      ],
+      [
+        676,
+        "2022-01-18 00:00:00+00:00",
+        120.714,
+        5.0
+      ],
+      [
+        677,
+        "2022-01-19 00:00:00+00:00",
+        128.857,
         5.0
       ]
     ]

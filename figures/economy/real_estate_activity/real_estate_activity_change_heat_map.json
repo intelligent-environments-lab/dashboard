@@ -1,11 +1,11 @@
 {
   "key": "real_estate_activity_change_heat_map",
   "title": "Real estate activity change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and November, 2021 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and December, 2021 in Austin, TX.",
   "insights": [
     "The number of listing in 2020 was generally lower than that of 2019 at an average of -40% irrespective of the pandemic.",
     "Average and median price in 2020 has remained higher than that of 2019.",
-    "Since May, 2020, average price has increased by an average of 27% points.",
+    "Since May, 2020, average price has increased by an average of 28% points.",
     "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 46% respectively above the baseline."
   ],
   "type": "heat_map",
@@ -47,7 +47,8 @@
       "2021-08-01 00:00:00+00:00",
       "2021-09-01 00:00:00+00:00",
       "2021-10-01 00:00:00+00:00",
-      "2021-11-01 00:00:00+00:00"
+      "2021-11-01 00:00:00+00:00",
+      "2021-12-01 00:00:00+00:00"
     ],
     "data": [
       [
@@ -74,7 +75,8 @@
         41.72937293729373,
         37.303664921465966,
         37.758323215540926,
-        35.540201005025125
+        35.540201005025125,
+        40.92710997442455
       ],
       [
         "average_price_($)_change",
@@ -100,7 +102,8 @@
         38.32200987651183,
         32.577951120249274,
         41.2008536834229,
-        37.66660542921604
+        37.66660542921604,
+        40.1689298836804
       ],
       [
         "volume_($)_change",
@@ -126,7 +129,8 @@
         42.06628655738817,
         48.97952205514566,
         48.028549337221804,
-        71.8890136864175
+        71.8890136864175,
+        50.53199477752271
       ],
       [
         "sales_change",
@@ -152,7 +156,8 @@
         2.7070063694267517,
         12.371134020618557,
         4.835589941972921,
-        24.858757062146893
+        24.858757062146893,
+        7.393364928909953
       ],
       [
         "listings_change",
@@ -178,7 +183,8 @@
         -49.02147971360382,
         -35.39731682146543,
         -40.149892933618844,
-        -47.25765306122449
+        -47.25765306122449,
+        -53.45545378850957
       ]
     ]
   }
