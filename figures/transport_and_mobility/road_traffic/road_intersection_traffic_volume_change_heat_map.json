@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_heat_map",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 January, 2022 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 25 January, 2022 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -751,7 +751,12 @@
       "2022-01-17 00:00:00",
       "2022-01-18 00:00:00",
       "2022-01-19 00:00:00",
-      "2022-01-20 00:00:00"
+      "2022-01-20 00:00:00",
+      "2022-01-21 00:00:00",
+      "2022-01-22 00:00:00",
+      "2022-01-23 00:00:00",
+      "2022-01-24 00:00:00",
+      "2022-01-25 00:00:00"
     ],
     "data": [
       [
@@ -979,6 +984,11 @@
         -19.301715133287065,
         -18.720001384504606,
         -18.3711160122009,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -2198,6 +2208,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -2921,6 +2936,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -3315,6 +3335,11 @@
         -95.15570614792311,
         -95.15570614792311,
         -95.15570614792311,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -4367,6 +4392,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       [
@@ -4827,6 +4857,11 @@
         2.8260174527037685,
         3.26191048801445,
         0.17348918831740257,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -5813,7 +5848,12 @@
         -11.789603375776348,
         -11.314782905939682,
         -10.667132259585077,
-        -11.855002580695867
+        -11.855002580695867,
+        -12.44726798274388,
+        -12.190835346623592,
+        -11.947940226679293,
+        -10.791700681680965,
+        -11.056813092320413
       ],
       [
         "FM 2222 RD / CITY PARK RD",
@@ -6123,6 +6163,11 @@
         -29.20549448256826,
         -29.59861000439697,
         -30.58035767978758,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -7259,7 +7304,12 @@
         -11.596300855540472,
         -11.516063134291755,
         -10.88997592774767,
-        -12.091930270824927
+        -12.091930270824927,
+        -12.897395819645032,
+        -12.300149294503896,
+        -11.737759297437306,
+        -11.911801688433089,
+        -11.385156645152318
       ],
       [
         "MARTIN LUTHER KING JR BLVD / RED RIVER ST",
@@ -7771,6 +7821,11 @@
         -66.5461377375695,
         -67.9395198290649,
         -68.97204881490777,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -8705,7 +8760,12 @@
         -15.868571084654743,
         -16.16073590879132,
         -15.560067817822825,
-        -16.359509679163487
+        -16.359509679163487,
+        -17.074584245550216,
+        -16.758275010362652,
+        -15.800443056555523,
+        -15.300000825486746,
+        -14.805201286513835
       ],
       [
         "SLAUGHTER LN / LINDSHIRE LN",
@@ -9428,7 +9488,12 @@
         -6.938905742064901,
         -6.422833248485378,
         -5.734551015756353,
-        null
+        -8.039402718788317,
+        -9.43316829151902,
+        -9.014865930741877,
+        -9.459077046209446,
+        -10.245686891185048,
+        -10.37519187542293
       ]
     ]
   }

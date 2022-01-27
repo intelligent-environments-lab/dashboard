@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 January, 2022 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 25 January, 2022 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -736,7 +736,12 @@
       716,
       717,
       718,
-      719
+      719,
+      720,
+      721,
+      722,
+      723,
+      724
     ],
     "columns": [
       "timestamp",
@@ -12272,8 +12277,88 @@
         -12.091930270824927,
         null,
         -16.359509679163487,
+        -8.039402718788317,
+        -12.086461312368149
+      ],
+      [
+        "2022-01-21 00:00:00",
         null,
-        -13.435480843561427
+        null,
+        null,
+        null,
+        null,
+        null,
+        -12.44726798274388,
+        null,
+        -12.897395819645032,
+        null,
+        -17.074584245550216,
+        -9.43316829151902,
+        -12.963104084864536
+      ],
+      [
+        "2022-01-22 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -12.190835346623592,
+        null,
+        -12.300149294503896,
+        null,
+        -16.758275010362652,
+        -9.014865930741877,
+        -12.566031395558005
+      ],
+      [
+        "2022-01-23 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -11.947940226679293,
+        null,
+        -11.737759297437306,
+        null,
+        -15.800443056555523,
+        -9.459077046209446,
+        -12.236304906720392
+      ],
+      [
+        "2022-01-24 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -10.791700681680965,
+        null,
+        -11.911801688433089,
+        null,
+        -15.300000825486746,
+        -10.245686891185048,
+        -12.062297521696461
+      ],
+      [
+        "2022-01-25 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -11.056813092320413,
+        null,
+        -11.385156645152318,
+        null,
+        -14.805201286513835,
+        -10.37519187542293,
+        -11.905590724852374
       ]
     ]
   }
