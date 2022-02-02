@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 30 January, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 31 January, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 30 January, 2022 2167426 doses had been administered to 1002080 people where about 86.0% had received full dosage.",
-    "Compared to 8 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 1.0% and total number of full dose recipients was up by 0.0% on 30 January, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 31 January, 2022 2169829 doses had been administered to 1002707 people where about 86.0% had received full dosage.",
+    "Compared to 8 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 1.0% and total number of full dose recipients was up by 1.0% on 31 January, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -353,7 +353,8 @@
       335,
       336,
       337,
-      338
+      338,
+      339
     ],
     "columns": [
       "index",
@@ -6475,6 +6476,24 @@
         null,
         1207346.0,
         367265.0
+      ],
+      [
+        339,
+        "Travis",
+        "2022-01-31 00:00:00",
+        2165090.0,
+        2169829.0,
+        1002707.0,
+        862979.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        368470.0
       ]
     ]
   }
