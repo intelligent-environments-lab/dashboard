@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 30 January, 2022 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 8 February, 2022 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -746,7 +746,16 @@
       726,
       727,
       728,
-      729
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738
     ],
     "columns": [
       "timestamp",
@@ -4403,6 +4412,51 @@
         "2022-01-30 00:00:00",
         -8.031423601269525,
         2.547605704030419
+      ],
+      [
+        "2022-01-31 00:00:00",
+        -8.459240772896438,
+        2.9659020480550553
+      ],
+      [
+        "2022-02-01 00:00:00",
+        -7.5873826713124055,
+        2.8712788451243423
+      ],
+      [
+        "2022-02-02 00:00:00",
+        -6.72080095838731,
+        2.7848263012591166
+      ],
+      [
+        "2022-02-03 00:00:00",
+        -15.300370482490319,
+        2.4289696001128314
+      ],
+      [
+        "2022-02-04 00:00:00",
+        -20.310452642621907,
+        2.243405230068691
+      ],
+      [
+        "2022-02-05 00:00:00",
+        -21.382294000124016,
+        2.214139586370026
+      ],
+      [
+        "2022-02-06 00:00:00",
+        -21.473234237121133,
+        2.106150575421542
+      ],
+      [
+        "2022-02-07 00:00:00",
+        -20.07133641980769,
+        2.4143924173682763
+      ],
+      [
+        "2022-02-08 00:00:00",
+        -20.835174130936405,
+        2.3020334378391794
       ]
     ]
   }
