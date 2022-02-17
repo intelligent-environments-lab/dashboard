@@ -1,11 +1,11 @@
 {
   "key": "tsa_throughput_line_plot",
   "title": "Tsa throughput",
-  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 1 January, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 29 January, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
     "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
-    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 1 January, 2022 traffic was 62.0% points greater than the lowest point before mid-April.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 29 January, 2022 traffic was 86.0% points greater than the lowest point before mid-April.",
     "In 2020, Periods surrounding holidays such as 4 July (Independence Day), 1 September (Labor Day), 27 November (Thanksgiving) and 25 - 31 December (Christmas and New Year) experienced local spikes in  TSA throughput but never rose to the levels that had been observed in 2019."
   ],
   "type": "line_plot",
@@ -748,7 +748,28 @@
       728,
       729,
       730,
-      731
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750,
+      751,
+      752
     ],
     "columns": [
       "timestamp",
@@ -6614,6 +6635,174 @@
         0,
         27061.0,
         -35.760213283149064
+      ],
+      [
+        "2022-01-09 00:00:00",
+        "AUS",
+        18637,
+        0,
+        25483.0,
+        -6.487706974410436
+      ],
+      [
+        "2022-01-10 00:00:00",
+        "AUS",
+        13764,
+        0,
+        26091.0,
+        -25.370059101013936
+      ],
+      [
+        "2022-01-11 00:00:00",
+        "AUS",
+        9667,
+        0,
+        21559.0,
+        -30.954931790586386
+      ],
+      [
+        "2022-01-12 00:00:00",
+        "AUS",
+        11786,
+        0,
+        20695.0,
+        -21.24290010023388
+      ],
+      [
+        "2022-01-13 00:00:00",
+        "AUS",
+        16902,
+        0,
+        25010.0,
+        -5.369240244107273
+      ],
+      [
+        "2022-01-14 00:00:00",
+        "AUS",
+        20223,
+        0,
+        25927.0,
+        7.948115725419024
+      ],
+      [
+        "2022-01-15 00:00:00",
+        "AUS",
+        12550,
+        0,
+        25506.0,
+        4.175313356022246
+      ],
+      [
+        "2022-01-16 00:00:00",
+        "AUS",
+        15458,
+        0,
+        19930.0,
+        -17.053015668598412
+      ],
+      [
+        "2022-01-17 00:00:00",
+        "AUS",
+        21375,
+        0,
+        18443.0,
+        23.927411873840445
+      ],
+      [
+        "2022-01-18 00:00:00",
+        "AUS",
+        11623,
+        0,
+        14001.0,
+        -17.968805137977274
+      ],
+      [
+        "2022-01-19 00:00:00",
+        "AUS",
+        11036,
+        0,
+        14965.0,
+        -35.88939235505983
+      ],
+      [
+        "2022-01-20 00:00:00",
+        "AUS",
+        14907,
+        0,
+        17861.0,
+        -28.26620470622203
+      ],
+      [
+        "2022-01-21 00:00:00",
+        "AUS",
+        16034,
+        0,
+        18734.0,
+        -29.015406410483443
+      ],
+      [
+        "2022-01-22 00:00:00",
+        "AUS",
+        10316,
+        0,
+        12047.0,
+        -22.131642512077295
+      ],
+      [
+        "2022-01-23 00:00:00",
+        "AUS",
+        18214,
+        0,
+        18636.0,
+        1.32398753894081
+      ],
+      [
+        "2022-01-24 00:00:00",
+        "AUS",
+        13411,
+        0,
+        17248.0,
+        -42.281041532171294
+      ],
+      [
+        "2022-01-25 00:00:00",
+        "AUS",
+        9042,
+        0,
+        14169.0,
+        -47.5156721615974
+      ],
+      [
+        "2022-01-26 00:00:00",
+        "AUS",
+        11920,
+        0,
+        17214.0,
+        -26.65518090081221
+      ],
+      [
+        "2022-01-27 00:00:00",
+        "AUS",
+        16999,
+        0,
+        20781.0,
+        -16.40521268748463
+      ],
+      [
+        "2022-01-28 00:00:00",
+        "AUS",
+        17240,
+        0,
+        22588.0,
+        -12.633659352353925
+      ],
+      [
+        "2022-01-29 00:00:00",
+        "AUS",
+        10244,
+        0,
+        13248.0,
+        -11.909880471235704
       ]
     ]
   }
