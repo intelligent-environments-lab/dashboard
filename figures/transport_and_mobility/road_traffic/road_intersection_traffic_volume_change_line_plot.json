@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_change_line_plot",
   "title": "Road intersection traffic volume change",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 17 February, 2022 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 20 February, 2022 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -764,7 +764,10 @@
       744,
       745,
       746,
-      747
+      747,
+      748,
+      749,
+      750
     ],
     "columns": [
       "timestamp",
@@ -12750,6 +12753,54 @@
         null,
         2.6658766800893408,
         -0.8145515653102806
+      ],
+      [
+        "2022-02-18 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -3.413689785765743,
+        null,
+        -1.5468177069273494,
+        null,
+        null,
+        2.718781976151527,
+        -0.7472418388471884
+      ],
+      [
+        "2022-02-19 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -3.769449493598443,
+        null,
+        -1.5312179842557523,
+        null,
+        null,
+        3.202768178703594,
+        -0.6992997663835337
+      ],
+      [
+        "2022-02-20 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -4.722832619112716,
+        null,
+        -0.9990787938773423,
+        null,
+        null,
+        3.137199782670482,
+        -0.8615705434398588
       ]
     ]
   }

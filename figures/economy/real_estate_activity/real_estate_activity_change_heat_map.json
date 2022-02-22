@@ -1,12 +1,12 @@
 {
   "key": "real_estate_activity_change_heat_map",
   "title": "Real estate activity change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and December, 2021 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and January, 2022 in Austin, TX.",
   "insights": [
-    "The number of listing in 2020 was generally lower than that of 2019 at an average of -40% irrespective of the pandemic.",
+    "The number of listing in 2020 was generally lower than that of 2019 at an average of -42% irrespective of the pandemic.",
     "Average and median price in 2020 has remained higher than that of 2019.",
-    "Since May, 2020, average price has increased by an average of 28% points.",
-    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 46% respectively above the baseline."
+    "Since May, 2020, average price has increased by an average of 29% points.",
+    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 47% respectively above the baseline."
   ],
   "type": "heat_map",
   "source": {
@@ -48,7 +48,8 @@
       "2021-09-01 00:00:00+00:00",
       "2021-10-01 00:00:00+00:00",
       "2021-11-01 00:00:00+00:00",
-      "2021-12-01 00:00:00+00:00"
+      "2021-12-01 00:00:00+00:00",
+      "2022-01-01 00:00:00+00:00"
     ],
     "data": [
       [
@@ -76,7 +77,8 @@
         37.303664921465966,
         37.2611668477219,
         35.540201005025125,
-        40.66496163682864
+        40.66496163682864,
+        62.27060836726264
       ],
       [
         "average_price_($)_change",
@@ -103,7 +105,8 @@
         32.577951120249274,
         41.03249778926604,
         37.62325757090987,
-        38.79817767288667
+        38.79817767288667,
+        53.60875431389044
       ],
       [
         "volume_($)_change",
@@ -130,7 +133,8 @@
         48.97952205514566,
         47.44297203709406,
         70.9016201037735,
-        50.7701573660643
+        50.7701573660643,
+        63.19497619220068
       ],
       [
         "sales_change",
@@ -157,7 +161,8 @@
         12.371134020618557,
         4.545454545454546,
         24.180790960451976,
-        8.625592417061611
+        8.625592417061611,
+        6.240713224368499
       ],
       [
         "listings_change",
@@ -184,7 +189,8 @@
         -35.44891640866873,
         -40.04282655246253,
         -47.32142857142857,
-        -53.7052456286428
+        -53.7052456286428,
+        -78.5841760856633
       ]
     ]
   }
