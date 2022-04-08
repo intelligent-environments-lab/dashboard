@@ -43,8 +43,8 @@ def st_markdown_image(image_path, hyperlink, alt_text=""):
 
 def main():
     st.set_page_config(
-        layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png"
-    )
+    layout="centered", page_title="IEL Covid-19 Dashboard", page_icon="images/favicon.png")
+    
     st.title("IEL Covid-19 Dashboard")
 
     with open("assets/introduction.txt", "r", encoding="utf-8") as f:
@@ -97,9 +97,7 @@ def main():
         st.markdown(disclaimer)
 
     toc.generate()
-    
-try:
-    with streamlit_analytics.track(firestore_key_file="assets/firebase-key.json", firestore_collection_name="counts"):
-        main()
-except:
+
+with streamlit_analytics.track(firestore_key_file="assets/firebase-key.json", firestore_collection_name="counts"):
     main()
+
