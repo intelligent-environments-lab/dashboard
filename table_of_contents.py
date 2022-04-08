@@ -24,7 +24,7 @@ class Toc:
             self._placeholder.markdown("\n".join(self._items), unsafe_allow_html=True)
 
     def _markdown(self, text, level, space=""):
-        key = "".join(filter(str.isalnum, text)).lower()
+        key = "".join(text.replace(' - ','-').replace(' & ','-').replace('.','-').replace(' ','-')).lower()
 
         st.markdown(f"<{level} id='{key}'>{text}</{level}>", unsafe_allow_html=True)
         self._items.append(f"{space}* <a href='#{key}'>{text}</a>")
