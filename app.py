@@ -2,7 +2,10 @@
 import contextlib
 
 import streamlit as st
-import streamlit_analytics
+try:
+    import streamlit_analytics
+except:
+    pass
 import plotly.express as px
 import pandas as pd
 
@@ -95,6 +98,8 @@ def main():
 
     toc.generate()
     
-
-with streamlit_analytics.track(firestore_key_file="assets/firebase-key.json", firestore_collection_name="counts"):
+try:
+    with streamlit_analytics.track(firestore_key_file="assets/firebase-key.json", firestore_collection_name="counts"):
+        main()
+except:
     main()

@@ -1,4 +1,5 @@
-streamlit-analytics==0.2.1
+streamlit-analytics>=0.2.1
 pdf2image==1.14.0
 plotly==4.14.3
-tabulate==0.8.7
+tabulate>=0.8.9
+wheel>=0.37.0
