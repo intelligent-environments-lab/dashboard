@@ -1,11 +1,11 @@
 {
   "key": "public_transit_ridership_distribution_line_plot",
   "title": "Public transit ridership distribution",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' public transit ridership on high frequency routes within January, 2020 and December, 2020 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' public transit ridership on high frequency routes within January, 2020 and December, 2021 in Austin, TX.",
   "insights": [
-    "Between January and February 2020, mean ridership was 55% higher than that of 2019.",
-    "By the end of March 2020, mean ridership across all routes had dropped to 46% below the baseline and continued to drop until May 2020 where it reached -53% points below that of March.",
-    "The decline in ridership slightly reduced at the end of June but has remained at an average of -2% below the baseline.",
+    "Between January and February 2020, mean ridership was 7% higher than that of 2019.",
+    "By the end of March 2020, mean ridership across all routes had dropped to -17% below the baseline and continued to drop until May 2020 where it reached -39% points below that of March.",
+    "The decline in ridership slightly reduced at the end of June but has remained at an average of -43% below the baseline.",
     "The routes used in the analysis include 10-South 1st/Red River, 17-Cesar Chavez, 18-Martin Luther King, 2-Rosewood, 20-Manor Rd/Riverside, 300-Springdale/Oltorf, 311-Stassney, 325-Metric/Rundberg, 333-William Cannon, 335-335 35th/38th, 4-7th Street, 7-Duval / Dove Springs, 801-N Lamar S Congress and 803-Burnet/S Lamar"
   ],
   "type": "line_plot",
@@ -28,7 +28,19 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
     ],
     "columns": [
       "timestamp",
@@ -38,53 +50,53 @@
     "data": [
       [
         "2020-01-01 00:00:00",
-        62.14072316095282,
-        12.943524712848895
+        8.653768699837007,
+        6.791701103370485
       ],
       [
         "2020-02-01 00:00:00",
-        48.698658317919644,
-        9.939753316800545
+        6.326172878645997,
+        5.2678742552314555
       ],
       [
         "2020-03-01 00:00:00",
-        45.90697569766189,
-        17.219207787141332
+        -17.208376292582813,
+        7.187156775390171
       ],
       [
         "2020-04-01 00:00:00",
-        -0.48180943263252135,
-        16.76300744982778
+        -54.961822648836964,
+        9.82483033060975
       ],
       [
         "2020-05-01 00:00:00",
-        -7.379042129981127,
-        13.281186392945274
+        -56.59980046752118,
+        7.568051249619422
       ],
       [
         "2020-06-01 00:00:00",
-        31.309896389252714,
-        17.928442044274114
+        -39.637129946963576,
+        9.92423850270507
       ],
       [
         "2020-07-01 00:00:00",
-        14.118252608908524,
-        14.693689232643075
+        -48.070195471666345,
+        8.74139039013054
       ],
       [
         "2020-08-01 00:00:00",
-        4.8185907043485345,
-        13.28002094414054
+        -52.64342521465783,
+        7.3997222373499945
       ],
       [
         "2020-09-01 00:00:00",
-        14.667923412876874,
-        13.786460238443507
+        -47.674567521701796,
+        9.715609712453437
       ],
       [
         "2020-10-01 00:00:00",
-        3.745130073840188,
-        12.843708008715737
+        -52.17720358611842,
+        8.758884243684637
       ],
       [
         "2020-11-01 00:00:00",
@@ -95,6 +107,66 @@
         "2020-12-01 00:00:00",
         -41.07642409439229,
         7.817493255768045
+      ],
+      [
+        "2021-01-01 00:00:00",
+        -49.788967227883596,
+        7.99589602895749
+      ],
+      [
+        "2021-02-01 00:00:00",
+        -57.99362884351412,
+        7.382405792382863
+      ],
+      [
+        "2021-03-01 00:00:00",
+        -34.49555502139072,
+        10.95578820514055
+      ],
+      [
+        "2021-04-01 00:00:00",
+        -45.51998678379555,
+        8.212988173262408
+      ],
+      [
+        "2021-05-01 00:00:00",
+        -50.77924166245994,
+        6.770912879906649
+      ],
+      [
+        "2021-06-01 00:00:00",
+        -29.052973663783714,
+        8.887604693437767
+      ],
+      [
+        "2021-07-01 00:00:00",
+        -39.88254794492786,
+        6.900830392054987
+      ],
+      [
+        "2021-08-01 00:00:00",
+        -40.325420542911324,
+        7.173517961873293
+      ],
+      [
+        "2021-09-01 00:00:00",
+        -37.65750906542134,
+        6.023112088682804
+      ],
+      [
+        "2021-10-01 00:00:00",
+        -46.08787746470535,
+        5.882202079334377
+      ],
+      [
+        "2021-11-01 00:00:00",
+        -34.45779585772414,
+        7.9131737557962545
+      ],
+      [
+        "2021-12-01 00:00:00",
+        -34.0461663457386,
+        7.281236715631944
       ]
     ]
   }

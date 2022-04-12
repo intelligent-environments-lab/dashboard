@@ -1,12 +1,12 @@
 {
   "key": "real_estate_activity_change_line_plot",
   "title": "Real estate activity change",
-  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and January, 2022 in Austin, TX.",
+  "caption": "Comparison between 2019 (baseline) and subsequent years' real estate activity within January, 2020 and February, 2022 in Austin, TX.",
   "insights": [
-    "The number of listing in 2020 was generally lower than that of 2019 at an average of -42% irrespective of the pandemic.",
+    "The number of listing in 2020 was generally lower than that of 2019 at an average of -43% irrespective of the pandemic.",
     "Average and median price in 2020 has remained higher than that of 2019.",
-    "Since May, 2020, average price has increased by an average of 29% points.",
-    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 11% and 47% respectively above the baseline."
+    "Since May, 2020, average price has increased by an average of 30% points.",
+    "Sales and it's monetary volume took a dive below 2019 values after March, 2020. However since June 2020, sales and volume have increased by 10% and 47% respectively above the baseline."
   ],
   "type": "line_plot",
   "source": {
@@ -41,7 +41,8 @@
       21,
       22,
       23,
-      24
+      24,
+      25
     ],
     "columns": [
       "timestamp",
@@ -167,14 +168,14 @@
       [
         "2021-03-01 00:00:00+00:00",
         -73.58597285067873,
-        13.313896987366375,
-        61.81309057785505,
-        42.800879399676866,
+        13.411078717201166,
+        61.88112122851876,
+        42.738310026956256,
         41.20879120879121
       ],
       [
         "2021-04-01 00:00:00+00:00",
-        -61.761426978818285,
+        -61.81716833890747,
         0.9259259259259259,
         49.940124707405644,
         48.564427820241775,
@@ -190,7 +191,7 @@
       ],
       [
         "2021-06-01 00:00:00+00:00",
-        -61.86046511627907,
+        -61.906976744186046,
         8.57805255023184,
         61.15392504873058,
         48.422253863227105,
@@ -207,14 +208,14 @@
       [
         "2021-08-01 00:00:00+00:00",
         -49.069212410501194,
-        2.7070063694267517,
-        42.06628655738817,
+        2.786624203821656,
+        42.17641547555604,
         38.32200987651183,
         41.72937293729373
       ],
       [
         "2021-09-01 00:00:00+00:00",
-        -35.44891640866873,
+        -35.500515995872036,
         12.371134020618557,
         48.97952205514566,
         32.577951120249274,
@@ -222,35 +223,43 @@
       ],
       [
         "2021-10-01 00:00:00+00:00",
-        -40.04282655246253,
-        4.545454545454546,
-        47.44297203709406,
-        41.03249778926604,
-        37.2611668477219
+        -40.149892933618844,
+        4.738878143133462,
+        47.57804472459118,
+        40.900916604312634,
+        36.74995207361493
       ],
       [
         "2021-11-01 00:00:00+00:00",
-        -47.32142857142857,
-        24.180790960451976,
-        70.9016201037735,
-        37.62325757090987,
+        -47.51275510204081,
+        23.615819209039547,
+        70.10032735778347,
+        37.603854243858535,
         35.540201005025125
       ],
       [
         "2021-12-01 00:00:00+00:00",
-        -53.7052456286428,
-        8.625592417061611,
-        50.7701573660643,
-        38.79817767288667,
+        -53.78850957535387,
+        8.530805687203792,
+        50.57949368218916,
+        38.74368416202203,
         40.66496163682864
       ],
       [
         "2022-01-01 00:00:00+00:00",
-        -78.5841760856633,
-        6.240713224368499,
-        63.19497619220068,
-        53.60875431389044,
+        -78.64366448542535,
+        5.052005943536404,
+        60.876746219851256,
+        53.140139396043686,
         62.27060836726264
+      ],
+      [
+        "2022-02-01 00:00:00+00:00",
+        -77.29468599033817,
+        -2.886836027713626,
+        57.60028577568638,
+        62.28507693454044,
+        60.57971014492754
       ]
     ]
   }
