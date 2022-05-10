@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 22 April, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 8 May, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 22 April, 2022 2249428 doses had been administered to 1022398 people where about 86.0% had received full dosage.",
-    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 22 April, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 8 May, 2022 2303810 doses had been administered to 1026436 people where about 87.0% had received full dosage.",
+    "Compared to 21 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 3.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 1.0% on 8 May, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -435,7 +435,23 @@
       417,
       418,
       419,
-      420
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436
     ],
     "columns": [
       "index",
@@ -453,7 +469,8 @@
       "population_education_and_child_care_personnel",
       "People Vaccinated with an Additional Dose",
       "Population\n5+",
-      "People Vaccinated with Booster Dose"
+      "People Vaccinated with Booster Dose",
+      "People Vaccinated with at least One Booster Dose"
     ],
     "data": [
       [
@@ -469,6 +486,7 @@
         51820.0,
         8264.0,
         311477.0,
+        null,
         null,
         null,
         null,
@@ -490,6 +508,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -505,6 +524,7 @@
         51820.0,
         8264.0,
         311477.0,
+        null,
         null,
         null,
         null,
@@ -526,6 +546,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -541,6 +562,7 @@
         51820.0,
         8264.0,
         311477.0,
+        null,
         null,
         null,
         null,
@@ -562,6 +584,7 @@
         31354.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -578,6 +601,7 @@
         8264.0,
         311477.0,
         31354.0,
+        null,
         null,
         null,
         null
@@ -598,6 +622,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -614,6 +639,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -634,6 +660,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -650,6 +677,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -670,6 +698,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -688,12 +717,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         13,
         "Travis",
         "2021-03-11 00:00:00",
+        null,
         null,
         null,
         null,
@@ -724,6 +755,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -740,6 +772,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -760,6 +793,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -776,6 +810,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -796,6 +831,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -812,6 +848,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -832,6 +869,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -850,12 +888,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         22,
         "Travis",
         "2021-03-20 00:00:00",
+        null,
         null,
         null,
         null,
@@ -886,6 +926,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -904,12 +945,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         25,
         "Travis",
         "2021-03-23 00:00:00",
+        null,
         null,
         null,
         null,
@@ -940,6 +983,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -956,6 +1000,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -976,6 +1021,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -992,6 +1038,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1012,6 +1059,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1028,6 +1076,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1048,6 +1097,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1064,6 +1114,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1084,6 +1135,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1100,6 +1152,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1120,6 +1173,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1136,6 +1190,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1156,6 +1211,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1172,6 +1228,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1192,6 +1249,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1208,6 +1266,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1228,6 +1287,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1244,6 +1304,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1264,6 +1325,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1280,6 +1342,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1300,6 +1363,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1316,6 +1380,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1336,6 +1401,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1352,6 +1418,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1372,6 +1439,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1388,6 +1456,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1408,6 +1477,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1424,6 +1494,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1444,6 +1515,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1460,6 +1532,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1480,6 +1553,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1496,6 +1570,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1516,6 +1591,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1532,6 +1608,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1552,6 +1629,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1570,12 +1648,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         62,
         "Travis",
         "2021-04-29 00:00:00",
+        null,
         null,
         null,
         null,
@@ -1606,12 +1686,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         64,
         "Travis",
         "2021-05-01 00:00:00",
+        null,
         null,
         null,
         null,
@@ -1642,12 +1724,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         66,
         "Travis",
         "2021-05-03 00:00:00",
+        null,
         null,
         null,
         null,
@@ -1678,12 +1762,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         68,
         "Travis",
         "2021-05-05 00:00:00",
+        null,
         null,
         null,
         null,
@@ -1714,12 +1800,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         70,
         "Travis",
         "2021-05-07 00:00:00",
+        null,
         null,
         null,
         null,
@@ -1750,6 +1838,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1766,6 +1855,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1786,6 +1876,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1802,6 +1893,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1822,6 +1914,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1838,6 +1931,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1858,6 +1952,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1874,6 +1969,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1894,6 +1990,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1910,6 +2007,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1930,6 +2028,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1946,6 +2045,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -1966,6 +2066,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -1982,6 +2083,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2002,6 +2104,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2018,6 +2121,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2038,6 +2142,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2054,6 +2159,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2074,6 +2180,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2090,6 +2197,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2110,6 +2218,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2126,6 +2235,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2146,6 +2256,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2162,6 +2273,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2182,6 +2294,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2198,6 +2311,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2218,12 +2332,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         98,
         "Travis",
         "2021-06-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -2254,12 +2370,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         100,
         "Travis",
         "2021-06-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -2290,12 +2408,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         102,
         "Travis",
         "2021-06-08 00:00:00",
+        null,
         null,
         null,
         null,
@@ -2326,12 +2446,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         104,
         "Travis",
         "2021-06-10 00:00:00",
+        null,
         null,
         null,
         null,
@@ -2362,6 +2484,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2378,6 +2501,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2398,6 +2522,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2414,6 +2539,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2434,6 +2560,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2450,6 +2577,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2470,6 +2598,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2486,6 +2615,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2506,6 +2636,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2522,6 +2653,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2542,6 +2674,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2558,6 +2691,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2578,6 +2712,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2594,6 +2729,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2614,6 +2750,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2630,6 +2767,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2650,6 +2788,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2666,6 +2805,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2686,6 +2826,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2702,6 +2843,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2722,6 +2864,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2738,6 +2881,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2758,6 +2902,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2774,6 +2919,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2794,12 +2940,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         130,
         "Travis",
         "2021-07-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -2830,6 +2978,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2846,6 +2995,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2866,6 +3016,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2882,6 +3033,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2902,6 +3054,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2918,6 +3071,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2938,6 +3092,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2954,6 +3109,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -2974,6 +3130,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -2990,6 +3147,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3010,6 +3168,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3026,6 +3185,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3046,6 +3206,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3062,6 +3223,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3082,6 +3244,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3098,6 +3261,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3118,6 +3282,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3134,6 +3299,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3154,6 +3320,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3170,6 +3337,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3190,6 +3358,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3206,6 +3375,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3226,6 +3396,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3242,6 +3413,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3262,6 +3434,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3278,6 +3451,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3298,12 +3472,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         158,
         "Travis",
         "2021-08-03 00:00:00",
+        null,
         null,
         null,
         null,
@@ -3334,12 +3510,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         160,
         "Travis",
         "2021-08-05 00:00:00",
+        null,
         null,
         null,
         null,
@@ -3370,6 +3548,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3386,6 +3565,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3406,6 +3586,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3422,6 +3603,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3442,6 +3624,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3458,6 +3641,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3478,6 +3662,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3494,6 +3679,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3514,6 +3700,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3530,6 +3717,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3550,6 +3738,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3566,6 +3755,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3586,6 +3776,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3602,6 +3793,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3622,6 +3814,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3638,6 +3831,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3658,6 +3852,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3674,6 +3869,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3694,6 +3890,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3710,6 +3907,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3730,6 +3928,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3746,6 +3945,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3766,6 +3966,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3782,6 +3983,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3802,6 +4004,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3818,6 +4021,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3838,6 +4042,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3854,6 +4059,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3874,6 +4080,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3890,6 +4097,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3910,6 +4118,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3926,6 +4135,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3946,6 +4156,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3962,6 +4173,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -3982,6 +4194,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -3998,6 +4211,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4018,6 +4232,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4034,6 +4249,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4054,6 +4270,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4070,6 +4287,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4090,6 +4308,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4106,6 +4325,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4126,6 +4346,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4142,6 +4363,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4162,6 +4384,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4178,6 +4401,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4198,6 +4422,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4214,6 +4439,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4234,12 +4460,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         210,
         "Travis",
         "2021-09-24 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4270,12 +4498,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         212,
         "Travis",
         "2021-09-26 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4306,12 +4536,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         214,
         "Travis",
         "2021-09-28 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4342,12 +4574,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         216,
         "Travis",
         "2021-09-30 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4378,12 +4612,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         218,
         "Travis",
         "2021-10-02 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4414,12 +4650,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         220,
         "Travis",
         "2021-10-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4450,12 +4688,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         222,
         "Travis",
         "2021-10-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4486,6 +4726,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4502,6 +4743,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4522,6 +4764,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4538,6 +4781,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4558,6 +4802,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4574,6 +4819,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4594,6 +4840,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4610,6 +4857,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4630,6 +4878,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4646,6 +4895,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4666,6 +4916,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4682,6 +4933,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4702,6 +4954,7 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
@@ -4718,6 +4971,7 @@
         8264.0,
         311477.0,
         32884.0,
+        null,
         null,
         null,
         null
@@ -4738,12 +4992,14 @@
         32884.0,
         null,
         null,
+        null,
         null
       ],
       [
         238,
         "Travis",
         "2021-10-22 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4774,12 +5030,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         240,
         "Travis",
         "2021-10-24 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4810,12 +5068,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         242,
         "Travis",
         "2021-10-26 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4846,12 +5106,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         244,
         "Travis",
         "2021-10-28 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4882,12 +5144,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         246,
         "Travis",
         "2021-10-30 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4918,12 +5182,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         248,
         "Travis",
         "2021-11-01 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4954,12 +5220,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         250,
         "Travis",
         "2021-11-03 00:00:00",
+        null,
         null,
         null,
         null,
@@ -4990,12 +5258,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         252,
         "Travis",
         "2021-11-05 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5026,12 +5296,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         254,
         "Travis",
         "2021-11-07 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5062,6 +5334,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5080,6 +5353,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5098,6 +5372,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5116,6 +5391,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5134,6 +5410,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5152,6 +5429,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5170,6 +5448,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5188,6 +5467,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5206,6 +5486,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5224,6 +5505,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5242,6 +5524,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5260,6 +5543,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5278,6 +5562,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5296,6 +5581,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5314,6 +5600,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5332,12 +5619,14 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
         271,
         "Travis",
         "2021-11-24 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5368,12 +5657,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         273,
         "Travis",
         "2021-11-26 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5404,12 +5695,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         275,
         "Travis",
         "2021-11-28 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5440,12 +5733,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         277,
         "Travis",
         "2021-11-30 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5476,12 +5771,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         279,
         "Travis",
         "2021-12-02 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5512,12 +5809,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         281,
         "Travis",
         "2021-12-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5548,12 +5847,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         283,
         "Travis",
         "2021-12-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5584,12 +5885,14 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
         285,
         "Travis",
         "2021-12-08 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5620,6 +5923,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5638,6 +5942,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5656,6 +5961,7 @@
         32884.0,
         null,
         1207346.0,
+        null,
         null
       ],
       [
@@ -5674,7 +5980,8 @@
         32884.0,
         null,
         1207346.0,
-        218724.0
+        218724.0,
+        null
       ],
       [
         290,
@@ -5692,12 +5999,14 @@
         32884.0,
         null,
         1207346.0,
-        221986.0
+        221986.0,
+        null
       ],
       [
         291,
         "Travis",
         "2021-12-14 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5728,6 +6037,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -5746,7 +6056,8 @@
         32884.0,
         null,
         1207346.0,
-        237737.0
+        237737.0,
+        null
       ],
       [
         294,
@@ -5764,7 +6075,8 @@
         32884.0,
         null,
         1207346.0,
-        242453.0
+        242453.0,
+        null
       ],
       [
         295,
@@ -5782,7 +6094,8 @@
         32884.0,
         null,
         1207346.0,
-        247904.0
+        247904.0,
+        null
       ],
       [
         296,
@@ -5800,7 +6113,8 @@
         32884.0,
         null,
         1207346.0,
-        250134.0
+        250134.0,
+        null
       ],
       [
         297,
@@ -5818,7 +6132,8 @@
         32884.0,
         null,
         1207346.0,
-        253223.0
+        253223.0,
+        null
       ],
       [
         298,
@@ -5836,7 +6151,8 @@
         32884.0,
         null,
         1207346.0,
-        259964.0
+        259964.0,
+        null
       ],
       [
         299,
@@ -5854,12 +6170,14 @@
         32884.0,
         null,
         1207346.0,
-        266790.0
+        266790.0,
+        null
       ],
       [
         300,
         "Travis",
         "2021-12-23 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5890,12 +6208,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         302,
         "Travis",
         "2021-12-25 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5926,7 +6246,8 @@
         32884.0,
         null,
         1207346.0,
-        276697.0
+        276697.0,
+        null
       ],
       [
         304,
@@ -5944,7 +6265,8 @@
         32884.0,
         null,
         1207346.0,
-        278866.0
+        278866.0,
+        null
       ],
       [
         305,
@@ -5962,12 +6284,14 @@
         32884.0,
         null,
         1207346.0,
-        283926.0
+        283926.0,
+        null
       ],
       [
         306,
         "Travis",
         "2021-12-29 00:00:00",
+        null,
         null,
         null,
         null,
@@ -5998,12 +6322,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         308,
         "Travis",
         "2021-12-31 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6034,12 +6360,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         310,
         "Travis",
         "2022-01-02 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6070,12 +6398,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         312,
         "Travis",
         "2022-01-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6106,12 +6436,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         314,
         "Travis",
         "2022-01-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6142,6 +6474,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -6160,7 +6493,8 @@
         32884.0,
         null,
         1207346.0,
-        317464.0
+        317464.0,
+        null
       ],
       [
         317,
@@ -6178,7 +6512,8 @@
         32884.0,
         null,
         1207346.0,
-        319492.0
+        319492.0,
+        null
       ],
       [
         318,
@@ -6196,7 +6531,8 @@
         32884.0,
         null,
         1207346.0,
-        321721.0
+        321721.0,
+        null
       ],
       [
         319,
@@ -6214,7 +6550,8 @@
         32884.0,
         null,
         1207346.0,
-        325503.0
+        325503.0,
+        null
       ],
       [
         320,
@@ -6232,7 +6569,8 @@
         32884.0,
         null,
         1207346.0,
-        329596.0
+        329596.0,
+        null
       ],
       [
         321,
@@ -6250,7 +6588,8 @@
         32884.0,
         null,
         1207346.0,
-        333111.0
+        333111.0,
+        null
       ],
       [
         322,
@@ -6268,7 +6607,8 @@
         32884.0,
         null,
         1207346.0,
-        335994.0
+        335994.0,
+        null
       ],
       [
         323,
@@ -6286,7 +6626,8 @@
         32884.0,
         null,
         1207346.0,
-        336168.0
+        336168.0,
+        null
       ],
       [
         324,
@@ -6304,7 +6645,8 @@
         32884.0,
         null,
         1207346.0,
-        339007.0
+        339007.0,
+        null
       ],
       [
         325,
@@ -6322,7 +6664,8 @@
         32884.0,
         null,
         1207346.0,
-        342584.0
+        342584.0,
+        null
       ],
       [
         326,
@@ -6340,7 +6683,8 @@
         32884.0,
         null,
         1207346.0,
-        345796.0
+        345796.0,
+        null
       ],
       [
         327,
@@ -6358,7 +6702,8 @@
         32884.0,
         null,
         1207346.0,
-        348494.0
+        348494.0,
+        null
       ],
       [
         328,
@@ -6376,7 +6721,8 @@
         32884.0,
         null,
         1207346.0,
-        350730.0
+        350730.0,
+        null
       ],
       [
         329,
@@ -6394,7 +6740,8 @@
         32884.0,
         null,
         1207346.0,
-        352649.0
+        352649.0,
+        null
       ],
       [
         330,
@@ -6412,7 +6759,8 @@
         32884.0,
         null,
         1207346.0,
-        355281.0
+        355281.0,
+        null
       ],
       [
         331,
@@ -6430,7 +6778,8 @@
         32884.0,
         null,
         1207346.0,
-        356526.0
+        356526.0,
+        null
       ],
       [
         332,
@@ -6448,7 +6797,8 @@
         32884.0,
         null,
         1207346.0,
-        358015.0
+        358015.0,
+        null
       ],
       [
         333,
@@ -6466,12 +6816,14 @@
         32884.0,
         null,
         1207346.0,
-        359842.0
+        359842.0,
+        null
       ],
       [
         334,
         "Travis",
         "2022-01-26 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6502,7 +6854,8 @@
         32884.0,
         null,
         1207346.0,
-        362891.0
+        362891.0,
+        null
       ],
       [
         336,
@@ -6520,12 +6873,14 @@
         32884.0,
         null,
         1207346.0,
-        364682.0
+        364682.0,
+        null
       ],
       [
         337,
         "Travis",
         "2022-01-29 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6556,7 +6911,8 @@
         32884.0,
         null,
         1207346.0,
-        367265.0
+        367265.0,
+        null
       ],
       [
         339,
@@ -6574,7 +6930,8 @@
         32884.0,
         null,
         1207346.0,
-        368470.0
+        368470.0,
+        null
       ],
       [
         340,
@@ -6592,12 +6949,14 @@
         32884.0,
         null,
         1207346.0,
-        369842.0
+        369842.0,
+        null
       ],
       [
         341,
         "Travis",
         "2022-02-02 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6628,12 +6987,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         343,
         "Travis",
         "2022-02-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6664,12 +7025,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         345,
         "Travis",
         "2022-02-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -6700,6 +7063,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -6718,7 +7082,8 @@
         32884.0,
         null,
         1207346.0,
-        375914.0
+        375914.0,
+        null
       ],
       [
         348,
@@ -6736,7 +7101,8 @@
         32884.0,
         null,
         1207346.0,
-        376757.0
+        376757.0,
+        null
       ],
       [
         349,
@@ -6754,7 +7120,8 @@
         32884.0,
         null,
         1207346.0,
-        377549.0
+        377549.0,
+        null
       ],
       [
         350,
@@ -6772,7 +7139,8 @@
         32884.0,
         null,
         1207346.0,
-        378439.0
+        378439.0,
+        null
       ],
       [
         351,
@@ -6790,7 +7158,8 @@
         32884.0,
         null,
         1207346.0,
-        379210.0
+        379210.0,
+        null
       ],
       [
         352,
@@ -6808,7 +7177,8 @@
         32884.0,
         null,
         1207346.0,
-        379845.0
+        379845.0,
+        null
       ],
       [
         353,
@@ -6826,7 +7196,8 @@
         32884.0,
         null,
         1207346.0,
-        380506.0
+        380506.0,
+        null
       ],
       [
         354,
@@ -6844,7 +7215,8 @@
         32884.0,
         null,
         1207346.0,
-        381144.0
+        381144.0,
+        null
       ],
       [
         355,
@@ -6862,7 +7234,8 @@
         32884.0,
         null,
         1207346.0,
-        381789.0
+        381789.0,
+        null
       ],
       [
         356,
@@ -6880,7 +7253,8 @@
         32884.0,
         null,
         1207346.0,
-        382491.0
+        382491.0,
+        null
       ],
       [
         357,
@@ -6898,7 +7272,8 @@
         32884.0,
         null,
         1207346.0,
-        383213.0
+        383213.0,
+        null
       ],
       [
         358,
@@ -6916,7 +7291,8 @@
         32884.0,
         null,
         1207346.0,
-        383838.0
+        383838.0,
+        null
       ],
       [
         359,
@@ -6934,7 +7310,8 @@
         32884.0,
         null,
         1207346.0,
-        384196.0
+        384196.0,
+        null
       ],
       [
         360,
@@ -6952,7 +7329,8 @@
         32884.0,
         null,
         1207346.0,
-        384620.0
+        384620.0,
+        null
       ],
       [
         361,
@@ -6970,12 +7348,14 @@
         32884.0,
         null,
         1207346.0,
-        385235.0
+        385235.0,
+        null
       ],
       [
         362,
         "Travis",
         "2022-02-23 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7006,12 +7386,14 @@
         32884.0,
         null,
         1207346.0,
-        386262.0
+        386262.0,
+        null
       ],
       [
         364,
         "Travis",
         "2022-02-25 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7042,12 +7424,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         366,
         "Travis",
         "2022-02-27 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7078,12 +7462,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         368,
         "Travis",
         "2022-03-01 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7114,12 +7500,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         370,
         "Travis",
         "2022-03-03 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7150,12 +7538,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         372,
         "Travis",
         "2022-03-05 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7186,12 +7576,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         374,
         "Travis",
         "2022-03-07 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7222,7 +7614,8 @@
         32884.0,
         null,
         1207346.0,
-        390976.0
+        390976.0,
+        null
       ],
       [
         376,
@@ -7240,7 +7633,8 @@
         32884.0,
         null,
         1207346.0,
-        391359.0
+        391359.0,
+        null
       ],
       [
         377,
@@ -7258,7 +7652,8 @@
         32884.0,
         null,
         1207346.0,
-        391713.0
+        391713.0,
+        null
       ],
       [
         378,
@@ -7276,7 +7671,8 @@
         32884.0,
         null,
         1207346.0,
-        392107.0
+        392107.0,
+        null
       ],
       [
         379,
@@ -7294,7 +7690,8 @@
         32884.0,
         null,
         1207346.0,
-        392426.0
+        392426.0,
+        null
       ],
       [
         380,
@@ -7312,7 +7709,8 @@
         32884.0,
         null,
         1207346.0,
-        392572.0
+        392572.0,
+        null
       ],
       [
         381,
@@ -7330,7 +7728,8 @@
         32884.0,
         null,
         1207346.0,
-        392877.0
+        392877.0,
+        null
       ],
       [
         382,
@@ -7348,7 +7747,8 @@
         32884.0,
         null,
         1207346.0,
-        393265.0
+        393265.0,
+        null
       ],
       [
         383,
@@ -7366,7 +7766,8 @@
         32884.0,
         null,
         1207346.0,
-        393790.0
+        393790.0,
+        null
       ],
       [
         384,
@@ -7384,7 +7785,8 @@
         32884.0,
         null,
         1207346.0,
-        394320.0
+        394320.0,
+        null
       ],
       [
         385,
@@ -7402,7 +7804,8 @@
         32884.0,
         null,
         1207346.0,
-        394658.0
+        394658.0,
+        null
       ],
       [
         386,
@@ -7420,7 +7823,8 @@
         32884.0,
         null,
         1207346.0,
-        394995.0
+        394995.0,
+        null
       ],
       [
         387,
@@ -7438,7 +7842,8 @@
         32884.0,
         null,
         1207346.0,
-        395112.0
+        395112.0,
+        null
       ],
       [
         388,
@@ -7456,7 +7861,8 @@
         32884.0,
         null,
         1207346.0,
-        395266.0
+        395266.0,
+        null
       ],
       [
         389,
@@ -7474,12 +7880,14 @@
         32884.0,
         null,
         1207346.0,
-        395696.0
+        395696.0,
+        null
       ],
       [
         390,
         "Travis",
         "2022-03-23 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7510,12 +7918,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         392,
         "Travis",
         "2022-03-25 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7546,12 +7956,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         394,
         "Travis",
         "2022-03-27 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7582,12 +7994,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         396,
         "Travis",
         "2022-03-29 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7618,12 +8032,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         398,
         "Travis",
         "2022-03-31 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7654,12 +8070,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         400,
         "Travis",
         "2022-04-02 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7690,12 +8108,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         402,
         "Travis",
         "2022-04-04 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7726,12 +8146,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         404,
         "Travis",
         "2022-04-06 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7762,6 +8184,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
@@ -7780,7 +8203,8 @@
         32884.0,
         null,
         1207346.0,
-        402597.0
+        402597.0,
+        null
       ],
       [
         407,
@@ -7798,7 +8222,8 @@
         32884.0,
         null,
         1207346.0,
-        403044.0
+        403044.0,
+        null
       ],
       [
         408,
@@ -7816,7 +8241,8 @@
         32884.0,
         null,
         1207346.0,
-        403250.0
+        403250.0,
+        null
       ],
       [
         409,
@@ -7834,7 +8260,8 @@
         32884.0,
         null,
         1207346.0,
-        403590.0
+        403590.0,
+        null
       ],
       [
         410,
@@ -7852,7 +8279,8 @@
         32884.0,
         null,
         1207346.0,
-        403992.0
+        403992.0,
+        null
       ],
       [
         411,
@@ -7870,12 +8298,14 @@
         32884.0,
         null,
         1207346.0,
-        404479.0
+        404479.0,
+        null
       ],
       [
         412,
         "Travis",
         "2022-04-14 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7906,12 +8336,14 @@
         null,
         null,
         null,
+        null,
         null
       ],
       [
         414,
         "Travis",
         "2022-04-16 00:00:00",
+        null,
         null,
         null,
         null,
@@ -7942,7 +8374,8 @@
         32884.0,
         null,
         1207346.0,
-        406003.0
+        406003.0,
+        null
       ],
       [
         416,
@@ -7960,7 +8393,8 @@
         32884.0,
         null,
         1207346.0,
-        406263.0
+        406263.0,
+        null
       ],
       [
         417,
@@ -7978,7 +8412,8 @@
         32884.0,
         null,
         1207346.0,
-        406646.0
+        406646.0,
+        null
       ],
       [
         418,
@@ -7996,7 +8431,8 @@
         32884.0,
         null,
         1207346.0,
-        407042.0
+        407042.0,
+        null
       ],
       [
         419,
@@ -8014,7 +8450,8 @@
         32884.0,
         null,
         1207346.0,
-        407397.0
+        407397.0,
+        null
       ],
       [
         420,
@@ -8032,7 +8469,312 @@
         32884.0,
         null,
         1207346.0,
-        407836.0
+        407836.0,
+        null
+      ],
+      [
+        421,
+        "Travis",
+        "2022-04-23 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        422,
+        "Travis",
+        "2022-04-24 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        423,
+        "Travis",
+        "2022-04-25 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        424,
+        "Travis",
+        "2022-04-26 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        425,
+        "Travis",
+        "2022-04-27 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        426,
+        "Travis",
+        "2022-04-28 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        427,
+        "Travis",
+        "2022-04-29 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        428,
+        "Travis",
+        "2022-04-30 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        429,
+        "Travis",
+        "2022-05-01 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        430,
+        "Travis",
+        "2022-05-02 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        431,
+        "Travis",
+        "2022-05-03 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        432,
+        "Travis",
+        "2022-05-04 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        433,
+        "Travis",
+        "2022-05-05 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        434,
+        "Travis",
+        "2022-05-06 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        435,
+        "Travis",
+        "2022-05-07 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        436,
+        "Travis",
+        "2022-05-08 00:00:00",
+        2165090.0,
+        2303810.0,
+        1026436.0,
+        887894.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        413603.0
       ]
     ]
   }
