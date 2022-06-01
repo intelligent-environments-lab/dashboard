@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 26 May, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 30 May, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 26 May, 2022 2331352 doses had been administered to 1029499 people where about 87.0% had received full dosage.",
-    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 26 May, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 30 May, 2022 2335967 doses had been administered to 1029925 people where about 87.0% had received full dosage.",
+    "Compared to 12 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 30 May, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -469,7 +469,11 @@
       451,
       452,
       453,
-      454
+      454,
+      455,
+      456,
+      457,
+      458
     ],
     "columns": [
       "index",
@@ -9135,6 +9139,82 @@
         1207346.0,
         null,
         421263.0
+      ],
+      [
+        455,
+        "Travis",
+        "2022-05-27 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        456,
+        "Travis",
+        "2022-05-28 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        457,
+        "Travis",
+        "2022-05-29 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        458,
+        "Travis",
+        "2022-05-30 00:00:00",
+        2165090.0,
+        2335967.0,
+        1029925.0,
+        891359.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        422875.0
       ]
     ]
   }
