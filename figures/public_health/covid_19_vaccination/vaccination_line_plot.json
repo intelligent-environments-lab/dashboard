@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 7 July, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 8 July, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 7 July, 2022 2380478 doses had been administered to 1038896 people where about 86.0% had received full dosage.",
-    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 7 July, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 8 July, 2022 2381668 doses had been administered to 1039244 people where about 86.0% had received full dosage.",
+    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 8 July, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -511,7 +511,8 @@
       493,
       494,
       495,
-      496
+      496,
+      497
     ],
     "columns": [
       "index",
@@ -10472,6 +10473,26 @@
         1207346.0,
         null,
         436357.0,
+        1281820.0
+      ],
+      [
+        497,
+        "Travis",
+        "2022-07-08 00:00:00",
+        2165090.0,
+        2381668.0,
+        1039244.0,
+        896146.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        436665.0,
         1281820.0
       ]
     ]
