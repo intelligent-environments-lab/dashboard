@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 18 August, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 21 August, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 18 August, 2022 2425176 doses had been administered to 1048975 people where about 86.0% had received full dosage.",
-    "Compared to 10 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 18 August, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 21 August, 2022 2426896 doses had been administered to 1049418 people where about 86.0% had received full dosage.",
+    "Compared to 12 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 21 August, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -553,7 +553,10 @@
       535,
       536,
       537,
-      538
+      538,
+      539,
+      540,
+      541
     ],
     "columns": [
       "index",
@@ -11354,6 +11357,66 @@
         1207346.0,
         null,
         448268.0,
+        1281820.0
+      ],
+      [
+        539,
+        "Travis",
+        "2022-08-19 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        540,
+        "Travis",
+        "2022-08-20 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        541,
+        "Travis",
+        "2022-08-21 00:00:00",
+        2165090.0,
+        2426896.0,
+        1049418.0,
+        902526.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        448678.0,
         1281820.0
       ]
     ]
