@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 1 September, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 5 September, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 1 September, 2022 2433039 doses had been administered to 1051161 people where about 86.0% had received full dosage.",
-    "Compared to 8 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 1 September, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 5 September, 2022 2433598 doses had been administered to 1051346 people where about 86.0% had received full dosage.",
+    "Compared to 11 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 5 September, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -567,7 +567,11 @@
       549,
       550,
       551,
-      552
+      552,
+      553,
+      554,
+      555,
+      556
     ],
     "columns": [
       "index",
@@ -11648,6 +11652,86 @@
         1207346.0,
         null,
         450241.0,
+        1281820.0
+      ],
+      [
+        553,
+        "Travis",
+        "2022-09-02 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        554,
+        "Travis",
+        "2022-09-03 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        555,
+        "Travis",
+        "2022-09-04 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        556,
+        "Travis",
+        "2022-09-05 00:00:00",
+        2165090.0,
+        2433598.0,
+        1051346.0,
+        903932.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        450377.0,
         1281820.0
       ]
     ]
