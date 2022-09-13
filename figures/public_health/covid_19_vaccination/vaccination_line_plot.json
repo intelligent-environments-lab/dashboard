@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 8 September, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 11 September, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 8 September, 2022 2436277 doses had been administered to 1051747 people where about 86.0% had received full dosage.",
-    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 8 September, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 11 September, 2022 2444464 doses had been administered to 1052209 people where about 86.0% had received full dosage.",
+    "Compared to 11 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 0.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 11 September, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -574,7 +574,10 @@
       556,
       557,
       558,
-      559
+      559,
+      560,
+      561,
+      562
     ],
     "columns": [
       "index",
@@ -11795,6 +11798,66 @@
         1207346.0,
         null,
         450724.0,
+        1281820.0
+      ],
+      [
+        560,
+        "Travis",
+        "2022-09-09 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        561,
+        "Travis",
+        "2022-09-10 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        562,
+        "Travis",
+        "2022-09-11 00:00:00",
+        2165090.0,
+        2444464.0,
+        1052209.0,
+        904734.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        451647.0,
         1281820.0
       ]
     ]
