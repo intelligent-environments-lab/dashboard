@@ -1,10 +1,10 @@
 {
   "key": "vaccination_line_plot",
   "title": "Vaccination",
-  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 13 September, 2022 in Austin, TX.",
+  "caption": "COVID-19 vaccine allocation and administration within 26 February, 2021 and 15 September, 2022 in Austin, TX.",
   "insights": [
-    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 13 September, 2022 2449826 doses had been administered to 1052653 people where about 86.0% had received full dosage.",
-    "Compared to 8 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 13 September, 2022."
+    "While the first dose of COVID-19 vaccine was administered on 15 December, 2020, by 15 September, 2022 2455131 doses had been administered to 1053079 people where about 86.0% had received full dosage.",
+    "Compared to 9 day(s) prior, total allocated doses was up by 0.0%, administered doses was up by 1.0%, number of first dose recipients was up by 0.0% and total number of full dose recipients was up by 0.0% on 15 September, 2022."
   ],
   "type": "line_plot",
   "source": {
@@ -579,7 +579,9 @@
       561,
       562,
       563,
-      564
+      564,
+      565,
+      566
     ],
     "columns": [
       "index",
@@ -11900,6 +11902,46 @@
         1207346.0,
         null,
         452285.0,
+        1281820.0
+      ],
+      [
+        565,
+        "Travis",
+        "2022-09-14 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        566,
+        "Travis",
+        "2022-09-15 00:00:00",
+        2165090.0,
+        2455131.0,
+        1053079.0,
+        905514.0,
+        1032386.0,
+        129553.0,
+        51820.0,
+        8264.0,
+        311477.0,
+        32884.0,
+        null,
+        1207346.0,
+        null,
+        452902.0,
         1281820.0
       ]
     ]
