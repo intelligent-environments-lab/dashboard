@@ -1,7 +1,15 @@
 {
   "key": "seated_diners_change_line_plot",
   "title": "Seated diners change",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "Comparison between 2019 (baseline) and subsequent years' number of restaurant seated diners within 18 February, 2020 and 8 September, 2021 in Austin, TX.",
+=======
+  "caption": "Comparison between 2019 (baseline) and subsequent years' number of restaurant seated diners within 18 February, 2020 and 22 February, 2022 in Austin, TX.",
+>>>>>>> master
+=======
   "caption": "Comparison between 2019 (baseline) and subsequent years' number of restaurant seated diners within 18 February, 2020 and 12 April, 2022 in Austin, TX.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   "insights": [
     "Prior to mid-March 2020, daily number of seated diners was nearly same as observed in 2019 followed by a complete 100% drop in seated diners until the start of May, 2020.",
     "By the end of June, 2020, the deviation from the baseline had steeply changed from -100% to about -60% as social distancing orders were relaxed.",
@@ -587,6 +595,9 @@
       565,
       566,
       567,
+<<<<<<< HEAD
+      568
+=======
       568,
       569,
       570,
@@ -752,6 +763,10 @@
       730,
       731,
       732,
+<<<<<<< HEAD
+      733
+>>>>>>> master
+=======
       733,
       734,
       735,
@@ -804,6 +819,7 @@
       782,
       783,
       784
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -3085,6 +3101,8 @@
       [
         "2021-09-08 00:00:00",
         -19.08
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-09-09 00:00:00",
@@ -3753,6 +3771,9 @@
       [
         "2022-02-22 00:00:00",
         22.61
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2022-02-23 00:00:00",
@@ -3949,6 +3970,7 @@
       [
         "2022-04-12 00:00:00",
         12.66
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

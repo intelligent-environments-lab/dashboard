@@ -1,7 +1,15 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 3 September, 2021 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+=======
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 18 February, 2022 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+>>>>>>> master
+=======
   "caption": "COVID-19 new case counts within 26 March, 2020 and 18 March, 2022 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   "insights": [
     "The all time peak was recorded in February, 2022.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -542,6 +550,9 @@
       523,
       524,
       525,
+<<<<<<< HEAD
+      526
+=======
       526,
       527,
       528,
@@ -710,6 +721,10 @@
       691,
       692,
       693,
+<<<<<<< HEAD
+      694
+>>>>>>> master
+=======
       694,
       695,
       696,
@@ -739,6 +754,7 @@
       720,
       721,
       722
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -2783,6 +2799,33 @@
       ],
       [
         "2021-08-17 00:00:00",
+<<<<<<< HEAD
+        600.0
+      ],
+      [
+        "2021-08-18 00:00:00",
+        650.0
+      ],
+      [
+        "2021-08-19 00:00:00",
+        714.0
+      ],
+      [
+        "2021-08-20 00:00:00",
+        732.0
+      ],
+      [
+        "2021-08-21 00:00:00",
+        732.0
+      ],
+      [
+        "2021-08-22 00:00:00",
+        732.0
+      ],
+      [
+        "2021-08-23 00:00:00",
+        732.0
+=======
         597.0
       ],
       [
@@ -2808,6 +2851,7 @@
       [
         "2021-08-23 00:00:00",
         731.0
+>>>>>>> master
       ],
       [
         "2021-08-24 00:00:00",
@@ -2852,6 +2896,8 @@
       [
         "2021-09-03 00:00:00",
         686.0
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-09-04 00:00:00",
@@ -3524,6 +3570,9 @@
       [
         "2022-02-18 00:00:00",
         829.0
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2022-02-19 00:00:00",
@@ -3636,6 +3685,7 @@
       [
         "2022-03-18 00:00:00",
         null
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

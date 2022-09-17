@@ -1,7 +1,15 @@
 {
   "key": "new_hospitalization_7_day_moving_average_line_plot",
   "title": "New hospitalization 7-day moving average",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 8 September, 2021 in Austin, TX.",
+=======
+  "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 23 February, 2022 in Austin, TX.",
+>>>>>>> master
+=======
   "caption": "7-day rolling average of new COVID-19 hospitalizations within 13 March, 2020 and 22 April, 2022 in Austin, TX.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   "insights": [],
   "type": "line_plot",
   "source": {
@@ -556,6 +564,9 @@
       541,
       542,
       543,
+<<<<<<< HEAD
+      544
+=======
       544,
       545,
       546,
@@ -724,6 +735,10 @@
       709,
       710,
       711,
+<<<<<<< HEAD
+      712
+>>>>>>> master
+=======
       712,
       713,
       714,
@@ -783,6 +798,7 @@
       768,
       769,
       770
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "index",
@@ -4060,6 +4076,8 @@
         "2021-09-08 00:00:00+00:00",
         57.429,
         5.0
+<<<<<<< HEAD
+=======
       ],
       [
         545,
@@ -5068,6 +5086,9 @@
         "2022-02-23 00:00:00+00:00",
         31.0,
         4.0
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         713,
@@ -5416,6 +5437,7 @@
         "2022-04-22 00:00:00+00:00",
         null,
         null
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

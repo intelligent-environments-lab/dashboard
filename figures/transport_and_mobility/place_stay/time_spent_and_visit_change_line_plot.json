@@ -1,11 +1,27 @@
 {
   "key": "time_spent_and_visit_change_line_plot",
   "title": "Time spent and visit change",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 4 September, 2021 in Austin TX.",
+  "insights": [
+    "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
+    "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
+    "Change in average visits to public places since May is -28% while change in time spent in residential places is 13% compared to the baseline.",
+=======
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 20 February, 2022 in Austin TX.",
+  "insights": [
+    "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
+    "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
+    "Change in average visits to public places since May is -26% while change in time spent in residential places is 12% compared to the baseline.",
+>>>>>>> master
+=======
   "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 10 April, 2022 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
     "Change in average visits to public places since May is -25% while change in time spent in residential places is 12% compared to the baseline.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "line_plot",
@@ -584,6 +600,9 @@
       564,
       565,
       566,
+<<<<<<< HEAD
+      567
+=======
       567,
       568,
       569,
@@ -753,6 +772,10 @@
       733,
       734,
       735,
+<<<<<<< HEAD
+      736
+>>>>>>> master
+=======
       736,
       737,
       738,
@@ -803,6 +826,7 @@
       783,
       784,
       785
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -5356,6 +5380,8 @@
         3.0,
         -33.0,
         -19.0
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-09-05 00:00:00",
@@ -6708,6 +6734,9 @@
         2.0,
         -25.0,
         -10.0
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2022-02-21 00:00:00",
@@ -7100,6 +7129,7 @@
         0.0,
         -14.0,
         -9.0
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

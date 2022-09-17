@@ -4,7 +4,15 @@
   "caption": "Comparison between 1 January, 2020 to 13 January, 2020 (baseline) and subsequent days' change in volume of direction requests in Austin TX.",
   "insights": [
     "Between mid-March and mid-May, direction requests dropped by an average of -49%.",
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "Eversince then, public transit direction requests have remained -36% below the baseline while walking and driving direction requests are 49% and 16% respectively above the baseline."
+=======
+    "Eversince then, public transit direction requests have remained -22% below the baseline while walking and driving direction requests are 65% and 24% respectively above the baseline."
+>>>>>>> master
+=======
     "Eversince then, public transit direction requests have remained -18% below the baseline while walking and driving direction requests are 71% and 27% respectively above the baseline."
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   ],
   "type": "heat_map",
   "source": {
@@ -624,6 +632,9 @@
       "2021-09-05 00:00:00",
       "2021-09-06 00:00:00",
       "2021-09-07 00:00:00",
+<<<<<<< HEAD
+      "2021-09-08 00:00:00"
+=======
       "2021-09-08 00:00:00",
       "2021-09-09 00:00:00",
       "2021-09-10 00:00:00",
@@ -791,6 +802,10 @@
       "2022-02-19 00:00:00",
       "2022-02-20 00:00:00",
       "2022-02-21 00:00:00",
+<<<<<<< HEAD
+      "2022-02-22 00:00:00"
+>>>>>>> master
+=======
       "2022-02-22 00:00:00",
       "2022-02-23 00:00:00",
       "2022-02-24 00:00:00",
@@ -841,6 +856,7 @@
       "2022-04-10 00:00:00",
       "2022-04-11 00:00:00",
       "2022-04-12 00:00:00"
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "data": [
       [
@@ -1448,6 +1464,9 @@
         33.22,
         16.680000000000007,
         31.78,
+<<<<<<< HEAD
+        34.849999999999994
+=======
         34.849999999999994,
         42.69999999999999,
         63.33000000000001,
@@ -1615,6 +1634,10 @@
         97.47,
         55.25,
         56.56999999999999,
+<<<<<<< HEAD
+        58.59
+>>>>>>> master
+=======
         58.59,
         41.44,
         33.06,
@@ -1665,6 +1688,7 @@
         55.22999999999999,
         60.47,
         67.1
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ],
       [
         "transit",
@@ -2271,6 +2295,9 @@
         -2.0999999999999943,
         -9.930000000000007,
         31.139999999999986,
+<<<<<<< HEAD
+        40.139999999999986
+=======
         40.139999999999986,
         36.31,
         34.49000000000001,
@@ -2438,6 +2465,10 @@
         38.49000000000001,
         13.769999999999996,
         34.400000000000006,
+<<<<<<< HEAD
+        48.93000000000001
+>>>>>>> master
+=======
         48.93000000000001,
         29.830000000000013,
         24.549999999999997,
@@ -2488,6 +2519,7 @@
         21.879999999999995,
         39.150000000000006,
         54.66
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ],
       [
         "walking",
@@ -3094,6 +3126,9 @@
         130.12,
         60.41,
         87.68,
+<<<<<<< HEAD
+        100.5
+=======
         100.5,
         112.0,
         161.26,
@@ -3261,6 +3296,10 @@
         282.75,
         185.36,
         106.07,
+<<<<<<< HEAD
+        96.53999999999999
+>>>>>>> master
+=======
         96.53999999999999,
         62.870000000000005,
         62.74000000000001,
@@ -3311,6 +3350,7 @@
         136.1,
         106.08000000000001,
         109.37
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

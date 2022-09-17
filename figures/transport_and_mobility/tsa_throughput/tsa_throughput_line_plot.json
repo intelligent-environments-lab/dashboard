@@ -1,11 +1,27 @@
 {
   "key": "tsa_throughput_line_plot",
   "title": "Tsa throughput",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 21 August, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "insights": [
+    "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
+    "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 21 August, 2021 traffic was 73.0% points greater than the lowest point before mid-April.",
+=======
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 29 January, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "insights": [
+    "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
+    "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 29 January, 2022 traffic was 86.0% points greater than the lowest point before mid-April.",
+>>>>>>> master
+=======
   "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 26 March, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
     "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
     "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 26 March, 2022 traffic was 129.0% points greater than the lowest point before mid-April.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     "In 2020, Periods surrounding holidays such as 4 July (Independence Day), 1 September (Labor Day), 27 November (Thanksgiving) and 25 - 31 December (Christmas and New Year) experienced local spikes in  TSA throughput but never rose to the levels that had been observed in 2019."
   ],
   "type": "line_plot",
@@ -615,6 +631,9 @@
       595,
       596,
       597,
+<<<<<<< HEAD
+      598
+=======
       598,
       599,
       600,
@@ -776,6 +795,10 @@
       756,
       757,
       758,
+<<<<<<< HEAD
+      759
+>>>>>>> master
+=======
       759,
       760,
       761,
@@ -833,6 +856,7 @@
       813,
       814,
       815
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -5634,6 +5658,8 @@
         0,
         19730.0,
         -25.444915254237287
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-08-22 00:00:00",
@@ -6922,6 +6948,9 @@
         0,
         13248.0,
         -11.909880471235704
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2022-01-30 00:00:00",
@@ -7370,6 +7399,7 @@
         0,
         23030.0,
         30.572675911658962
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

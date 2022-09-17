@@ -3,9 +3,19 @@
   "title": "Public transit ridership distribution",
   "caption": "Comparison between 2019 (baseline) and subsequent years' public transit ridership on high frequency routes within January, 2020 and December, 2021 in Austin, TX.",
   "insights": [
+<<<<<<< HEAD
+    "Between January and February 2020, mean ridership was 55% higher than that of 2019.",
+    "By the end of March 2020, mean ridership across all routes had dropped to 46% below the baseline and continued to drop until May 2020 where it reached -53% points below that of March.",
+<<<<<<< HEAD
+    "The decline in ridership slightly reduced at the end of June but has remained at an average of -28% below the baseline.",
+=======
+    "The decline in ridership slightly reduced at the end of June but has remained at an average of -2% below the baseline.",
+>>>>>>> master
+=======
     "Between January and February 2020, mean ridership was 7% higher than that of 2019.",
     "By the end of March 2020, mean ridership across all routes had dropped to -17% below the baseline and continued to drop until May 2020 where it reached -39% points below that of March.",
     "The decline in ridership slightly reduced at the end of June but has remained at an average of -43% below the baseline.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     "The routes used in the analysis include 10-South 1st/Red River, 17-Cesar Chavez, 18-Martin Luther King, 2-Rosewood, 20-Manor Rd/Riverside, 300-Springdale/Oltorf, 311-Stassney, 325-Metric/Rundberg, 333-William Cannon, 335-335 35th/38th, 4-7th Street, 7-Duval / Dove Springs, 801-N Lamar S Congress and 803-Burnet/S Lamar"
   ],
   "type": "line_plot",

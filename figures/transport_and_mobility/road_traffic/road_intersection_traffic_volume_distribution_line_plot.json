@@ -1,7 +1,15 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 8 September, 2021 in the Austin TX.",
+=======
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 22 February, 2022 in the Austin TX.",
+>>>>>>> master
+=======
   "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 11 April, 2022 in the Austin TX.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -602,6 +610,9 @@
       582,
       583,
       584,
+<<<<<<< HEAD
+      585
+=======
       585,
       586,
       587,
@@ -769,6 +780,10 @@
       749,
       750,
       751,
+<<<<<<< HEAD
+      752
+>>>>>>> master
+=======
       752,
       753,
       754,
@@ -818,6 +833,7 @@
       798,
       799,
       800
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -3754,6 +3770,8 @@
         "2021-09-08 00:00:00",
         -3.680481882553041,
         5.427402834203977
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-09-09 00:00:00",
@@ -4589,6 +4607,9 @@
         "2022-02-22 00:00:00",
         -1.0666576493989572,
         3.319455291885895
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2022-02-23 00:00:00",
@@ -4829,6 +4850,7 @@
         "2022-04-11 00:00:00",
         3.969166814179302,
         2.2459866467646417
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }

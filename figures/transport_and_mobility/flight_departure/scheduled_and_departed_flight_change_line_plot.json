@@ -1,7 +1,15 @@
 {
   "key": "scheduled_and_departed_flight_change_line_plot",
   "title": "Scheduled and departed flight change",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "caption": "Comparison between 2019 (baseline) and subsequent years' scheduled and departed flights within 1 January, 2020 and 30 June, 2021 1 January, 2020 and  30 June, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
+=======
+  "caption": "Comparison between 2019 (baseline) and subsequent years' scheduled and departed flights within 1 January, 2020 and 30 November, 2021 1 January, 2020 and  30 November, 2021 outbound Austin-Bergstrom Intl, Austin, TX.",
+>>>>>>> master
+=======
   "caption": "Comparison between 2019 (baseline) and subsequent years' scheduled and departed flights within 1 January, 2020 and 31 January, 2022 1 January, 2020 and  31 January, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
   "insights": [],
   "type": "line_plot",
   "source": {
@@ -558,6 +566,9 @@
       543,
       544,
       545,
+<<<<<<< HEAD
+      546
+=======
       546,
       547,
       548,
@@ -711,6 +722,10 @@
       696,
       697,
       698,
+<<<<<<< HEAD
+      699
+>>>>>>> master
+=======
       699,
       700,
       701,
@@ -774,6 +789,7 @@
       759,
       760,
       761
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
     ],
     "columns": [
       "timestamp",
@@ -11187,6 +11203,8 @@
         50.0,
         200.0,
         -9.405940594059405
+<<<<<<< HEAD
+=======
       ],
       [
         "2021-07-01 00:00:00",
@@ -14094,6 +14112,9 @@
         -100.0,
         187.0,
         33.333333333333336
+<<<<<<< HEAD
+>>>>>>> master
+=======
       ],
       [
         "2021-12-01 00:00:00",
@@ -15272,6 +15293,7 @@
         0.0,
         164.0,
         60.36585365853659
+>>>>>>> d081de3ab50c1ae275aff55da0f1ffcb659630f8
       ]
     ]
   }
