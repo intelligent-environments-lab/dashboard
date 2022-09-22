@@ -1,7 +1,7 @@
 {
   "key": "case_count_by_city_line_plot",
   "title": "Case count by city",
-  "caption": "COVID-19 new case counts within 26 March, 2020 and 29 July, 2022 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
+  "caption": "COVID-19 new case counts within 26 March, 2020 and 16 September, 2022 in Austin, TX derived as the sum of the 7-day rolling average counts across zip-codes.",
   "insights": [
     "The all time peak was recorded in February, 2022.",
     "Counts have been on an increase since the beginning of November, 2020.",
@@ -805,7 +805,14 @@
       786,
       787,
       788,
-      789
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796
     ],
     "columns": [
       "timestamp",
@@ -3966,11 +3973,39 @@
       ],
       [
         "2022-07-22 00:00:00",
-        3853.0
+        3857.0
       ],
       [
         "2022-07-29 00:00:00",
-        4016.0
+        4029.0
+      ],
+      [
+        "2022-08-05 00:00:00",
+        4213.0
+      ],
+      [
+        "2022-08-12 00:00:00",
+        4723.0
+      ],
+      [
+        "2022-08-19 00:00:00",
+        4308.0
+      ],
+      [
+        "2022-08-26 00:00:00",
+        3692.0
+      ],
+      [
+        "2022-09-02 00:00:00",
+        3586.0
+      ],
+      [
+        "2022-09-09 00:00:00",
+        3271.0
+      ],
+      [
+        "2022-09-16 00:00:00",
+        2960.0
       ]
     ]
   }

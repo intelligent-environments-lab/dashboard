@@ -1,11 +1,11 @@
 {
   "key": "tsa_throughput_line_plot",
   "title": "Tsa throughput",
-  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 10 September, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 17 September, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
     "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
-    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 10 September, 2022 traffic was 118.0% points greater than the lowest point before mid-April.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 17 September, 2022 traffic was 115.0% points greater than the lowest point before mid-April.",
     "In 2020, Periods surrounding holidays such as 4 July (Independence Day), 1 September (Labor Day), 27 November (Thanksgiving) and 25 - 31 December (Christmas and New Year) experienced local spikes in  TSA throughput but never rose to the levels that had been observed in 2019."
   ],
   "type": "line_plot",
@@ -999,7 +999,14 @@
       979,
       980,
       981,
-      982
+      982,
+      983,
+      984,
+      985,
+      986,
+      987,
+      988,
+      989
     ],
     "columns": [
       "timestamp",
@@ -8873,6 +8880,62 @@
         0,
         17515.0,
         19.51965343696248
+      ],
+      [
+        "2022-09-11 00:00:00",
+        "AUS",
+        34344,
+        0,
+        17509.0,
+        19.949706621961443
+      ],
+      [
+        "2022-09-12 00:00:00",
+        "AUS",
+        28019,
+        0,
+        27926.0,
+        10.35447026388342
+      ],
+      [
+        "2022-09-13 00:00:00",
+        "AUS",
+        18987,
+        0,
+        23067.0,
+        3.3474853037230567
+      ],
+      [
+        "2022-09-14 00:00:00",
+        "AUS",
+        24197,
+        0,
+        18727.0,
+        12.210165089964756
+      ],
+      [
+        "2022-09-15 00:00:00",
+        "AUS",
+        30616,
+        0,
+        22438.0,
+        15.349257780122072
+      ],
+      [
+        "2022-09-16 00:00:00",
+        "AUS",
+        29828,
+        0,
+        23281.0,
+        16.279432402931544
+      ],
+      [
+        "2022-09-17 00:00:00",
+        "AUS",
+        19490,
+        0,
+        15697.0,
+        16.916616676664667
       ]
     ]
   }
