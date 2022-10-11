@@ -1,11 +1,11 @@
 {
   "key": "time_spent_and_visit_change_heat_map",
   "title": "Time spent and visit change",
-  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 23 September, 2022 in Austin TX.",
+  "caption": "Comparison between 3 Janaury to 6 February, 2020 period (baseline) and subsequent days' change in time spent in residential places and visits to public places within 15 February, 2020 and 4 October, 2022 in Austin TX.",
   "insights": [
     "Between mid-March and April ending, mean public place visits dropped by -40% while time spent in residential places increased by 22% compared to the baseline.",
     "There was a sudden peak in visits to grocery and pharmacy places in mid-March when public place visits was on a decline.",
-    "Change in average visits to public places since May is -24% while change in time spent in residential places is 11% compared to the baseline.",
+    "Change in average visits to public places since May is -23% while change in time spent in residential places is 11% compared to the baseline.",
     "The figure shows a weekday/weekend trend in workplaces and residential places where weekends have a smaller deviation from the baseline compared to weekdays as a result of visits and time spent in the past being low and similar to current weekend trends. The reverse is the case for parks as fewer visits are normally expected during weekdays."
   ],
   "type": "heat_map",
@@ -976,7 +976,18 @@
       "2022-09-20 00:00:00",
       "2022-09-21 00:00:00",
       "2022-09-22 00:00:00",
-      "2022-09-23 00:00:00"
+      "2022-09-23 00:00:00",
+      "2022-09-24 00:00:00",
+      "2022-09-25 00:00:00",
+      "2022-09-26 00:00:00",
+      "2022-09-27 00:00:00",
+      "2022-09-28 00:00:00",
+      "2022-09-29 00:00:00",
+      "2022-09-30 00:00:00",
+      "2022-10-01 00:00:00",
+      "2022-10-02 00:00:00",
+      "2022-10-03 00:00:00",
+      "2022-10-04 00:00:00"
     ],
     "data": [
       [
@@ -1932,7 +1943,18 @@
         -4.0,
         -4.0,
         -7.0,
-        -5.0
+        -5.0,
+        -10.0,
+        -7.0,
+        -6.0,
+        -4.0,
+        -3.0,
+        -5.0,
+        -3.0,
+        -8.0,
+        -7.0,
+        -3.0,
+        -4.0
       ],
       [
         "parks",
@@ -2887,7 +2909,18 @@
         -22.0,
         -23.0,
         -18.0,
-        -20.0
+        -20.0,
+        -16.0,
+        -27.0,
+        -19.0,
+        -15.0,
+        -18.0,
+        -14.0,
+        -15.0,
+        -3.0,
+        -23.0,
+        -21.0,
+        -16.0
       ],
       [
         "residential",
@@ -3842,7 +3875,18 @@
         7.0,
         7.0,
         6.0,
-        5.0
+        5.0,
+        1.0,
+        2.0,
+        7.0,
+        6.0,
+        7.0,
+        6.0,
+        5.0,
+        0.0,
+        2.0,
+        7.0,
+        7.0
       ],
       [
         "transit stations",
@@ -4797,7 +4841,18 @@
         -22.0,
         -15.0,
         -18.0,
-        -17.0
+        -17.0,
+        -24.0,
+        -16.0,
+        -17.0,
+        -20.0,
+        -20.0,
+        -20.0,
+        -15.0,
+        -20.0,
+        -18.0,
+        -20.0,
+        -19.0
       ],
       [
         "workplaces",
@@ -5752,7 +5807,18 @@
         -35.0,
         -32.0,
         -36.0,
-        -32.0
+        -32.0,
+        -14.0,
+        -10.0,
+        -34.0,
+        -34.0,
+        -31.0,
+        -35.0,
+        -31.0,
+        -13.0,
+        -9.0,
+        -33.0,
+        -33.0
       ]
     ]
   }

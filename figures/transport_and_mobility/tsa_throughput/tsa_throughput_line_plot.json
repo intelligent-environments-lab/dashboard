@@ -1,11 +1,11 @@
 {
   "key": "tsa_throughput_line_plot",
   "title": "Tsa throughput",
-  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 17 September, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
+  "caption": "Comparison between 2019 and subsequent years' 7-day rolling average TSA throughput within 1 January, 2020 and 1 October, 2022 outbound Austin-Bergstrom Intl, Austin, TX.",
   "insights": [
     "Average TSA throughput before March, 2020 was 13.0% higher than that in 2019.",
     "Following the onset of the pandemic in the city, a drastic drop in traffic was observed between mid-March and mid-April 2020 and reached as low as -98.0.",
-    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 17 September, 2022 traffic was 115.0% points greater than the lowest point before mid-April.",
+    "The general trend since the mid-April has been a slow but steady increase in TSA throughput and by 1 October, 2022 traffic was 108.0% points greater than the lowest point before mid-April.",
     "In 2020, Periods surrounding holidays such as 4 July (Independence Day), 1 September (Labor Day), 27 November (Thanksgiving) and 25 - 31 December (Christmas and New Year) experienced local spikes in  TSA throughput but never rose to the levels that had been observed in 2019."
   ],
   "type": "line_plot",
@@ -1006,7 +1006,21 @@
       986,
       987,
       988,
-      989
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999,
+      1000,
+      1001,
+      1002,
+      1003
     ],
     "columns": [
       "timestamp",
@@ -8936,6 +8950,118 @@
         0,
         15697.0,
         16.916616676664667
+      ],
+      [
+        "2022-09-18 00:00:00",
+        "AUS",
+        32470,
+        0,
+        28632.0,
+        24.995188050968164
+      ],
+      [
+        "2022-09-19 00:00:00",
+        "AUS",
+        27474,
+        0,
+        25390.0,
+        8.575719253872906
+      ],
+      [
+        "2022-09-20 00:00:00",
+        "AUS",
+        20586,
+        0,
+        18372.0,
+        9.476707083599234
+      ],
+      [
+        "2022-09-21 00:00:00",
+        "AUS",
+        25691,
+        0,
+        21564.0,
+        13.131357611519661
+      ],
+      [
+        "2022-09-22 00:00:00",
+        "AUS",
+        31251,
+        0,
+        26542.0,
+        14.04225814691822
+      ],
+      [
+        "2022-09-23 00:00:00",
+        "AUS",
+        32042,
+        0,
+        25652.0,
+        9.571521389734295
+      ],
+      [
+        "2022-09-24 00:00:00",
+        "AUS",
+        20017,
+        0,
+        16670.0,
+        9.251173452679838
+      ],
+      [
+        "2022-09-25 00:00:00",
+        "AUS",
+        29882,
+        0,
+        25977.0,
+        7.628583777553667
+      ],
+      [
+        "2022-09-26 00:00:00",
+        "AUS",
+        28587,
+        0,
+        25304.0,
+        8.72475563838284
+      ],
+      [
+        "2022-09-27 00:00:00",
+        "AUS",
+        22101,
+        0,
+        18804.0,
+        9.216248270409173
+      ],
+      [
+        "2022-09-28 00:00:00",
+        "AUS",
+        22757,
+        0,
+        22709.0,
+        -4.189120916133378
+      ],
+      [
+        "2022-09-29 00:00:00",
+        "AUS",
+        30932,
+        0,
+        27403.0,
+        13.862916881395863
+      ],
+      [
+        "2022-09-30 00:00:00",
+        "AUS",
+        31868,
+        0,
+        29243.0,
+        17.86810666863927
+      ],
+      [
+        "2022-10-01 00:00:00",
+        "AUS",
+        19816,
+        0,
+        18322.0,
+        10.223606630325953
       ]
     ]
   }
