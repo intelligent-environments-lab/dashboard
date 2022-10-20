@@ -1,7 +1,7 @@
 {
   "key": "road_intersection_traffic_volume_distribution_line_plot",
   "title": "Road intersection traffic volume distribution",
-  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 3 October, 2022 in the Austin TX.",
+  "caption": "Comparison between 1 January 2020 to 31 March 2020 period (baseline) and subsequent days' traffic volume across select intersections within 1 February, 2020 to 18 October, 2022 in the Austin TX.",
   "insights": [
     "After the mid-March the overall traffic volume was reduced significantly. It then gradually increased until summer 2020 and maintains rather consistent traffic volume at about 20% below the baseline.",
     " The holiday events (Thanks Giving, Christmas) generated local fluctuations.",
@@ -992,7 +992,22 @@
       972,
       973,
       974,
-      975
+      975,
+      976,
+      977,
+      978,
+      979,
+      980,
+      981,
+      982,
+      983,
+      984,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990
     ],
     "columns": [
       "timestamp",
@@ -5877,8 +5892,83 @@
       ],
       [
         "2022-10-03 00:00:00",
-        -0.9358703154251173,
-        0.0
+        1.215367004875998,
+        1.535010189568384
+      ],
+      [
+        "2022-10-04 00:00:00",
+        0.6623264570683979,
+        0.938104425597189
+      ],
+      [
+        "2022-10-05 00:00:00",
+        0.39398092438066806,
+        0.8753243302383544
+      ],
+      [
+        "2022-10-06 00:00:00",
+        0.2847417662897304,
+        0.6428331507585727
+      ],
+      [
+        "2022-10-07 00:00:00",
+        -0.1814766545691099,
+        0.49298800930199876
+      ],
+      [
+        "2022-10-08 00:00:00",
+        -0.9865714596214774,
+        0.7663923046456613
+      ],
+      [
+        "2022-10-09 00:00:00",
+        -1.3452176119662786,
+        0.7340427278204151
+      ],
+      [
+        "2022-10-10 00:00:00",
+        -1.9170955058357713,
+        0.39801738958575683
+      ],
+      [
+        "2022-10-11 00:00:00",
+        -1.6027168442571433,
+        1.2273636004014596
+      ],
+      [
+        "2022-10-12 00:00:00",
+        -1.6481149272378055,
+        1.3492434686546124
+      ],
+      [
+        "2022-10-13 00:00:00",
+        -1.6636446675087344,
+        1.3982950117362523
+      ],
+      [
+        "2022-10-14 00:00:00",
+        -1.9542437729736057,
+        1.886771830369222
+      ],
+      [
+        "2022-10-15 00:00:00",
+        -2.1353771702406443,
+        2.157568674223954
+      ],
+      [
+        "2022-10-16 00:00:00",
+        -2.1951839918663683,
+        2.345588939222251
+      ],
+      [
+        "2022-10-17 00:00:00",
+        -2.365902828598968,
+        2.6564653472018236
+      ],
+      [
+        "2022-10-18 00:00:00",
+        -1.0181122566348662,
+        1.9020579190349904
       ]
     ]
   }
